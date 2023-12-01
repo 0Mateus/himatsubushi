@@ -1,0 +1,3803 @@
+void main()
+{
+
+
+////*Himatubusi_Day3_3
+
+	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 2, 1000, TRUE );
+
+//■高津戸地区
+	PlayBGM( 1, "msys24", 56, 0 );
+	DisableWindow();
+	DrawScene("background/so3", 400 );
+
+//　雛見沢村を寒村と呼ぶならば、高津戸地区は廃村と呼ぶに相応しかった＠
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　雛見沢村を寒村と呼ぶならば、高津戸地区は廃村と呼ぶに相応しかった。",
+		   NULL, "If you were to call Hinamizawa a rather lonely village, then Takatsudo was outright desolate.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　ごく一般的な都会人の自分には、こんなとこにどうして無理に住まおうとしたのか、なかなか理解はできない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ごく一般的な都会人の自分には、こんなとこにどうして無理に住まおうとしたのか、なかなか理解はできない。",
+		   NULL, "For your everyday city boy like me, I just couldn't understand why anybody would force themselves to live here.", Line_Normal);
+	ClearMessage();
+
+
+//　生活の痕跡をどこかに残しながらも、…埃にまみれ、ツタに絡まれ、すでに人が住まう土地ではないことを物語っている￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　生活の痕跡をどこかに残しながらも、…埃にまみれ、ツタに絡まれ、すでに人が住まう土地ではないことを物語っている。",
+		   NULL, "There were signs that people had, but they were all covered in dust or enveloped in ivy, indicating that it was all abandoned.", Line_Normal);
+	ClearMessage();
+
+
+//「…こんなところにも、人は住んでいたんですね。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300469", 256, TRUE);
+	OutputLine(NULL, "「…こんなところにも、人は住んでいたんですね。」",
+		   NULL, "\"...People really lived in a place like this, didn't they.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//「まぁ、昔の話でしょうなぁ＠こんな辺ぴなとこじゃあ、年寄りには辛いですし＠若者だって、もう少しまともな土地に住みたいでしょうしね＠後を継ぐ者がいなきゃあ、最後にはこうなるってことでしょうなぁ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700469", 256, TRUE);
+	OutputLine(NULL, "「まぁ、昔の話でしょうなぁ。",
+		   NULL, "\"Well, it was a long time ago.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700470", 256, TRUE);
+	OutputLine(NULL, "こんな辺ぴなとこじゃあ、年寄りには辛いですし。",
+		   NULL, " A remote place like this is pretty rough for old folk to live.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700471", 256, TRUE);
+	OutputLine(NULL, "若者だって、もう少しまともな土地に住みたいでしょうしね。",
+		   NULL, " And the younger people probably wanted to try living in a more suitable place. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700472", 256, TRUE);
+	OutputLine(NULL, "後を継ぐ者がいなきゃあ、最後にはこうなるってことでしょうなぁ。」",
+		   NULL, "If there's nobody left to take the reins, all that gets left is this.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　例え愛着がない村であっても、廃れた景色にはわずかの感傷を感じさせられた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　例え愛着がない村であっても、廃れた景色にはわずかの感傷を感じさせられた。",
+		   NULL, "Even if I had no personal attachment to the village, seeing the disused buildings made me feel a little sentimental.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　それは大石氏も同じようだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それは大石氏も同じようだった。",
+		   NULL, "It seemed that Ooishi also felt the same way.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("black", "left", 0, 0, 300 );
+	PlayBGM( 2, "lsys20", 56, 0 );
+	DrawSceneWithMask("background/kuruma1", "left", 0, 0, 300 );
+
+//「……こんなところで、財布が発見されたんですか＠　財布の取得者も、よくこんなに辺ぴなところに通りかかったものですね。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300470", 256, TRUE);
+	OutputLine(NULL, "「……こんなところで、財布が発見されたんですか？",
+		   NULL, "\"...Was the wallet found over here?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300471", 256, TRUE);
+	OutputLine(NULL, "　財布の取得者も、よくこんなに辺ぴなところに通りかかったものですね。」",
+		   NULL, " The person who found it must have a good reason to come out to this desolate place.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「あー、村人には山の中に畑を持ってる連中がいましてね＠そういう連中は朝晩ここを通りますから。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700473", 256, TRUE);
+	OutputLine(NULL, "「あー、村人には山の中に畑を持ってる連中がいましてね。",
+		   NULL, "\"Yeah, there's some villagers who have a field out in the mountains here.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700474", 256, TRUE);
+	OutputLine(NULL, "そういう連中は朝晩ここを通りますから。」",
+		   NULL, " They pass by here in the morning and evenings.\"", Line_Normal);
+	ClearMessage();
+
+
+//「畑仕事の村人たちは、早朝や夕方にここを徒歩で通ると？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300472", 256, TRUE);
+	OutputLine(NULL, "「畑仕事の村人たちは、早朝や夕方にここを徒歩で通ると？」",
+		   NULL, "\"The villagers who work in the fields walk by here every day?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「まさか＠行けるところまでは車で行くでしょうなぁ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700475", 256, TRUE);
+	OutputLine(NULL, "「まさか。",
+		   NULL, "\"No way.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700476", 256, TRUE);
+	OutputLine(NULL, "行けるところまでは車で行くでしょうなぁ。」",
+		   NULL, " They probably go as far as they can by car.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「早朝や夕方に、こんなところを走行して、落ちているたったひとつの財布を発見できます？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300473", 256, TRUE);
+	OutputLine(NULL, "「早朝や夕方に、こんなところを走行して、落ちているたったひとつの財布を発見できます？」",
+		   NULL, "\"So in the early mornings and evenings, they pass by here, and just happened to find a single wallet?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//「…出来たんでしょうなぁ＠なっはっはっは！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700477", 256, TRUE);
+	OutputLine(NULL, "「…出来たんでしょうなぁ。",
+		   NULL, "\"...They probably did.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700478", 256, TRUE);
+	OutputLine(NULL, "なっはっはっは！」",
+		   NULL, " Na ha ha ha!\"", Line_Normal);
+	ClearMessage();
+
+
+//「……取得者はどこで取得したと言っていますか？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300474", 256, TRUE);
+	OutputLine(NULL, "「……取得者はどこで取得したと言っていますか？」",
+		   NULL, "\"...Where exactly did they say they found it?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「もう少し先を行ったところにある茂みです＠取得者はたまたまお腹が痛くなって、ちょいと茂みで用を足そうと思ったらしい＠それで偶然見つけたらしいんですよ＠中にちり紙でも入ってるのを期待したんですかね＠んっふっふっふ！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700479", 256, TRUE);
+	OutputLine(NULL, "「もう少し先を行ったところにある茂みです。",
+		   NULL, "\"In a thicket just a bit further ahead.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700480", 256, TRUE);
+	OutputLine(NULL, "取得者はたまたまお腹が痛くなって、ちょいと茂みで用を足そうと思ったらしい。",
+		   NULL, " The person who found the wallet just happened to have some stomach cramps, and was planning to use the thicket to do his business, it seems. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700481", 256, TRUE);
+	OutputLine(NULL, "それで偶然見つけたらしいんですよ。",
+		   NULL, "It was there he happened to find it.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700482", 256, TRUE);
+	OutputLine(NULL, "中にちり紙でも入ってるのを期待したんですかね。",
+		   NULL, " Probably hoping there was some toilet paper in there.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700483", 256, TRUE);
+	OutputLine(NULL, "んっふっふっふ！」",
+		   NULL, " Nfu fu fu fu!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("background/kuruma6", "left", 0, 0, 300 );
+
+//「…………話が出来過ぎているように感じます＠財布発見の当初から、そういう違和感が拭えません。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300475", 256, TRUE);
+	OutputLine(NULL, "「…………話が出来過ぎているように感じます。",
+		   NULL, "\"...Everything about that story just seems a little too convenient.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300476", 256, TRUE);
+	OutputLine(NULL, "財布発見の当初から、そういう違和感が拭えません。」",
+		   NULL, " Right from the discovery of the wallet, I just can't shake the feeling that something's off.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　私は、今日の最初から抱いていた感情を、そのまま吐露した￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私は、今日の最初から抱いていた感情を、そのまま吐露した。",
+		   NULL, "I expressed the feeling that I had from the start of the day quite frankly.", Line_Normal);
+	ClearMessage();
+
+
+//　出来過ぎだけど、動かぬ証拠＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　出来過ぎだけど、動かぬ証拠。",
+		   NULL, "It seemed too good to be true, but it was unwavering proof.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　でも、出来過ぎで、…何だか気持ち悪い＠そんな感情￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、出来過ぎで、…何だか気持ち悪い。",
+		   NULL, "But it was too perfect... sickeningly so.", Line_WaitForInput);
+	OutputLine(NULL, "そんな感情。",
+		   NULL, " That was my feeling.", Line_Normal);
+	ClearMessage();
+
+
+//「出来過ぎってのは、案外当たっているかもしれませんよ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700484", 256, TRUE);
+	OutputLine(NULL, "「出来過ぎってのは、案外当たっているかもしれませんよ。」",
+		   NULL, "\"You might actually be on to something by saying it's all a little too perfect.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「…というと？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300477", 256, TRUE);
+	OutputLine(NULL, "「…というと？」",
+		   NULL, "\"...Meaning?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「実は、４課のお友達からちょいと聞いたんですがね＠園崎お魎が大臣孫の誘拐事件について言及したって話なんです。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700485", 256, TRUE);
+	OutputLine(NULL, "「実は、４課のお友達からちょいと聞いたんですがね。",
+		   NULL, "\"The truth is, I heard a little something from a friend of mine in the 4th Division.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700486", 256, TRUE);
+	OutputLine(NULL, "園崎お魎が大臣孫の誘拐事件について言及したって話なんです。」",
+		   NULL, " Where Oryou Sonozaki referenced the kidnapping of the Minister's grandson.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「言及した？￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300478", 256, TRUE);
+	OutputLine(NULL, "「言及した？」",
+		   NULL, "\"She referenced it?\"", Line_Normal);
+	ClearMessage();
+
+
+//「えぇ＠大臣の孫も、もう誘拐されてから何日にもなって可哀想だ＠そろそろ解放されるといいなぁ、と＠そうお魎の婆さんが、縁側でぼそりと呟いたってな話らしいんです＠で、そのぼそりが園崎家の裏の裏のあちこちに伝えられてるようです。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700487", 256, TRUE);
+	OutputLine(NULL, "「大臣の孫も、もう誘拐されてから何日にもなって可哀想だ。",
+		   NULL, "\"'It's been several days since the Minister's grandson has been kidnapped. Poor boy.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700488", 256, TRUE);
+	OutputLine(NULL, "そろそろ解放されるといいなぁ、と。",
+		   NULL, " It'd be nice if they let him go soon.'", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700489", 256, TRUE);
+	OutputLine(NULL, "そうお魎の婆さんが、縁側でぼそりと呟いたってな話らしいんです。",
+		   NULL, " It seems that Old Oryou muttered something like that while on her veranda. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700490", 256, TRUE);
+	OutputLine(NULL, "で、そのぼそりが園崎家の裏の裏のあちこちに伝えられてるようです。」",
+		   NULL, "And, that little musing was conveyed to the various people working deep behind the scenes at the Sonozaki family.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("black", "up", 0, 0, 300 );
+
+//　そうだ、情報屋のサトさんに前に聞かされた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そうだ、情報屋のサトさんに前に聞かされた。",
+		   NULL, "Right, I had heard something earlier from Sato-san, the informant.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　頂点のお魎が「憂慮」すると、親族の誰かが「気を利かす￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　頂点のお魎が「憂慮」すると、親族の誰かが「気を利かす」",
+		   NULL, "That when the leader Oryou had a 'concern,' somebody in the family would be 'considerate.'", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("background/kuruma2", 400 );
+
+//「つまり、…それは、実質上の人質解放命令ですか？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300480", 256, TRUE);
+	OutputLine(NULL, "「つまり、…それは、実質上の人質解放命令ですか？」",
+		   NULL, "\"So... in essence, she gave the order to release the hostage?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「私はそう見てます＠この出来過ぎの財布発見は、孫を警察に引き渡すためのイベントじゃないかと。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700491", 256, TRUE);
+	OutputLine(NULL, "「私はそう見てます。",
+		   NULL, "\"I see it that way.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700492", 256, TRUE);
+	OutputLine(NULL, "この出来過ぎの財布発見は、孫を警察に引き渡すためのイベントじゃないかと。」",
+		   NULL, " The wallet being conveniently discovered was just a ploy to hand the boy over to the police.\"", Line_Normal);
+	ClearMessage();
+
+
+//「…どうして人質の解放を？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300481", 256, TRUE);
+	OutputLine(NULL, "「…どうして人質の解放を？」",
+		   NULL, "\"...Why would they release the hostage?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「なっはっはっは＠　そりゃあ、人質を解放するなんて、理由はひとつしかないじゃないですか。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700493", 256, TRUE);
+	OutputLine(NULL, "「なっはっはっは！",
+		   NULL, "\"Na ha ha ha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700494", 256, TRUE);
+	OutputLine(NULL, "　そりゃあ、人質を解放するなんて、理由はひとつしかないじゃないですか。」",
+		   NULL, " Well, there's only one reason why somebody would release a hostage, isn't there?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「何です？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300482", 256, TRUE);
+	OutputLine(NULL, "「何です？」",
+		   NULL, "\"What is it?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「取引の成立ですよ＠雛見沢ダム計画の中止を大臣が約束、ってことですかね。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700495", 256, TRUE);
+	OutputLine(NULL, "「取引の成立ですよ。",
+		   NULL, "\"They reached a deal.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700496", 256, TRUE);
+	OutputLine(NULL, "雛見沢ダム計画の中止を大臣が約束、ってことですかね。」",
+		   NULL, " That would mean the Minister promised to halt the Hinamizawa Dam Project.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeOutBGM( 2, 400, FALSE );
+	DrawScene("black", 300 );
+
+//「……ダム計画なんて、必ずなくなっちゃいますのです。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500106", 256, TRUE);
+	OutputLine(NULL, "「……ダム計画なんて、必ずなくなっちゃいますのです。」",
+		   NULL, "\"...The dam project will definitely go away.\"", Line_Normal);
+
+	ClearMessage();
+
+
+//　その時、…脳裏に蘇ったのは、あの少女の一言だった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その時、…脳裏に蘇ったのは、あの少女の一言だった。",
+		   NULL, "At that moment, those words that the girl had said resurfaced in the back of my mind.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　…結局、あの少女の予告通りになった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…結局、あの少女の予告通りになった。",
+		   NULL, "...In the end, it was turning out exactly as she had proclaimed.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　あの幼い少女は、この顛末を知っていた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あの幼い少女は、この顛末を知っていた。",
+		   NULL, "That young girl knew the circumstances.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　この誘拐劇を知っていて、あるいは初めから最後まで知っていた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　この誘拐劇を知っていて、あるいは初めから最後まで知っていた。",
+		   NULL, "She knew everything about this kidnapping incident, from the beginning to the end.", Line_Normal);
+	ClearMessage();
+
+
+	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
+	ModDrawCharacter(2, 27, "sprite/rim_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+
+//＞＞＞＞＞この部分は職場で打った分を見ながら修正だ☆
+
+//「……赤坂。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500107", 256, TRUE);
+	OutputLine(NULL, "「……赤坂。」",
+		   NULL, "\"...Akasaka.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　不意に少女が私の名を呼んだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　不意に少女が私の名を呼んだ。",
+		   NULL, "The girl unexpectedly called my name.", Line_Normal);
+	ClearMessage();
+
+
+//「…………何だい？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300483", 256, TRUE);
+	OutputLine(NULL, "「…………何だい？」",
+		   NULL, "\"...What is it?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(2, 27, "sprite/rim_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+
+
+//「……………………東京へ帰れ。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500108", 256, TRUE);
+	OutputLine(NULL, "「……………………東京へ帰れ。」",
+		   NULL, "\"...Go back to Tokyo.\"", Line_Normal);
+	ClearMessage();
+
+
+//　え、…………￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　え、…………？",
+		   NULL, "Huh...?", Line_Normal);
+	ClearMessage();
+
+
+//「……………あなたは、もう幾ばくもしない内に、……この村に来たことをひどく後悔することになる。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500109", 256, TRUE);
+	OutputLine(NULL, "「……………あなたは、もう幾ばくもしない内に、……この村に来たことをひどく後悔することになる。",
+		   NULL, "\"...Before long, you will woefully regret coming to this village.", Line_Normal);
+	ClearMessage();
+
+
+//「それがあまりにもみすぼらしくて、気の毒な姿だから＠……今のうちから警告してあげているのです。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500110", 256, TRUE);
+	OutputLine(NULL, "それがあまりにもみすぼらしくて、気の毒な姿だから。",
+		   NULL, "That would be an incredibly pathetic thing to see.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500111", 256, TRUE);
+	OutputLine(NULL, "……今のうちから警告してあげているのです。」",
+		   NULL, " ...So I thought I'd warn you right now.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「………どうして、……私が後悔することになる……と？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300484", 256, TRUE);
+	OutputLine(NULL, "「………どうして、……私が後悔することになる……と？」",
+		   NULL, "\"...Why...would I come to regret it?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「……………いちいちうるさいな。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500112", 256, TRUE);
+	OutputLine(NULL, "「……………いちいちうるさいな。",
+		   NULL, "\"...Stop whining.", Line_Normal);
+	ClearMessage();
+
+
+//「……あなたの親は、あなたが赤信号の横断歩道の真ん中にいる時＠どうして危ないのかを全部説明し終えるまで、あなたの手を引っ張らないの＠　引っ張るでしょう＠　まず歩道まで連れ戻してから、なぜ危険なのかを説くでしょう＠　………つまりはそういうこと。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500113", 256, TRUE);
+	OutputLine(NULL, "……あなたの親は、あなたが赤信号の横断歩道の真ん中にいる時、",
+		   NULL, "...When you tried crossing the road when the Don't Walk sign was up,", Line_WaitForInput);
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500114", 256, TRUE);
+	OutputLine(NULL, "どうして危ないのかを全部説明し終えるまで、あなたの手を引っ張らないの？",
+		   NULL, " did your parents finish explaining why it was dangerous before pulling you back to the sidewalk?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500115", 256, TRUE);
+	OutputLine(NULL, "　引っ張るでしょう？",
+		   NULL, " They'd pull you back right away, wouldn't they? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500116", 256, TRUE);
+	OutputLine(NULL, "　まず歩道まで連れ戻してから、なぜ危険なのかを説くでしょう？",
+		   NULL, "They'd pull you back before explaining why it was dangerous, wouldn't they?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500117", 256, TRUE);
+	OutputLine(NULL, "　………つまりはそういうこと。」",
+		   NULL, " ...In other words, it's something like that.\"", Line_Normal);
+	ClearMessage();
+
+
+//　…始めから最後まで、全てを知っている少女が、……私にした一番最初の警告。東京へ帰れ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…始めから最後まで、全てを知っている少女が、……私にした一番最初の警告。東京へ帰れ。",
+		   NULL, "...The girl, who knew everything from start to finish, had warned me in the beginning. Go back to Tokyo.", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	ModDrawCharacter(2, 27, "sprite/rim_niyari_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+
+
+//「………赤坂の怖がり＠……くすくすくすくすくす！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500118", 256, TRUE);
+	OutputLine(NULL, "「………赤坂の怖がり。",
+		   NULL, "\"...Akasaka is such a coward.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 27, "ps3/s05/27/100500119", 256, TRUE);
+	OutputLine(NULL, "……くすくすくすくすくす！」",
+		   NULL, " ...Tee hee hee hee hee...!\"", Line_Normal);
+	ClearMessage();
+
+
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, FALSE );
+	DisableWindow();
+	DrawScene("background/kuruma6", 400 );
+	PlayBGM( 2, "lsys20", 56, 0 );
+
+//「孫は無事見つかるでしょうが、…その後はいろいろと厄介な問題になるでしょうなぁ＠どう厄介になるかは、一警察官の私にゃ想像も付きませんがねぇ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700497", 256, TRUE);
+	OutputLine(NULL, "「孫は無事見つかるでしょうが、…その後はいろいろと厄介な問題になるでしょうなぁ。",
+		   NULL, "\"We'll probably find the boy... but what happens afterwards will probably be a bit of a problem.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700498", 256, TRUE);
+	OutputLine(NULL, "どう厄介になるかは、一警察官の私にゃ想像も付きませんがねぇ。」",
+		   NULL, " How it'll be a problem though, is something a single officer like me can't figure out.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「古手梨花、って少女＠……ご存知ですか？￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300485", 256, TRUE);
+	OutputLine(NULL, "「古手梨花、って少女。",
+		   NULL, "\"Do you know...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300486", 256, TRUE);
+	OutputLine(NULL, "……ご存知ですか？」",
+		   NULL, " a girl named Rika Furude?\"", Line_Normal);
+	ClearMessage();
+
+
+//　私が言ったことはよほど唐突だったらしく、しばらくの間、大石氏は面食らうように沈黙していた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私が言ったことはよほど唐突だったらしく、しばらくの間、大石氏は面食らうように沈黙していた。",
+		   NULL, "What I had said was such a non sequitur that Ooishi sat in stunned silence for a while.", Line_Normal);
+	ClearMessage();
+
+
+//「………もちろん知ってますよ＠御三家のひとつ、古手家のひとり娘ですね。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700499", 256, TRUE);
+	OutputLine(NULL, "「………もちろん知ってますよ。",
+		   NULL, "\"...Of course I know her.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700500", 256, TRUE);
+	OutputLine(NULL, "御三家のひとつ、古手家のひとり娘ですね。」",
+		   NULL, " She's the only daughter of the Furude family, one of the Three Families.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「どういう少女なんです？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300487", 256, TRUE);
+	OutputLine(NULL, "「どういう少女なんです？」",
+		   NULL, "\"What kind of girl is she?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//「…おやおやぁ＠　こりゃ、意外な人物名にちょっと驚きです＠公安では、古手家が臭いと睨んでおられるわけで＠　私にも情報を分けて下さいよ。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700501", 256, TRUE);
+	OutputLine(NULL, "「…おやおやぁ？",
+		   NULL, "\"...Well well.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700502", 256, TRUE);
+	OutputLine(NULL, "　こりゃ、意外な人物名にちょっと驚きです。",
+		   NULL, " This was an unexpected name to hear. I'm a bit surprised.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700503", 256, TRUE);
+	OutputLine(NULL, "公安では、古手家が臭いと睨んでおられるわけで？",
+		   NULL, " Does Public Safety think that the Furude family smells fishy and wants to keep an eye on them? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700504", 256, TRUE);
+	OutputLine(NULL, "　私にも情報を分けて下さいよ。」",
+		   NULL, "Share some of that information with me, please.\"", Line_Normal);
+	ClearMessage();
+
+
+//「あ、…いや、そういうのじゃないんです＠…ちょっとその、…気になったもので。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300488", 256, TRUE);
+	OutputLine(NULL, "「あ、…いや、そういうのじゃないんです。",
+		   NULL, "\"Ah... no. It's not like that.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300489", 256, TRUE);
+	OutputLine(NULL, "…ちょっとその、…気になったもので。」",
+		   NULL, " ...It's just... something that caught my attention.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「………ふぅん＠　なっはっはっは、まぁいいや＠同じ卓を囲んだ友人の質問なら、答えない訳にゃあ行きませんからねぇ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700505", 256, TRUE);
+	OutputLine(NULL, "「………ふぅん？",
+		   NULL, "\"....Hmmm?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700506", 256, TRUE);
+	OutputLine(NULL, "　なっはっはっは、まぁいいや。",
+		   NULL, " Na ha ha ha, well whatever.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700507", 256, TRUE);
+	OutputLine(NULL, "同じ卓を囲んだ友人の質問なら、答えない訳にゃあ行きませんからねぇ。」",
+		   NULL, " It wouldn't do to not answer a question from a friend I've sat at the same table with.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「…友人と呼んでいただけて光栄です。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300490", 256, TRUE);
+	OutputLine(NULL, "「…友人と呼んでいただけて光栄です。」",
+		   NULL, "\"...I'm honored that you call me a friend.\"", Line_Normal);
+	ClearMessage();
+
+
+//「んっふっふ＠　で、あのお嬢ちゃんはね、まぁ、村のマスコットみたいなもんです＠村中の誰からも愛されてます＠中でも年寄り連中には特に崇められてましてね。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700508", 256, TRUE);
+	OutputLine(NULL, "「んっふっふ！",
+		   NULL, "\"Nfu fu!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700509", 256, TRUE);
+	OutputLine(NULL, "　で、あのお嬢ちゃんはね、まぁ、村のマスコットみたいなもんです。",
+		   NULL, " So, that little lady is, well, somewhat of a village mascot.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700510", 256, TRUE);
+	OutputLine(NULL, "村中の誰からも愛されてます。",
+		   NULL, " She's beloved by everybody in the village.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700511", 256, TRUE);
+	OutputLine(NULL, "中でも年寄り連中には特に崇められてましてね。」",
+		   NULL, " Some of the older folk worship her especially.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「崇められる？￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300491", 256, TRUE);
+	OutputLine(NULL, "「崇められる？」",
+		   NULL, "\"Worship?\"", Line_Normal);
+	ClearMessage();
+
+
+//「ん～～～、よくは知らないんですがね＠古手家に生まれた女の子ってのには、多少神聖な意味合いがあるらしいんですよ＠雛見沢の土着信仰ですがね＠オヤシロさまの生まれ変わりだとか何とか、そんな話があるらしいですよ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700512", 256, TRUE);
+	OutputLine(NULL, "「ん〜〜〜、よくは知らないんですがね。",
+		   NULL, "\"Hmmm, I don't know much about it, you see.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700513", 256, TRUE);
+	OutputLine(NULL, "古手家に生まれた女の子ってのには、多少神聖な意味合いがあるらしいんですよ。",
+		   NULL, " Girls born in the Furude family have somewhat of a sacred implication, it seems.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700514", 256, TRUE);
+	OutputLine(NULL, "雛見沢の土着信仰ですがね。",
+		   NULL, " It's one of the local beliefs in Hinamizawa. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700515", 256, TRUE);
+	OutputLine(NULL, "オヤシロさまの生まれ変わりだとか何とか、そんな話があるらしいですよ。」",
+		   NULL, "The living incarnation of Oyashiro-sama or something like it, or so the story goes, apparently.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「オヤシロさま…＠　………そう言えば、同盟の登り旗の中に、オヤシロさまと書かれたものがあったような気がします＠…何ですか、オヤシロさまって？￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300492", 256, TRUE);
+	OutputLine(NULL, "「オヤシロさま…？",
+		   NULL, "\"Oyashiro-sama...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300493", 256, TRUE);
+	OutputLine(NULL, "　………そう言えば、同盟の登り旗の中に、オヤシロさまと書かれたものがあったような気がします。",
+		   NULL, " ...Now that you mention it, I think I saw 'Oyashiro-sama' written on some of the Alliance's banners.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300494", 256, TRUE);
+	OutputLine(NULL, "…何ですか、オヤシロさまって？」",
+		   NULL, " ...What is Oyashiro-sama, exactly?\"", Line_Normal);
+	ClearMessage();
+
+
+//「あぁ、雛見沢の守り神さまの名前です＠村に仇なす者にバチを当てるって信じられてましてね＠まぁ、そんな便利な神さまがいたら、ダムの連中はとっくに神罰にやられているんでしょうが＠幸い、今日までそのバチってヤツはひとつも起こってませんがね。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700516", 256, TRUE);
+	OutputLine(NULL, "「あぁ、雛見沢の守り神さまの名前です。",
+		   NULL, "\"Ahh, it's the name of the guardian deity of Hinamizawa.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700517", 256, TRUE);
+	OutputLine(NULL, "村に仇なす者にバチを当てるって信じられてましてね。",
+		   NULL, " They believe it'll exact punishment on those who would do ill towards the village. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700518", 256, TRUE);
+	OutputLine(NULL, "まぁ、そんな便利な神さまがいたら、ダムの連中はとっくに神罰にやられているんでしょうが。",
+		   NULL, "Well, if there was such a convenient god around, the guys at the dam would have long since been done in by divine justice.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700519", 256, TRUE);
+	OutputLine(NULL, "幸い、今日までそのバチってヤツはひとつも起こってませんがね。」",
+		   NULL, " Luckily, nothing like that has happened to anybody just yet.\"", Line_Normal);
+	ClearMessage();
+
+
+//「村に仇なす大臣の孫が、オヤシロさまの怒りに触れ、…えっと、何て言いましたっけ＠そう、『鬼隠し』＠大臣の孫を鬼隠しにしたと＠…そういう筋書きになるわけでしょうか。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300495", 256, TRUE);
+	OutputLine(NULL, "「村に仇なす大臣の孫が、オヤシロさまの怒りに触れ、…えっと、何て言いましたっけ。",
+		   NULL, "\"The grandson of the Minister who trifled with the village, as a result of Oyashiro-sama's anger, was... hmm... what did they call it again?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300496", 256, TRUE);
+	OutputLine(NULL, "そう、「鬼隠し」。",
+		   NULL, " Oh, right. 'Onikakushi.'", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300497", 256, TRUE);
+	OutputLine(NULL, "大臣の孫を鬼隠しにしたと。",
+		   NULL, " The Minister's grandson was demoned away. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300498", 256, TRUE);
+	OutputLine(NULL, "…そういう筋書きになるわけでしょうか。」",
+		   NULL, "...That would probably be how the script is being written.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「なっはっはっはっは＠　なるほどなぁ＠そういうことになるんでしょうなぁ。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700520", 256, TRUE);
+	OutputLine(NULL, "「なっはっはっはっは！",
+		   NULL, "\"Na ha ha ha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700521", 256, TRUE);
+	OutputLine(NULL, "　なるほどなぁ。",
+		   NULL, " I see.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700522", 256, TRUE);
+	OutputLine(NULL, "そういうことになるんでしょうなぁ。」",
+		   NULL, " It probably would turn into something like that.\"", Line_Normal);
+	ClearMessage();
+
+
+//「オヤシロさまが下した神罰＠なら、…犯人はオヤシロさまの生まれ変わりである、!d1500…………あの少女…？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300499", 256, TRUE);
+	OutputLine(NULL, "「オヤシロさまが下した神罰。",
+		   NULL, "\"Divine punishment wrought by Oyashiro-sama.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300500", 256, TRUE);
+	OutputLine(NULL, "なら、…犯人はオヤシロさまの生まれ変わりである、",
+		   NULL, " Then, the culprit is the living incarnation of Oyashiro-sama...", Line_Continue);
+
+	Wait( 1500 );
+
+	OutputLine(NULL, "…………あの少女…？」",
+		   NULL, " ...that girl...?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「なっはっはっはっはっは！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700523", 256, TRUE);
+	OutputLine(NULL, "「なっはっはっはっはっは！」",
+		   NULL, "\"Na ha ha ha ha ha!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　自分でも何を言ってるのかよくわからなくなっていたところなので、大石氏に笑い飛ばしてもらえたのは、ちょっと助かった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　自分でも何を言ってるのかよくわからなくなっていたところなので、大石氏に笑い飛ばしてもらえたのは、ちょっと助かった。",
+		   NULL, "Even I didn't know exactly what I was saying, the fact that Ooishi laughed it off was a bit of a relief.", Line_Normal);
+	ClearMessage();
+
+
+//　大石氏があまりにも楽しそうに笑うものだから、…私もつられて馬鹿笑いをすることにした￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏があまりにも楽しそうに笑うものだから、…私もつられて馬鹿笑いをすることにした。",
+		   NULL, "Ooishi's joyous laughter was so infectious that I began to laugh like an idiot as well.", Line_Normal);
+	ClearMessage();
+
+
+
+//■対向車
+
+//gosub *Ch_Iri_Ha
+	DisableWindow();
+	DrawScene("black", 400 );
+	DrawScene("background/kuruma2", 1000 );
+
+//「………ありゃ＠こりゃ珍しい。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700524", 256, TRUE);
+	OutputLine(NULL, "「………ありゃ。",
+		   NULL, "\"...Oh.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700525", 256, TRUE);
+	OutputLine(NULL, "こりゃ珍しい。」",
+		   NULL, " This is unusual.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　大石氏はクラクションは強く何度も押し、窓を開けて身を乗り出して大きく手を振った￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏はクラクションは強く何度も押し、窓を開けて身を乗り出して大きく手を振った。",
+		   NULL, "Ooishi, after laying into the horn several times, rolled the window down and leaned out, waving his arm in an exaggerated manner.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("background/so3", 400 );
+
+//　対向車だった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　対向車だった。",
+		   NULL, "It was a car headed the opposite way.", Line_Normal);
+	ClearMessage();
+
+
+//　ここに来るまで、自分たち以外の車と出会うことはなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ここに来るまで、自分たち以外の車と出会うことはなかった。",
+		   NULL, "Until now, we hadn't run into any other cars except our own.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　それも、こんな寂れた場所で＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それも、こんな寂れた場所で。",
+		   NULL, "And of all places, it was at this desolate location.", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　大石氏はその対向車の主を知っているようだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏はその対向車の主を知っているようだった。",
+		   NULL, "It seemed that Ooishi knew the owner of that car.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 400 );
+
+//　向こうも短く一度クラクションで応えると、すれ違うところで停車する￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　向こうも短く一度クラクションで応えると、すれ違うところで停車する。",
+		   NULL, "The other car also chirped its horn, and came to a stop.", Line_Normal);
+	ClearMessage();
+
+
+	FadeOutBGM( 2, 1000, FALSE );
+	DisableWindow();
+	DrawSceneWithMask("background/kuruma3", "left", 0, 0, 300 );
+	PlayBGM( 1, "msys12", 56, 0 );
+	PlayBGM( 2, "lsys22", 56, 0 );
+
+//「入江の先生～～～～～！！＠　こんにちは。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700526", 256, TRUE);
+	OutputLine(NULL, "「入江の先生〜〜〜〜〜！！！",
+		   NULL, "\"Dr. Irie~~~!!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700527", 256, TRUE);
+	OutputLine(NULL, "　こんにちは。」",
+		   NULL, " Good afternoon.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　対向車の窓がゆっくりと開くと、そこには白衣を着た若者がいた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　対向車の窓がゆっくりと開くと、そこには白衣を着た若者がいた。",
+		   NULL, "The other car's window rolled down slowly, revealing a young man in a white overcoat.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　私に近い歳か、あるいは少し年上くらいかもしれない＠……もっとも人間は見かけじゃわからないのだが￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私に近い歳か、あるいは少し年上くらいかもしれない。",
+		   NULL, "He was about my age, or perhaps a bit older.", Line_WaitForInput);
+	OutputLine(NULL, "……もっとも人間は見かけじゃわからないのだが。",
+		   NULL, " ...But you really can't judge somebody by their appearance.", Line_Normal);
+	ClearMessage();
+
+
+//「大石さんじゃありませんか＠こんにちは＠…はっはは、珍しいところでお会いしますね。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000015", 256, TRUE);
+	OutputLine(NULL, "「大石さんじゃありませんか。",
+		   NULL, "\"Why, if it isn't Ooishi-san.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000016", 256, TRUE);
+	OutputLine(NULL, "こんにちは。",
+		   NULL, " Good afternoon.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000017", 256, TRUE);
+	OutputLine(NULL, "…はっはは、珍しいところでお会いしますね。」",
+		   NULL, " ...Ha haha, fancy meeting you here.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「そりゃあこっちのセリフですよ先生＠まさかこんなところで会うとはねぇ、んっふっふっふ＠　どうしたんです？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700528", 256, TRUE);
+	OutputLine(NULL, "「そりゃあこっちのセリフですよ先生。",
+		   NULL, "\"That's my line, doctor.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700529", 256, TRUE);
+	OutputLine(NULL, "まさかこんなところで会うとはねぇ、んっふっふっふ！",
+		   NULL, " I never thought I'd see you here, nfu fu fu!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700530", 256, TRUE);
+	OutputLine(NULL, "　どうしたんです？」",
+		   NULL, " What happened?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「いえね、ちょっとした往診です。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000018", 256, TRUE);
+	OutputLine(NULL, "「いえね、ちょっとした往診です。」",
+		   NULL, "\"Oh nothing, just a little house call.\"", Line_Normal);
+	ClearMessage();
+
+
+//「…ありゃ、そうですか＠急患とかでしたか？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700531", 256, TRUE);
+	OutputLine(NULL, "「…ありゃ、そうですか。",
+		   NULL, "\"...Oh, really?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700532", 256, TRUE);
+	OutputLine(NULL, "急患とかでしたか？」",
+		   NULL, " Was it an emergency?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「いえ、…そんなに大したことではありませんでした＠良かったですよ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000019", 256, TRUE);
+	OutputLine(NULL, "「いえ、…そんなに大したことではありませんでした。",
+		   NULL, "\"No... nothing quite that serious.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000020", 256, TRUE);
+	OutputLine(NULL, "良かったですよ。」",
+		   NULL, " Thankfully.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「お医者の世話にならずに済むなら、それに越したことはないです＠んっふっふっふ…！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700533", 256, TRUE);
+	OutputLine(NULL, "「お医者の世話にならずに済むなら、それに越したことはないです。",
+		   NULL, "\"It's always for the best when the patient gets better without the need of medical care.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700534", 256, TRUE);
+	OutputLine(NULL, "んっふっふっふ…！」",
+		   NULL, " Nfufufu...!\"", Line_Normal);
+	ClearMessage();
+
+
+//「ではこれで＠…急いで戻らないとスタッフに怒られますんで。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>若い医者</color>", NULL, "<color=#c89a80>Young Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000021", 256, TRUE);
+	OutputLine(NULL, "「ではこれで。",
+		   NULL, "\"I'll take my leave here.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 10, "ps3/s05/10/101000022", 256, TRUE);
+	OutputLine(NULL, "…急いで戻らないとスタッフに怒られますんで。」",
+		   NULL, " ...If I don't get back quickly, my staff will be angry with me.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「なっはっは＠　診療所長さんも大変です＠ではでは、お気をつけて！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700535", 256, TRUE);
+	OutputLine(NULL, "「なっはっは！",
+		   NULL, "\"Nahaha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700536", 256, TRUE);
+	OutputLine(NULL, "　診療所長さんも大変です。",
+		   NULL, " Being the head of a clinic must be tough.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700537", 256, TRUE);
+	OutputLine(NULL, "ではでは、お気をつけて！」",
+		   NULL, " Well then, take care!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 400 );
+	SetValidityOfInput( FALSE );
+	Wait( 1000 );
+	SetValidityOfInput( TRUE );
+	DrawScene("background/kuruma2", 400 );
+
+//　入江と呼ばれた若い医師は挨拶をするような仕草を見せると、車を発進させ、あっという間に曲がり角の向こうへ消えていった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　入江と呼ばれた若い医師は挨拶をするような仕草を見せると、車を発進させ、あっという間に曲がり角の向こうへ消えていった。",
+		   NULL, "The young doctor named Irie, after gesturing his farewell, drove forwards and soon disappeared around a corner.", Line_Normal);
+	ClearMessage();
+
+
+//　大石氏も車を発進させるが、少しも行かない内に車を止めた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏も車を発進させるが、少しも行かない内に車を止めた。",
+		   NULL, "Ooishi also drove forwards, but soon came to a stop again.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　ダッシュボードの中からボロボロになった地図帳を引っ張り出す＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ダッシュボードの中からボロボロになった地図帳を引っ張り出す。",
+		   NULL, "He pulled out a worn mapbook from the dash.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　その形相は、不真面目な様子など一抹もない、真剣なものだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その形相は、不真面目な様子など一抹もない、真剣なものだった。",
+		   NULL, "His expression didn't have an ounce of irreverence; he was perfectly serious.", Line_Normal);
+	ClearMessage();
+
+
+	FadeOutBGM( 1, 400, FALSE );
+	FadeOutBGM( 2, 400, FALSE );
+
+//「……どうしたんです？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300501", 256, TRUE);
+	OutputLine(NULL, "「……どうしたんです？」",
+		   NULL, "\"...What is it?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+	PlayBGM( 1, "msys07", 56, 0 );
+
+//「今日は診療所は往診の日じゃないはずです＠よっぽどの急患か、特殊な事情のある患者ということになりますねぇ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700538", 256, TRUE);
+	OutputLine(NULL, "「今日は診療所は往診の日じゃないはずです。",
+		   NULL, "\"The clinic shouldn't be making any house calls today.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700539", 256, TRUE);
+	OutputLine(NULL, "よっぽどの急患か、特殊な事情のある患者ということになりますねぇ。」",
+		   NULL, " It must have been quite an emergency, or otherwise a patient with some extenuating circumstances.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+	PlaySE( 3, "wa_021", 56, 64 );
+	Wait( 600 );
+	PlaySE( 3, "wa_021", 56, 64 );
+	Wait( 600 );
+	PlaySE( 3, "wa_021", 56, 64 );
+	Wait( 650 );
+	PlaySE( 3, "wa_021", 56, 64 );
+	Wait( 700 );
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　大石氏はばらばらとページをめくり、高津戸地区のページを開き、それから周りの景色を見渡して現在位置を探っていた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏はばらばらとページをめくり、高津戸地区のページを開き、それから周りの景色を見渡して現在位置を探っていた。",
+		   NULL, "Ooishi flipped through the pages, opening up to the map of Takatsudo. After that, he took a look around and started to figure out what our current location was.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("background/kuruma1", 400 );
+
+//「…その急患が怪しいということですか？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300502", 256, TRUE);
+	OutputLine(NULL, "「…その急患が怪しいということですか？」",
+		   NULL, "\"...Are you saying that emergency is suspicious?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「言ったでしょ＠　高津戸地区にね、住んでる人なんてほとんどいないんですよ＠……今私たちがいる道はここ＠入江先生はこの道に対して、こっちの方向から走ってきたと。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700540", 256, TRUE);
+	OutputLine(NULL, "「言ったでしょ？",
+		   NULL, "\"Didn't I say?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700541", 256, TRUE);
+	OutputLine(NULL, "　高津戸地区にね、住んでる人なんてほとんどいないんですよ。",
+		   NULL, " There's hardly anybody that lives in the Takatsudo area.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700542", 256, TRUE);
+	OutputLine(NULL, "……今私たちがいる道はここ。",
+		   NULL, " ...The road we're on right now is here.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700543", 256, TRUE);
+	OutputLine(NULL, "入江先生はこの道に対して、こっちの方向から走ってきたと。」",
+		   NULL, " Dr. Irie came from this direction.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「…………………………。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300503", 256, TRUE);
+	OutputLine(NULL, "「…………………………。」",
+		   NULL, "\"...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　土地勘のない私は、地図を示されてもいまいち飲み込めない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　土地勘のない私は、地図を示されてもいまいち飲み込めない。",
+		   NULL, "Having no sense of our surroundings, I couldn't digest anything about the place he was indicating on the map.", Line_Normal);
+	ClearMessage();
+
+
+//「私たちは財布の取得場所を目指しています＠ちなみに取得場所はここ＠でもね＠　高津戸地区にわずかにある民家に向かうには、そもそも道が違うんです。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700544", 256, TRUE);
+	OutputLine(NULL, "「私たちは財布の取得場所を目指しています。",
+		   NULL, "\"We're heading towards the spot where the wallet was found.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700545", 256, TRUE);
+	OutputLine(NULL, "ちなみに取得場所はここ。",
+		   NULL, " By the way, that's over here.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700546", 256, TRUE);
+	OutputLine(NULL, "でもね？",
+		   NULL, " But see?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700547", 256, TRUE);
+	OutputLine(NULL, "　高津戸地区にわずかにある民家に向かうには、そもそも道が違うんです。」",
+		   NULL, " If you're heading to one of the few residences in Takatsudo, it's the wrong road.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「……つまり、入江医師は、民家のない方角から来たと？￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300504", 256, TRUE);
+	OutputLine(NULL, "「……つまり、入江医師は、民家のない方角から来たと？」",
+		   NULL, "\"...Meaning, Dr. Irie came from a direction where there are no residents?\"", Line_Normal);
+	ClearMessage();
+
+
+//「山間の段々畑で農作業中に誰かが倒れたってのでない限りね＠人が倒れて医者が呼ばれたら、普通は連れ帰ってくわしく調べるもんです。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700548", 256, TRUE);
+	OutputLine(NULL, "「山間の段々畑で農作業中に誰かが倒れたってのでない限りね。",
+		   NULL, "\"As long as somebody working in the fields between these mountains didn't collapse.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700549", 256, TRUE);
+	OutputLine(NULL, "人が倒れて医者が呼ばれたら、普通は連れ帰ってくわしく調べるもんです。",
+		   NULL, " But if somebody collapses and you call a doctor, normally you'd bring them back with you for a more detailed examination.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「でもさっき入江医師は、大したことはなかったと言いましたね＠車には他には誰も乗っていなかったようですし。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700550", 256, TRUE);
+	OutputLine(NULL, "でもさっき入江医師は、大したことはなかったと言いましたね。",
+		   NULL, "But just now, Dr. Irie said it was nothing serious.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700551", 256, TRUE);
+	OutputLine(NULL, "車には他には誰も乗っていなかったようですし。」",
+		   NULL, " And it didn't seem like anybody else was in the car with him.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 400 );
+
+//　大石氏はそれ以上、何も言わなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏はそれ以上、何も言わなかった。",
+		   NULL, "Ooishi didn't say any more than that.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　私もそれ以上、何も言わない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私もそれ以上、何も言わない。",
+		   NULL, "I also said nothing more.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　さっきの医師が、患者を診た＠この近くで＠それだけ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　さっきの医師が、患者を診た。",
+		   NULL, "That doctor just now, examined a patient.", Line_WaitForInput);
+	OutputLine(NULL, "この近くで。",
+		   NULL, " Close by.", Line_WaitForInput);
+	OutputLine(NULL, "それだけ。",
+		   NULL, " Only that.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　騒がしいラジオはいつの間にか止められていた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　騒がしいラジオはいつの間にか止められていた。",
+		   NULL, "The noisy radio had suddenly gone quiet.", Line_Normal);
+	ClearMessage();
+
+
+//　空はいつの間にか、重苦しい色になっていた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　空はいつの間にか、重苦しい色になっていた。",
+		   NULL, "The sky had just as suddenly turned an oppressive color.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+	PlayBGM( 2, "lsys23", 56, 0 );
+
+//　……大石氏が、これは降るかもしれないな、とボヤくと、期待を裏切らず、土砂降りになった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……大石氏が、これは降るかもしれないな、とボヤくと、期待を裏切らず、土砂降りになった。",
+		   NULL, "...As Ooishi mused that it might start to rain, a torrential downpour started, as though trying not to disappoint him.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("background/kuruma2_01", "up", 0, 0, 300 );
+
+//　やがて、大石氏は車を停める￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　やがて、大石氏は車を停める。",
+		   NULL, "Eventually, Ooishi stopped the car.", Line_Normal);
+	ClearMessage();
+
+
+//　土砂降りが天井を叩く音と、ワイパーの泣く音だけの静寂￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　土砂降りが天井を叩く音と、ワイパーの泣く音だけの静寂。",
+		   NULL, "The only sounds to break the silence were the percussion of the rain on the roof and the soft squeak of the windshield wipers.", Line_Normal);
+	ClearMessage();
+
+
+//「……ちょいと静か静かで行きましょうかね。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700552", 256, TRUE);
+	OutputLine(NULL, "「……ちょいと静か静かで行きましょうかね。」",
+		   NULL, "\"...Let's do this a bit hush-hush, shall we?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　そして、物音を立てないようにと小声で言うと、傘も差さずに、静かに車を降りた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、物音を立てないようにと小声で言うと、傘も差さずに、静かに車を降りた。",
+		   NULL, "Saying that in a quiet voice, he exited the car without an umbrella, careful not to make any noise.", Line_Normal);
+	ClearMessage();
+
+
+	FadeOutBGM( 1, 1000, FALSE );
+	DisableWindow();
+	DrawScene("black", 400 );
+
+//　大石氏は屈み込むと、茂みの向こうをそっと指差す＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏は屈み込むと、茂みの向こうをそっと指差す。",
+		   NULL, "Ooishi leaned over, indicating the other side of the thicket.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　指差す方向には、プレハブ小屋と、そしてその脇には車が停められていた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　指差す方向には、プレハブ小屋と、そしてその脇には車が停められていた。",
+		   NULL, "He was pointing to a prefabricated shed and a car that was parked beside it.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　車は明らかに小奇麗で、放置されて何年もという風には見えない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　車は明らかに小奇麗で、放置されて何年もという風には見えない。",
+		   NULL, "The car looked obviously well-cared-for--it wasn't a vehicle that had been left there for several years.", Line_Normal);
+	ClearMessage();
+
+
+//「……あの小屋は？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300505", 256, TRUE);
+	OutputLine(NULL, "「……あの小屋は？」",
+		   NULL, "\"...What's that shed?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「営林署の器材小屋です＠夏場以外は利用されてないと聞きました。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700553", 256, TRUE);
+	OutputLine(NULL, "「営林署の器材小屋です。",
+		   NULL, "\"It contains equipment used by the forestry service.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700554", 256, TRUE);
+	OutputLine(NULL, "夏場以外は利用されてないと聞きました。」",
+		   NULL, " I heard that they don't go near it except during the summertime.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「あの車は営林署の職員の？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300506", 256, TRUE);
+	OutputLine(NULL, "「あの車は営林署の職員の？」",
+		   NULL, "\"Does that car belong to somebody from the forestry service, then?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「さぁねぇ＠公用車にゃ見えないですね。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700555", 256, TRUE);
+	OutputLine(NULL, "「さぁねぇ。",
+		   NULL, "\"Dunno.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700556", 256, TRUE);
+	OutputLine(NULL, "公用車にゃ見えないですね。」",
+		   NULL, " It doesn't look like an official vehicle though.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　大石氏はひょうひょうとしているが、…私の緊張は次第に高まっていく￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏はひょうひょうとしているが、…私の緊張は次第に高まっていく。",
+		   NULL, "Ooishi was playing it cool, but my nervousness was gradually increasing.", Line_Normal);
+	ClearMessage();
+
+
+//「一応は念のため。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700557", 256, TRUE);
+	OutputLine(NULL, "「一応は念のため。」",
+		   NULL, "\"Just in case.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　大石氏は一言そう言うと車に戻る＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏は一言そう言うと車に戻る。",
+		   NULL, "Saying that, Ooishi returned to the car.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　傘でも取りに戻ったのかと思ったが、彼が手にしたのは車載無線だった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　傘でも取りに戻ったのかと思ったが、彼が手にしたのは車載無線だった。",
+		   NULL, "I thought he was going to get an umbrella, but he had grabbed the onboard radio instead.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("background/kuruma2_01", "right", 0, 0, 300 );
+
+//「もしもし、大石です＠聞こえてるかな＠　こんにちは、こんにちは、んっふっふ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700558", 256, TRUE);
+	OutputLine(NULL, "「もしもし、大石です。",
+		   NULL, "\"Hello, this is Ooishi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700559", 256, TRUE);
+	OutputLine(NULL, "聞こえてるかな？",
+		   NULL, " Do you read?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700560", 256, TRUE);
+	OutputLine(NULL, "　こんにちは、こんにちは、んっふっふ。」",
+		   NULL, " Greetings, greetings, nfu fu.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「ハイ、興宮ＳＰ～＠大石さん、感度良好です、どぞ～。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s05/00/vtp_okeijia_0001", 256, TRUE);
+	OutputLine(NULL, "「ハイ、興宮ＰＳ〜。",
+		   NULL, "\"Yes, this is the Okinomiya PS.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s05/00/vtp_okeijia_0002", 256, TRUE);
+	OutputLine(NULL, "大石さん、感度良好です、どぞ〜。」",
+		   NULL, " Ooishi-san, we read you loud and clear, over.\"", Line_Normal);
+	ClearMessage();
+
+
+//「今、高津戸地区の営林署器材小屋前です＠谷河内に向かう方じゃないよ、雛見沢から高津戸に入る方の。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700561", 256, TRUE);
+	OutputLine(NULL, "「今、高津戸地区の営林署器材小屋前です。",
+		   NULL, "\"I'm currently in front of the forestry service's equipment shed.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700562", 256, TRUE);
+	OutputLine(NULL, "谷河内に向かう方じゃないよ、雛見沢から高津戸に入る方の。」",
+		   NULL, " Not the one in the direction of Yagouchi, the one in Takatsudo, if you head there from Hinamizawa.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「………ハイ、確認しました～。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s05/00/vtp_okeijia_0003", 256, TRUE);
+	OutputLine(NULL, "「………ハイ、確認しました〜。」",
+		   NULL, "\"...Affirmative, copy that.\"", Line_Normal);
+	ClearMessage();
+
+
+//「小屋に不審者＠これより職質します＠５分で連絡なかったら、駐在所に連絡と大至急応援パトを送って下さい＠よろしくお願いします。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700563", 256, TRUE);
+	OutputLine(NULL, "「小屋に不審者。",
+		   NULL, "\"There're some suspicious people in the shed.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700564", 256, TRUE);
+	OutputLine(NULL, "これより職質します。",
+		   NULL, " Proceeding to investigate. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700565", 256, TRUE);
+	OutputLine(NULL, "５分で連絡なかったら、駐在所に連絡と大至急応援パトを送って下さい。",
+		   NULL, "If you don't hear back from me in five minutes, get in touch with the local police substation and have them send a cruiser as soon as possible.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700566", 256, TRUE);
+	OutputLine(NULL, "よろしくお願いします。」",
+		   NULL, " If you would, please.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「了解しました～。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>興宮ＰＳ</color>", NULL, "<color=#f5e6d3>Okinomiya PS</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s05/00/vtp_okeijia_0004", 256, TRUE);
+	OutputLine(NULL, "「了解しました〜。」",
+		   NULL, "\"Understood.\"", Line_Normal);
+	ClearMessage();
+
+
+//「じゃ、……行ってみましょうかねぇ＠んっふっふっふ！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700567", 256, TRUE);
+	OutputLine(NULL, "「じゃ、……行ってみましょうかねぇ。",
+		   NULL, "\"Well then... shall we go take a look?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700568", 256, TRUE);
+	OutputLine(NULL, "んっふっふっふ！」",
+		   NULL, " Nfu fu fu!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 1400 );
+	SetValidityOfInput( FALSE );
+	Wait( 1000 );
+	SetValidityOfInput( TRUE );
+
+
+//■乱闘
+
+	DrawSceneWithMask("background/so_d1", "right", 0, 0, 300 );
+
+//　ここに監禁されている間にも、何度か車の音は聞いた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ここに監禁されている間にも、何度か車の音は聞いた。",
+		   NULL, "Since he was first confined here, he had heard the sound of a car multiple times.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　そして、遠くに聞こえた車の音もまた、そんな車なのだろうと思っていた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、遠くに聞こえた車の音もまた、そんな車なのだろうと思っていた。",
+		   NULL, "So he just thought the far-off sound was more of the same.", Line_Normal);
+	ClearMessage();
+
+
+//　だが、犯人たちの反応はこれまでに一度も見せたことのないものだった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、犯人たちの反応はこれまでに一度も見せたことのないものだった。",
+		   NULL, "However, the reaction from his captors was, until now, something he hadn't seen before.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　彼らはビクッと、まるで電気でも走ったかのように反応すると、窓際にへばり付き、こっそりとうかがうように外を見た￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　彼らはビクッと、まるで電気でも走ったかのように反応すると、窓際にへばり付き、こっそりとうかがうように外を見た。",
+		   NULL, "They jumped, reacting as if shocked by a jolt of electricity, and pressed against the window, cautiously peering outside.", Line_Normal);
+	ClearMessage();
+
+
+//「……………停まったぁな。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700040", 256, TRUE);
+	OutputLine(NULL, "「……………停まったぁな。」",
+		   NULL, "\"...They stopped.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「……営林署の人間＠　まずいぜ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1052", 256, TRUE);
+	OutputLine(NULL, "「……営林署の人間？",
+		   NULL, "\"...Somebody from the forestry service?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1053", 256, TRUE);
+	OutputLine(NULL, "　まずいぜ。」",
+		   NULL, " This is bad.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「…いや、……サツやんな。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700041", 256, TRUE);
+	OutputLine(NULL, "「…いや、……警察やんな。」",
+		   NULL, "\"...Nah... looks like a cop ta me.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　犯人のひとりが少年の襟首を掴み上げて、刃物を頬に当てる￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　犯人のひとりが少年の襟首を掴み上げて、刃物を頬に当てる。",
+		   NULL, "One of the captors lifted the boy by his collar and pressed a blade against his cheek.", Line_Normal);
+	ClearMessage();
+
+
+//「お兄ちゃん、ちょい静かにしててな＠わかってると思うけど、大声出したりすると、大変なことになるからな…。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1054", 256, TRUE);
+	OutputLine(NULL, "「お兄ちゃん、ちょい静かにしててな。",
+		   NULL, "\"Hey kid, keep quiet for a bit.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1055", 256, TRUE);
+	OutputLine(NULL, "わかってると思うけど、大声出したりすると、大変なことになるからな…。」",
+		   NULL, " I think you know this, but if you try and shout, there'll be problems...\"", Line_Normal);
+	ClearMessage();
+
+
+//　犬飼寿樹は、きっとあの医者が警察に通報してくれたんだろうと思った＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　犬飼寿樹は、きっとあの医者が警察に通報してくれたんだろうと思った。",
+		   NULL, "Toshiki Inukai was sure that the doctor had reported things to the police.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　もうすぐ自分は助けてもらえると安堵したが、追い詰められた犯人がどのような凶行に及ぶか想像ができず、その緊張を緩めることはできなかった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　もうすぐ自分は助けてもらえると安堵したが、追い詰められた犯人がどのような凶行に及ぶか想像ができず、その緊張を緩めることはできなかった。",
+		   NULL, "He had felt relief when he thought that he was saved. But not imagining that his captors would resort to violence when they were cornered, his anxiety remained unabated.", Line_Normal);
+	ClearMessage();
+
+
+//「どうする？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1056", 256, TRUE);
+	OutputLine(NULL, "「どうする？」",
+		   NULL, "\"What do we do?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「…時間稼いでるん＠小僧連れて、ちょい裏から抜けぇな＠ほとぼり冷めたら落ち合お。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700042", 256, TRUE);
+	OutputLine(NULL, "「…時間稼いでるん。",
+		   NULL, "\"...Gotta buy time.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700043", 256, TRUE);
+	OutputLine(NULL, "小僧連れて、ちょい裏から抜けぇな。",
+		   NULL, " Take tha kid, and slip outta tha back.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700044", 256, TRUE);
+	OutputLine(NULL, "ほとぼり冷めたら落ち合お。」",
+		   NULL, " We'll meet back 'ere when tha heat's off.\"", Line_Normal);
+	ClearMessage();
+
+
+//　犯人のひとりは少年の襟首を掴んで立ち上がらせる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　犯人のひとりは少年の襟首を掴んで立ち上がらせる。",
+		   NULL, "One of the perpetrators grabbed the boy by the collar and forced him to stand.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　もちろん犬飼寿樹は、仮病のふりを一層強めて抵抗するのだが、犯人たちは意に介さないようだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　もちろん犬飼寿樹は、仮病のふりを一層強めて抵抗するのだが、犯人たちは意に介さないようだった。",
+		   NULL, "Of course, Toshiki Inukai tried to resist by feigning that his illness had been aggravated by this rough treatment, but his captors paid no heed.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 4, "wa_002", 56, 64 );
+	Wait( 200 );
+	PlaySE( 4, "wa_002", 56, 64 );
+	Wait( 200 );
+	PlaySE( 4, "wa_002", 56, 64 );
+
+//　ドンドンドン！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ドンドンドン！！！",
+		   NULL, "BANG BANG BANG!!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　荒々しく扉が叩かれる￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　荒々しく扉が叩かれる。",
+		   NULL, "The door was violently banged upon.", Line_Normal);
+	ClearMessage();
+
+
+//「ごめんくださぁあ～～いい！＠　こんにちは～～～！！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700569", 256, TRUE);
+	OutputLine(NULL, "「ごめんくださぁあ〜〜いい！！",
+		   NULL, "\"Excuse me~~!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700570", 256, TRUE);
+	OutputLine(NULL, "　こんにちは〜〜〜！！！」",
+		   NULL, " Hello~~~!!!\"", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 4, "wa_002", 56, 64 );
+	Wait( 200 );
+	PlaySE( 4, "wa_002", 56, 64 );
+	Wait( 200 );
+	PlaySE( 4, "wa_002", 56, 64 );
+	Wait( 400 );
+	PlaySE( 4, "wa_002", 56, 64 );
+
+//　ドンドンドン、ドン！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ドンドンドン、ドン！！",
+		   NULL, "BANG BANG BANG, BANG!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　さらに重ねて叩かれる￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　さらに重ねて叩かれる。",
+		   NULL, "The door was banged on again.", Line_Normal);
+	ClearMessage();
+
+
+//　犬飼寿樹は、その声に応えて大声を出そうか一瞬迷った＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　犬飼寿樹は、その声に応えて大声を出そうか一瞬迷った。",
+		   NULL, "Toshiki Inukai hesitated for a moment to respond to that voice by yelling.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　だが、それを迷っている間に口を塞がれて、その選択肢を奪われた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、それを迷っている間に口を塞がれて、その選択肢を奪われた。",
+		   NULL, "However, while he was being indecisive, his mouth was covered, taking that option away from him.", Line_Normal);
+	ClearMessage();
+
+
+//　犯人のリーダー格が、行けっと手でサインを送る＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　犯人のリーダー格が、行けっと手でサインを送る。",
+		   NULL, "The leader of the captors waved at the other to go.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　若い方の犯人は頷き返すと、少年の口を塞いだまま、裏の戸口の方へ向かっていた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　若い方の犯人は頷き返すと、少年の口を塞いだまま、裏の戸口の方へ向かっていた。",
+		   NULL, "The younger perpetrator nodded in response, and while keeping the boy's mouth covered, started heading towards the back door.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 400 );
+
+
+//「はいはい～～、何かご用かぃね？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700045", 256, TRUE);
+	OutputLine(NULL, "「はいはい〜〜、何かご用かぃね？」",
+		   NULL, "\"Yello~~ d'ya need somethin'?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「どうも～～＠警察ですがね、ココ、ちょっと開けてもらってもいいですか＠　んっふっふっふ＠　急な雨で、困っちゃっいましてねぇ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700571", 256, TRUE);
+	OutputLine(NULL, "「どうも〜〜。",
+		   NULL, "\"How do you do?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700572", 256, TRUE);
+	OutputLine(NULL, "警察ですがね、ココ、ちょっと開けてもらってもいいですか？",
+		   NULL, " This is the police, would you mind opening the door?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700573", 256, TRUE);
+	OutputLine(NULL, "　んっふっふっふ！",
+		   NULL, " Nfu fu fu!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700574", 256, TRUE);
+	OutputLine(NULL, "　急な雨で、困っちゃっいましてねぇ。」",
+		   NULL, " This sudden rain has us in a bit of trouble.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「えぇえぇ＠今、開けますん…。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700046", 256, TRUE);
+	OutputLine(NULL, "「えぇえぇ。",
+		   NULL, "\"Uhhhh.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700047", 256, TRUE);
+	OutputLine(NULL, "今、開けますん…。」",
+		   NULL, " I'll jes' ope--\"", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_020", 56, 64 );
+	DisableWindow();
+	DrawSceneWithMask("white", "right", 0, 0, 200 );
+	DrawScene("background/so_d1", 400 );
+
+//　施錠を開けた途端、大石は力強く扉を開け放った￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　施錠を開けた途端、大石は力強く扉を開け放った。",
+		   NULL, "The moment the lock was undone, Ooishi forced the door open.", Line_Normal);
+	ClearMessage();
+
+
+//　そして威嚇するような眼光で睨みつけながら、男を押しのけ室内に踏み入った＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして威嚇するような眼光で睨みつけながら、男を押しのけ室内に踏み入った。",
+		   NULL, "And with a gleam of menace in his eyes, he pushed the man aside as he stepped into the room.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　そして、この狭い室内がガランとしていて、自分の求める孫の姿がないことを瞬時に確認する￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、この狭い室内がガランとしていて、自分の求める孫の姿がないことを瞬時に確認する。",
+		   NULL, "Then, in the small and empty room, he was able to quickly discern that the boy he was looking for was nowhere to be seen.", Line_Normal);
+	ClearMessage();
+
+
+//「あれぇ＠私ゃ、ここは営林署の器材倉庫だって聞いてたんですけどね＠なぁんにもありませんねぇ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700575", 256, TRUE);
+	OutputLine(NULL, "「あれぇ。",
+		   NULL, "\"Hmm?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700576", 256, TRUE);
+	OutputLine(NULL, "私ゃ、ここは営林署の器材倉庫だって聞いてたんですけどね。",
+		   NULL, " I heard this was an equipment shed for the forestry service.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700577", 256, TRUE);
+	OutputLine(NULL, "なぁんにもありませんねぇ。」",
+		   NULL, " But there's nothing here at all.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　室内には器材倉庫という名に相応しい様子は何もなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　室内には器材倉庫という名に相応しい様子は何もなかった。",
+		   NULL, "There was nothing inside the room that would indicate this was an equipment shed.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　寝泊りを思わせる毛布の山や食料品の袋のゴミなどが散らばっているだけだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　寝泊りを思わせる毛布の山や食料品の袋のゴミなどが散らばっているだけだ。",
+		   NULL, "There was only a mountain of blankets, indicating that somebody was sleeping here, alongside empty food packets strewn about.", Line_Normal);
+	ClearMessage();
+
+
+//「……あぁん、ここはずいぶん前から空っぽさぁね＠器材がしまってあるところなんて、見たこともねんわ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700048", 256, TRUE);
+	OutputLine(NULL, "「……あぁん、ここはずいぶん前から空っぽさぁね。",
+		   NULL, "\"...Aah, 's been empty fer some time now.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700049", 256, TRUE);
+	OutputLine(NULL, "器材がしまってあるところなんて、見たこともねんわ。」",
+		   NULL, " Never seen no equipmen' stored 'round 'ere.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「でも営林署の建物でしょ＠　あんた、営林署の人？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700578", 256, TRUE);
+	OutputLine(NULL, "「でも営林署の建物でしょ？",
+		   NULL, "\"But this is the forestry service's building, isn't it?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700579", 256, TRUE);
+	OutputLine(NULL, "　あんた、営林署の人？」",
+		   NULL, " Are you from the forestry service?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「……あんたこそ誰よ、警察？￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700050", 256, TRUE);
+	OutputLine(NULL, "「……あんたこそ誰よ、警察？」",
+		   NULL, "\"...'Ow 'bout ya? Police?\"", Line_Normal);
+	ClearMessage();
+
+
+//　互いに相手を不審そうに睨みあう＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　互いに相手を不審そうに睨みあう。",
+		   NULL, "The two of them glared at each other suspiciously.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　……大石も、そして男も。自分から先に名乗ろうとは決してしなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……大石も、そして男も。自分から先に名乗ろうとは決してしなかった。",
+		   NULL, "...Both Ooishi and the man steadfastly refused to reveal their identity before the other did.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　男は、大石の眼光の鋭さから、多分言い逃れは難しい感じていた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は、大石の眼光の鋭さから、多分言い逃れは難しい感じていた。",
+		   NULL, "The man, judging from the sharp look in Ooishi's eyes, realized that it would be hard to talk his way out of this one.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　どう屁理屈をこねても、ここではほんの数十秒の時間稼ぎが関の山だろう￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　どう屁理屈をこねても、ここではほんの数十秒の時間稼ぎが関の山だろう。",
+		   NULL, "No matter what he said, the most time he could buy would probably be only a few dozen seconds.", Line_Normal);
+	ClearMessage();
+
+
+//　雨音だけが、この緊張した時間を埋める￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　雨音だけが、この緊張した時間を埋める。",
+		   NULL, "Only the sound of rain filled this tense moment.", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_002", 56, 64 );
+	Wait( 800 );
+	PlaySE( 3, "wa_008", 56, 64 );
+	Wait( 350 );
+	PlaySE( 3, "wa_005", 56, 64 );
+	Wait( 350 );
+	PlaySE( 3, "wa_003", 56, 64 );
+
+//　その時、人が暴れるような物音、乱闘の音が遠くに聞こえた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その時、人が暴れるような物音、乱闘の音が遠くに聞こえた。",
+		   NULL, "Just then, they heard the sound of a struggle from far off.", Line_Normal);
+	ClearMessage();
+
+
+//　大石は直感する＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石は直感する。",
+		   NULL, "Ooishi had a hunch.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　裏口に回らせた赤坂が、この隙に逃げ出そうとした犯人ともみ合いになったに違いない…￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　裏口に回らせた赤坂が、この隙に逃げ出そうとした犯人ともみ合いになったに違いない…！",
+		   NULL, "There was no doubt that Akasaka, who was circling around back, had run into the perpetrators who were trying to slip away!", Line_Normal);
+	ClearMessage();
+
+
+
+	FadeOutBGM( 1, 400, FALSE );
+	FadeOutBGM( 2, 400, FALSE );
+	PlaySE( 3, "wa_008", 56, 64 );
+	DisableWindow();
+	DrawScene("white", 200 );
+	PlaySE( 3, "wa_005", 56, 64 );
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	PlayBGM( 1, "msys30", 56, 0 );
+	DrawScene("black", 400 );
+
+//　そう思った時、目の前の男の反応は大石よりさらに一瞬早かった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そう思った時、目の前の男の反応は大石よりさらに一瞬早かった。",
+		   NULL, "As Ooishi thought that, the man in front of him reacted a moment faster.", Line_Normal);
+	ClearMessage();
+
+
+//　男のそれは顔面を殴るというより、大石の眼を閉ざそうとすることを目論むだけの攻撃だった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男のそれは顔面を殴るというより、大石の眼を閉ざそうとすることを目論むだけの攻撃だった。",
+		   NULL, "The man swung with an attack that was more intended to obscure Ooishi's vision rather than actually hit him in the face.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　一瞬の虚を許した大石の巨体に、男はすかさず股間の急所に蹴りを叩き込む＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　一瞬の虚を許した大石の巨体に、男はすかさず股間の急所に蹴りを叩き込む。",
+		   NULL, "Seizing his opportunity, the man aimed a kick at Ooishi's groin without any hesitation.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　…だがそれは正確には決まらず致命打とはならなかった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…だがそれは正確には決まらず致命打とはならなかった。",
+		   NULL, "...But he missed his mark and was unable to land that critical blow.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("background/so_d1", 400 );
+
+//　男は大石を組み伏せようと両腕でその首元を掴みながら、猛然と押し出して押し倒そうとした＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は大石を組み伏せようと両腕でその首元を掴みながら、猛然と押し出して押し倒そうとした。",
+		   NULL, "The man, trying to pin Ooishi, grabbed him by the base of his neck with both hands and fiercely tried to push him down.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　だが、大石は後ろに転ぶ拍子に、まるで蹴り上げるように男の腹に足を付きたてる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、大石は後ろに転ぶ拍子に、まるで蹴り上げるように男の腹に足を付きたてる。",
+		   NULL, "But, as Ooishi fell backwards, as if kicking the man upward, he dug his foot into the man's midsection.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	PlaySE( 3, "wa_015", 56, 64 );
+	ChangeScene("background/mo3_02", 8, 200, );
+	PlaySE( 3, "wa_004", 56, 64 );
+	ShakeScreen( 1, 50, 20, 5, 0, );
+	PlayBGM( 2, "lsys23", 56, 0 );
+
+//　その足を支点に、男は倒れる大石に、まるで巴投げをされるような形で大きく投げ飛ばされた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その足を支点に、男は倒れる大石に、まるで巴投げをされるような形で大きく投げ飛ばされた。",
+		   NULL, "With that leg acting as a fulcrum, the man was flung by the falling Ooishi as if by a circle throw.", Line_Normal);
+	ClearMessage();
+
+
+//　二人は土砂降りの叩き付ける中、対峙する￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　二人は土砂降りの叩き付ける中、対峙する。",
+		   NULL, "The two of them squared off in the pouring rain.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacterWithFiltering(2, 11, "sprite/oisi1_5_", "1", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+//「面白いじゃないの＠俺とやろうってかぁ？＠　なっはははははは！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700580", 256, TRUE);
+	OutputLine(NULL, "「面白いじゃないの。",
+		   NULL, "\"Isn't this interesting.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700581", 256, TRUE);
+	OutputLine(NULL, "俺とやろうってかぁ？！",
+		   NULL, " You wanna go!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700582", 256, TRUE);
+	OutputLine(NULL, "　なっはははははは！！」",
+		   NULL, " Naahahahahaha!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　大石は自分を奮い立たせるように、にやりと不敵に笑って見せた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石は自分を奮い立たせるように、にやりと不敵に笑って見せた。",
+		   NULL, "Ooishi, as if trying to cheer himself on, grinned smugly.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　そして泥汚れを叩いて立ち上がる￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして泥汚れを叩いて立ち上がる。",
+		   NULL, "He then stood up while brushing the mud off himself.", Line_Normal);
+	ClearMessage();
+
+
+//　一矢報いるも、大石が無様に立ち上がる様子に比べると、投げ飛ばされた身でありながら男の立ち上がりはとても優雅で早かった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　一矢報いるも、大石が無様に立ち上がる様子に比べると、投げ飛ばされた身でありながら男の立ち上がりはとても優雅で早かった。",
+		   NULL, "Even though he countered the assault, Ooishi was getting up rather awkwardly compared to the man who he threw, who swiftly sprang to his feet.", Line_Normal);
+	ClearMessage();
+
+
+//「大石さあああぁあん！＠　早く！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300507", 256, TRUE);
+	OutputLine(NULL, "「大石さあああぁあん！！",
+		   NULL, "\"Ooishi-saaaaan!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300508", 256, TRUE);
+	OutputLine(NULL, "　早く！！」",
+		   NULL, " Hurry!!\"", Line_Normal);
+	ClearMessage();
+
+
+//　遠くから赤坂が呼ぶ声がする＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　遠くから赤坂が呼ぶ声がする。",
+		   NULL, "Akasaka's voice rang out from the distance.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　声の緊迫感から、向こうでも一刻を争う自体で、一刻も早く自分との合流を望んでいるのが分かる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　声の緊迫感から、向こうでも一刻を争う自体で、一刻も早く自分との合流を望んでいるのが分かる。",
+		   NULL, "Judging from the distress in his voice, he was already engaged in a fight, and wanted Ooishi to reconvene with him.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　だがこちらも今は手が離せない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だがこちらも今は手が離せない。",
+		   NULL, "But Ooishi's hands were full as well.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 11, "sprite/oisi1_2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+
+//「赤坂さぁあん＠　申し訳ない、ちょっと待ってて下さいよぅ！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700583", 256, TRUE);
+	OutputLine(NULL, "「赤坂さぁあん！",
+		   NULL, "\"Akasaka-saaan!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700584", 256, TRUE);
+	OutputLine(NULL, "　申し訳ない、ちょっと待ってて下さいよぅ！」",
+		   NULL, " Sorry, but can you wait a bit!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　男は、明らかに空手やボクシングと言った格闘に精通することをうかがわせるように両拳を構えて見せる￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は、明らかに空手やボクシングと言った格闘に精通することをうかがわせるように両拳を構えて見せる。",
+		   NULL, "The man raised both fists into a stance that hinted at him being acquainted with karate or some other form of martial art.", Line_Normal);
+	ClearMessage();
+
+//　大石にも無論、警官としての平均的な武道のたしなみはある＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石にも無論、警官としての平均的な武道のたしなみはある。",
+		   NULL, "Of course Ooishi, as an officer of the law, was decently versed in judo.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　修羅場をいくつも潜り抜けて来た根性もあるつもりだ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　修羅場をいくつも潜り抜けて来た根性もあるつもりだ。",
+		   NULL, "He also had the moxie to have been through his fair share of fights before.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　でも、…いや、だからこそ、目の前の男の方が喧嘩は数段上手だなと感じていた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、…いや、だからこそ、目の前の男の方が喧嘩は数段上手だなと感じていた。",
+		   NULL, "Despite-- no, because of that, he could tell that the man in front of him was quite a bit better at fighting than he was.", Line_Normal);
+	ClearMessage();
+
+
+//　…ぁあ、くそ＠　園崎家に人質解放の号令が出てるから穏便に済むだろうなんて、甘えたこと考えなきゃ良かった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…ぁあ、くそ！",
+		   NULL, "...Ahh, dammit!", Line_WaitForInput);
+	OutputLine(NULL, "　園崎家に人質解放の号令が出てるから穏便に済むだろうなんて、甘えたこと考えなきゃ良かった！",
+		   NULL, " Thinking that this was going to be easy just because the order came from the Sonozaki family to release the hostage had been a big mistake!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 11, "sprite/oisi1_5_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+
+//「なかなか上等じゃないのよ＠久々に胃液が込み上げてくる感じがしますよ＠　んっふっふっふ！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700585", 256, TRUE);
+	OutputLine(NULL, "「なかなか上等じゃないのよ。",
+		   NULL, "\"You're pretty good.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700586", 256, TRUE);
+	OutputLine(NULL, "久々に胃液が込み上げてくる感じがしますよ？",
+		   NULL, " It's been a while since I got this worked up.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700587", 256, TRUE);
+	OutputLine(NULL, "　んっふっふっふ！」",
+		   NULL, " Nfu fu fu!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　大石は余裕をアピールして見せる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石は余裕をアピールして見せる。",
+		   NULL, "Ooishi played off the situation like it was no sweat.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　相手はその様子を見て、大石が簡単に倒せる相手ではないと悟ったようだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　相手はその様子を見て、大石が簡単に倒せる相手ではないと悟ったようだった。",
+		   NULL, "His opponent, seeing his attitude, took that to mean that Ooishi wasn't going to go down easily.", Line_Normal);
+	ClearMessage();
+
+
+	DisableWindow();
+	PlaySE( 3, "wa_015", 56, 64 );
+	DrawSceneWithMask("black", "c", 7, 0, 100 );
+
+//　男が猛然と、掴みかかろうと突撃してくる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男が猛然と、掴みかかろうと突撃してくる！",
+		   NULL, "The man wildly charged forward, attempting to grab Ooishi!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　あの低い姿勢から組み付かれると、押し倒されて馬乗りの体勢にされてしまう＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あの低い姿勢から組み付かれると、押し倒されて馬乗りの体勢にされてしまう。",
+		   NULL, "If the man managed a successful clinch from his low stance, Ooishi would be tackled to the ground and end up being mounted.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　子どもの喧嘩でよく見かけるけど、実際は手詰まりに近い致命的な型だ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　子どもの喧嘩でよく見かけるけど、実際は手詰まりに近い致命的な型だ。",
+		   NULL, "It was something you saw often when children fought, but it really was a bad position, since you couldn't do much once you were in it.", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_015", 56, 64 );
+
+//　大石もそれに応えるように負けじと姿勢を低くしてそのぶつかり合いに応える￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石もそれに応えるように負けじと姿勢を低くしてそのぶつかり合いに応える。",
+		   NULL, "Ooishi, responding to that move, also lowered his stance to collide with the man head on.", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_005", 56, 64 );
+	Wait( 50 );
+	PlaySE( 3, "wa_005", 56, 64 );
+
+//　ぶつかり合った瞬間、大石は相手の胸倉を掴んだ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ぶつかり合った瞬間、大石は相手の胸倉を掴んだ！",
+		   NULL, "The moment they clashed, Ooishi grabbed the man's lapel!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+	PlaySE( 3, "wa_008", 56, 64 );
+	Wait( 100 );
+	PlaySE( 3, "wa_005", 56, 64 );
+
+//　そして胸倉を思い切り掴み上げる拍子に、その腕の肘で相手の鳩尾に思い切りの打撃を叩き込む＠大石流の喧嘩柔道の得意技だった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして胸倉を思い切り掴み上げる拍子に、その腕の肘で相手の鳩尾に思い切りの打撃を叩き込む。",
+		   NULL, "As he yanked the lapel upwards, he smashed into the man's solar plexus with the elbow of the same arm.", Line_WaitForInput);
+	OutputLine(NULL, "大石流の喧嘩柔道の得意技だった。",
+		   NULL, " It was a move from Ooishi's own personal brand of brawling judo.", Line_Normal);
+	ClearMessage();
+
+
+//　さらに胸倉を掴む手を増やして、両手で相手を掴み上げて投げ飛ばそうと目論む＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　さらに胸倉を掴む手を増やして、両手で相手を掴み上げて投げ飛ばそうと目論む！",
+		   NULL, "He then grabbed on with his free hand and attempted to throw his opponent with both hands!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	PlaySE( 3, "wa_015", 56, 64 );
+
+//　だが男は半身で応え、大きく腕を回すと、逆に大石の両腕を絡めしまった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが男は半身で応え、大きく腕を回すと、逆に大石の両腕を絡めしまった。",
+		   NULL, "But the man lowered his center of gravity and swung his arms in a large arc, entwining them with Ooishi's.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　そればかりか、大石は両腕の肘を丸ごと外へ極められ、不自然な体勢となって、両腕を相手の胸元に預けたまま背中を晒しそうになってしまう￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そればかりか、大石は両腕の肘を丸ごと外へ極められ、不自然な体勢となって、両腕を相手の胸元に預けたまま背中を晒しそうになってしまう！",
+		   NULL, "Not only that, but he had forced both of Ooishi's elbows to the outside, and Ooishi, now in an awkward position, was in danger of exposing his back with his hands still clutching the man's chest!", Line_Normal);
+	ClearMessage();
+
+
+//　こいつ…捕縛術か合気道をやってやがるなぁ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こいつ…捕縛術か合気道をやってやがるなぁ！",
+		   NULL, "This guy... practiced aikido or grappling, didn't he!?", Line_Normal);
+	ClearMessage();
+
+
+//　大石は自分の両手の指が、男の胸倉（シャツ）でねじれて外せなくなってしまうことを嫌って、自ら相手を解放した＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石は自分の両手の指が、男の胸倉（シャツ）でねじれて外せなくなってしまうことを嫌って、自ら相手を解放した。",
+		   NULL, "Ooishi, cursing the fact that his fingers were twisted into the man's shirt and couldn't get away, released his grip.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　だが傾きかけた不自然な体勢は立て直せない＠それもこんな至近距離で￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが傾きかけた不自然な体勢は立て直せない。",
+		   NULL, "But he was still in the awkward position of being bent over.", Line_WaitForInput);
+	OutputLine(NULL, "それもこんな至近距離で！",
+		   NULL, " And to top it off, at zero range!", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_008", 56, 64 );
+
+//　男は、体勢を立て直そうと体をぐるりと回す大石の動きの裏に綺麗に入る＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は、体勢を立て直そうと体をぐるりと回す大石の動きの裏に綺麗に入る。",
+		   NULL, "The man was able to read Ooishi's movements completely as he tried to squirm his way into a better position.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	DisableWindow();
+	DrawScene("white", 10 );
+	DrawScene("background/mo3_02", 50 );
+	PlaySE( 3, "wa_005", 56, 64 );
+	ShakeScreen( 0, 50, 20, 3, 0, );
+
+//　そして、両の手の平で、バシン！！と＠大石の両耳を平手打ちするように叩いた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、両の手の平で、バシン！！と。",
+		   NULL, "And then, took the palms of his hands...", Line_WaitForInput);
+	OutputLine(NULL, "大石の両耳を平手打ちするように叩いた。",
+		   NULL, " and swiftly clapped them over both of Ooishi's ears.", Line_Normal);
+	ClearMessage();
+
+
+//「あッつッツ！！！！！！！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700588", 256, TRUE);
+	OutputLine(NULL, "「あッつッツ！！！！！！！！」",
+		   NULL, "\"Arghhh!!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　両耳への平手は護身術以外の武道では基本的に禁じ手だ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　両耳への平手は護身術以外の武道では基本的に禁じ手だ。",
+		   NULL, "Clapping the ears in any other martial art, except for self-defense, was basically forbidden.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　空手でも柔道でも認められてない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　空手でも柔道でも認められてない。",
+		   NULL, "Karate and judo didn't recognize it as a legal technique.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　それくらいに単純で…危険な攻撃￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それくらいに単純で…危険な攻撃！",
+		   NULL, "It was that much of a simple--and dangerous--attack!", Line_Normal);
+	ClearMessage();
+
+//　大石は自分の両耳を押さえようと反射的に両手が上がった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石は自分の両耳を押さえようと反射的に両手が上がった。",
+		   NULL, "Ooishi raised both his hands as he tried to reflexively clutch at his own ears.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+	PlaySE( 3, "wa_043", 56, 64 );
+
+//　だが、それよりも早く、男ががっちりと腕を回し、大石の首を締め付けていた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、それよりも早く、男ががっちりと腕を回し、大石の首を締め付けていた。",
+		   NULL, "But before that could happen, the man wrapped his arms around Ooishi's neck.", Line_Normal);
+	ClearMessage();
+
+
+//　太い二の腕ががっちりと大石の首元に、まるでカンヌキのように締め付けられる￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　太い二の腕ががっちりと大石の首元に、まるでカンヌキのように締め付けられる。",
+		   NULL, "His thick biceps clenched firmly around the base of Ooishi's neck like a vise.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("rain/bg_143_re1", 1000 );
+
+//　大石は直感的に、殺されると思った＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石は直感的に、殺されると思った。",
+		   NULL, "Ooishi instinctively thought he was going to be killed.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　この格闘慣れした男がこんな体勢で背後から相手の首を取ったなら、首をへし折るなんて造作もないからだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　この格闘慣れした男がこんな体勢で背後から相手の首を取ったなら、首をへし折るなんて造作もないからだ。",
+		   NULL, "After all, it wasn't hard to believe that a man like this, who was accustomed to fighting, could crush his opponent's neck from this position.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("rain/bg_143_re2", 1000 );
+
+//　だが相手はそれをせずに、締め付けて意識を失わせることを選んできた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが相手はそれをせずに、締め付けて意識を失わせることを選んできた。",
+		   NULL, "But his opponent didn't do that; he had chosen to keep his hold and force Ooishi to lose consciousness.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　だから大石はその瞬間、表情は引きつったままだったけれども、にやりと笑った＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だから大石はその瞬間、表情は引きつったままだったけれども、にやりと笑った。",
+		   NULL, "That's why Ooishi, at that moment, even though his face was twitching, was grinning widely.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　相手に自分を殺せるチャンスがあるにも関わらず、それを選ばなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　相手に自分を殺せるチャンスがあるにも関わらず、それを選ばなかった。",
+		   NULL, "Even though his opponent had a chance to kill him, he didn't choose to.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　あぁ、こいつは俺を殺す気はないんだな、と＠そう思ったからだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あぁ、こいつは俺を殺す気はないんだな、と。",
+		   NULL, "He was thinking:", Line_WaitForInput);
+	OutputLine(NULL, "そう思ったからだ。",
+		   NULL, " \"Ahh, this guy has no intention of killing me.\"", Line_Normal);
+	ClearMessage();
+
+
+	DisableWindow();
+	DrawScene("rain/bg_143_re3", 1000 );
+
+//　でも、だからといって、男の首締めが緩いことはない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、だからといって、男の首締めが緩いことはない。",
+		   NULL, "However, even though that might be the case, the man's hold on his neck was by no means gentle.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　あっという間に意識が薄まり、視界が黒から赤に充血していくのがわかる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あっという間に意識が薄まり、視界が黒から赤に充血していくのがわかる。",
+		   NULL, "In no time at all, Ooishi's consciousness began to fade.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　学生時代に柔道で何度か落された経験のある大石は、これは完全に決まったな…と観念した￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　学生時代に柔道で何度か落された経験のある大石は、これは完全に決まったな…と観念した。",
+		   NULL, "Having the experience of being taken down countless times in judo during his student days, Ooishi was utterly resigned to the fact that it was over.", Line_Normal);
+	ClearMessage();
+
+
+	DisableWindow();
+	FadeOutBGM( 2, 1000, FALSE );
+	DrawSceneWithMask("black", "up", 0, 0, 1300 );
+	SetValidityOfInput( FALSE );
+	Wait( 4000 );
+	SetValidityOfInput( TRUE );
+	PlayBGM( 2, "lsys23", 56, 0 );
+	DrawSceneWithMask("background/koya1_02", "right", 0, 0, 300 );
+
+//　赤坂はようやく急所蹴りの激痛から解放されたところだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤坂はようやく急所蹴りの激痛から解放されたところだった。",
+		   NULL, "Akasaka was finally recovering from the intense pain of being kicked in a rather sensitive area.", Line_Normal);
+	ClearMessage();
+
+
+//　彼は少年を連れた犯人と裏口で鉢合せしたのだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　彼は少年を連れた犯人と裏口で鉢合せしたのだ。",
+		   NULL, "He had bumped into the captor carrying the boy by the back entrance.", Line_Normal);
+	ClearMessage();
+
+
+//　犬飼寿樹の顔を充分に写真で知っていた彼も、目の前のガムテープで口を塞がれた少年が本当にその本人なのか、一瞬では識別できなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　犬飼寿樹の顔を充分に写真で知っていた彼も、目の前のガムテープで口を塞がれた少年が本当にその本人なのか、一瞬では識別できなかった。",
+		   NULL, "He had seen Toshiki Inukai's picture plenty of times, but wasn't able to immediately ascertain if the boy in front of him was the real deal, with his mouth covered in packing tape.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　それに、こんな状況ではどう対処すればいいのか、経験の浅い彼が混乱したとしても無理のないことだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それに、こんな状況ではどう対処すればいいのか、経験の浅い彼が混乱したとしても無理のないことだった。",
+		   NULL, "Also, with his limited experience, it wasn't hard for him to panic over how to deal with the situation.", Line_Normal);
+	ClearMessage();
+
+
+//　その一瞬の隙を、もちろん犯人の男も見逃さなかった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その一瞬の隙を、もちろん犯人の男も見逃さなかった。",
+		   NULL, "Of course, the perpetrator didn't overlook this momentary lapse.", Line_Normal);
+	ClearMessage();
+
+
+//　男が放った急所蹴りは見事に決まり、赤坂は大石に助けを求める間もなかったのだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男が放った急所蹴りは見事に決まり、赤坂は大石に助けを求める間もなかったのだ。",
+		   NULL, "His kick landed squarely in a critical spot, with Akasaka not even having time to call for help.", Line_Normal);
+	ClearMessage();
+
+
+//　男は少年を肩に担ぎ上げると、小屋の表へ回ろうとした＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は少年を肩に担ぎ上げると、小屋の表へ回ろうとした。",
+		   NULL, "As the man flung the boy over his shoulder, he headed towards the front of the shed.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　だが、大石の大声が聞こえてきたので、そちらへ行くことを諦めた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、大石の大声が聞こえてきたので、そちらへ行くことを諦めた。",
+		   NULL, "But upon hearing Ooishi's bellowing voice, he gave up on going that direction.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　そして、森の中へ向かって猛然と走り出す＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、森の中へ向かって猛然と走り出す。",
+		   NULL, "He then dashed off towards the forest.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　肩に担いでいる少年の重さなどまるでないかのようにだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　肩に担いでいる少年の重さなどまるでないかのようにだ。",
+		   NULL, "As if the weight of the boy slung over his shoulder wasn't even there.", Line_Normal);
+	ClearMessage();
+
+
+//　赤坂は一瞬迷う＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤坂は一瞬迷う。",
+		   NULL, "Akasaka was lost for a moment.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　敵と戦っている大石と合流した方が安全だ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　敵と戦っている大石と合流した方が安全だ。",
+		   NULL, "Meeting up with Ooishi, who was fighting with the enemy, was by far the safer option.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　だが、今ここで逃げる男の背中を見失ってしまうわけにはいかない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、今ここで逃げる男の背中を見失ってしまうわけにはいかない！",
+		   NULL, "But, he couldn't just lose sight of the fleeing man!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 400 );
+
+//　赤坂は立ち上がり、その背中を追って駆け出す￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤坂は立ち上がり、その背中を追って駆け出す。",
+		   NULL, "Akasaka stood up and chased after the captor's back.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("background/mo1_02", "right", 0, 0, 200 );
+
+//　低い茂みを駆け抜け、小枝や落ち葉をバリバリと踏み分けていく￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　低い茂みを駆け抜け、小枝や落ち葉をバリバリと踏み分けていく。",
+		   NULL, "He ran through a short thicket, branches and fallen leaves crunching underfoot.", Line_Normal);
+	ClearMessage();
+
+
+//　梢の先などで体が擦ったり、引っ掻かれたりして、次々に生傷が増えていく＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　梢の先などで体が擦ったり、引っ掻かれたりして、次々に生傷が増えていく。",
+		   NULL, "The tips of branches raked and clawed at him, small scratches inscribing themselves on his body one after another.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//　泥や水溜りを次々に踏み抜き、靴の中まであっという間に泥水でいっぱいになってしまう＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　泥や水溜りを次々に踏み抜き、靴の中まであっという間に泥水でいっぱいになってしまう。",
+		   NULL, "He kept on stepping into puddles and mud, and his shoes were soon filled with murky water.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　こんな森を駆け抜けたことのない赤坂にとって、緊急時であってもそれはとても不快なことだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こんな森を駆け抜けたことのない赤坂にとって、緊急時であってもそれはとても不快なことだった。",
+		   NULL, "For Akasaka, travelling through this unexplored forest was, even though this was an emergency situation, extremely unpleasant.", Line_Normal);
+	ClearMessage();
+
+
+//「止まれぇえぇ！＠　警察だぁ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300509", 256, TRUE);
+	OutputLine(NULL, "「止まれぇえぇ！！",
+		   NULL, "\"Stooooop!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300510", 256, TRUE);
+	OutputLine(NULL, "　警察だぁ！！」",
+		   NULL, " This is the police!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　言ってから、無駄な発言に無駄な酸素を使ったなと後悔する＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　言ってから、無駄な発言に無駄な酸素を使ったなと後悔する。",
+		   NULL, "As he said that, he regretted it immediately, as it was but a waste of breath.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　警察だと言って大人しく止まる泥棒がどこの世界にいるというのか￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　警察だと言って大人しく止まる泥棒がどこの世界にいるというのか！",
+		   NULL, "There wasn't a thief in the world that would politely stop when told to by the police.", Line_Normal);
+	ClearMessage();
+
+
+//　都会育ちの赤坂にとってこの森を駆け抜けることは辛いものだったが＠少年を担いで走る相手にとっても、決して辛くないわけではないようだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　都会育ちの赤坂にとってこの森を駆け抜けることは辛いものだったが、",
+		   NULL, "To a city boy like Akasaka, running through this forest was an arduous task...", Line_WaitForInput);
+	OutputLine(NULL, "少年を担いで走る相手にとっても、決して辛くないわけではないようだった。",
+		   NULL, " however, it must have been no easy task either for the man carrying the minister's grandson.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("black", "right", 0, 0, 200 );
+	DrawSceneWithMask("background/mo2_02", "right", 0, 0, 200 );
+
+//　距離は縮まずとも離されてはいない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　距離は縮まずとも離されてはいない。",
+		   NULL, "He neither gained nor lost ground in his pursuit.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　赤坂はそれに気付くと少しだけの冷静を取り戻せた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤坂はそれに気付くと少しだけの冷静を取り戻せた。",
+		   NULL, "Akasaka, upon realizing that, gained back a bit of composure.", Line_Normal);
+	ClearMessage();
+
+
+//　追い続ければいい＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　追い続ければいい。",
+		   NULL, "Just keep on chasing him.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　条件は同じ＠むしろ不安定な体勢で走っている向こうの方が遥かに不利だ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　条件は同じ。",
+		   NULL, "We are running in the same conditions.", Line_WaitForInput);
+	OutputLine(NULL, "むしろ不安定な体勢で走っている向こうの方が遥かに不利だ。",
+		   NULL, " In fact, the man running with an awkward stride was at far more of a disadvantage.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　向こうだっていつまでも逃げ切れない＠その内、絶対に転ぶ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　向こうだっていつまでも逃げ切れない。",
+		   NULL, "They couldn't run forever.", Line_WaitForInput);
+	OutputLine(NULL, "その内、絶対に転ぶ！",
+		   NULL, " Eventually, he'd definitely trip and fall!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　こうして追い続けて焦らせれば、必ず転ぶ！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こうして追い続けて焦らせれば、必ず転ぶ！！",
+		   NULL, "As long as he was being hounded, he would definitely stumble!!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 400 );
+	DrawScene("background/mo3_02", 400 );
+
+//　そして、その願いは成就する￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そして、その願いは成就する。",
+		   NULL, "And soon, his wish was fulfilled.", Line_Normal);
+	ClearMessage();
+
+
+//「…っわッ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1057", 256, TRUE);
+	OutputLine(NULL, "「…っわッ！！」",
+		   NULL, "\"...Whoa!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+	PlaySE( 3, "wa_003", 56, 64 );
+
+//　何かを踏んづけてバランスを崩した男は、少年の重さに耐えかねて、少年を落してしまったのだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　何かを踏んづけてバランスを崩した男は、少年の重さに耐えかねて、少年を落してしまったのだ。",
+		   NULL, "The man, who had stepped in something and lost his balance, was no longer able to bear the weight of the boy, dropping him.", Line_Normal);
+	ClearMessage();
+
+
+//　赤坂は実際のところ、犯人などどうでもよかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤坂は実際のところ、犯人などどうでもよかった。",
+		   NULL, "Akasaka, in all honesty, didn't care about the perpetrator at all.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　犬飼寿樹の安全さえ確保できればいい＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　犬飼寿樹の安全さえ確保できればいい。",
+		   NULL, "Just as long as he could ensure the safety of Toshiki Inukai.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　だから犯人だけが走り去ってくれればそれでよかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だから犯人だけが走り去ってくれればそれでよかった。",
+		   NULL, "So if the perpetrator ran off by himself, it was perfectly acceptable.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　…だが、男にとっても犬飼寿樹はやはり重要なものだったらしく、そのまま逃げ去るという選択肢は選ばれなかった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…だが、男にとっても犬飼寿樹はやはり重要なものだったらしく、そのまま逃げ去るという選択肢は選ばれなかった。",
+		   NULL, "...But it seemed that Toshiki Inukai was important to the man as well, and didn't choose to just run away empty-handed.", Line_Normal);
+	ClearMessage();
+
+
+//　赤坂はこういう時、どうしていいかわからなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤坂はこういう時、どうしていいかわからなかった。",
+		   NULL, "Akasaka didn't know what to do in this kind of situation.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　最優先なのは孫の保護であって、多分、犯人の制圧は二の次だ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　最優先なのは孫の保護であって、多分、犯人の制圧は二の次だ。",
+		   NULL, "His first priority should probably be to ensure the safety of the boy, subduing his captor being less important.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　犯人との取っ組み合いなんて想定してない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　犯人との取っ組み合いなんて想定してない。",
+		   NULL, "Grappling with the perpetrator wasn't something he planned on.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　でも多分、やらなければやられる！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも多分、やらなければやられる！！",
+		   NULL, "But most likely, it was either do or die.", Line_Normal);
+	ClearMessage();
+
+
+//　赤坂のその一瞬の躊躇はもちろん命取りになった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤坂のその一瞬の躊躇はもちろん命取りになった。",
+		   NULL, "Akasaka's moment of indecision proved to be fatal.", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_008", 56, 64 );
+
+//　男は赤坂の眉間、というよりは両目を狙って軽いジャブを放つ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は赤坂の眉間、というよりは両目を狙って軽いジャブを放つ。",
+		   NULL, "The man, aiming right between, or rather, for both of Akasaka's eyes, struck out with a jab.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	PlaySE( 3, "wa_015", 56, 64 );
+	Wait( 150 );
+	PlaySE( 3, "wa_005", 56, 64 );
+	ShakeScreen( 1, 50, 20, 5, 0, );
+
+//　それを嫌って赤坂が両手で顔を覆った時、ここぞとばかりに男の蹴りが無防備な腹部に叩き込まれた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それを嫌って赤坂が両手で顔を覆った時、ここぞとばかりに男の蹴りが無防備な腹部に叩き込まれた。",
+		   NULL, "Not wanting that, Akasaka raised both his hands to shield his face. At that moment, the man kicked at his unguarded midsection.", Line_Normal);
+	ClearMessage();
+
+
+//　内臓が飛び上がるような激痛が込み上げるが、赤坂は怯まず、その足を覆い被さるように抱き抱えた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　内臓が飛び上がるような激痛が込み上げるが、赤坂は怯まず、その足を覆い被さるように抱き抱えた。",
+		   NULL, "The pain almost felt like his vital organs were being squeezed out of his body, but he latched onto his opponent's leg.", Line_Normal);
+	ClearMessage();
+
+
+//　だが相手は戸惑わなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが相手は戸惑わなかった。",
+		   NULL, "But his opponent didn't hesitate one bit.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	PlaySE( 3, "wa_015", 56, 64 );
+
+//　掴まれた足から飛び込むように、全身で飛び掛り赤坂を押し倒して圧し掛かってきたのだ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　掴まれた足から飛び込むように、全身で飛び掛り赤坂を押し倒して圧し掛かってきたのだ。",
+		   NULL, "Leading with his seized foot, the man jumped at Akasaka, applying pressure and pushing him down.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　これにはたまらず、赤坂も倒されてしまうが、だがそれでも決して掴んだ足は離さない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　これにはたまらず、赤坂も倒されてしまうが、だがそれでも決して掴んだ足は離さない。",
+		   NULL, "Akasaka was unable to withstand that and fell, but under no circumstances was he letting that leg go.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 200 );
+	PlaySE( 3, "wa_002", 56, 64 );
+	Wait( 150 );
+	PlaySE( 3, "wa_003", 56, 64 );
+
+//　もつれ合うようにして二人は倒れこんだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　もつれ合うようにして二人は倒れこんだ。",
+		   NULL, "The two men fell together in a tangled heap.", Line_Normal);
+	ClearMessage();
+
+
+//　赤坂から自分の足を引き離そうと男は躍起になるが、不自然に倒れこんだ状態ではなかなかうまく行かない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　赤坂から自分の足を引き離そうと男は躍起になるが、不自然に倒れこんだ状態ではなかなかうまく行かない。",
+		   NULL, "The man was desperate to pull his leg free from Akasaka, but having fallen in an awkward position, was unable to.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("background/mo4_02", 400 );
+
+//　二人はごろごろと転がりながら、より相手よりも優位な体勢を取ろうと足掻く＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　二人はごろごろと転がりながら、より相手よりも優位な体勢を取ろうと足掻く。",
+		   NULL, "The two of them rolled around on the ground, floundering about trying to gain an advantage.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　だが、両手で相手の膝を抱いた赤坂と、上半身が自由な相手とでは条件が違う￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、両手で相手の膝を抱いた赤坂と、上半身が自由な相手とでは条件が違う。",
+		   NULL, "But Akasaka, who was holding onto his opponent's knee with both hands, and that opponent, who had complete freedom to move his upper body, were in two completely different situations.", Line_Normal);
+	ClearMessage();
+
+
+
+//　男は体勢的有利を得ると、自分の足にしがみ付いて離れない赤坂の頭を、両の拳で力の限り殴りつけた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は体勢的有利を得ると、自分の足にしがみ付いて離れない赤坂の頭を、両の拳で力の限り殴りつけた。",
+		   NULL, "The man gained a positional advantage on Akasaka, who was still latched onto his leg and couldn't move away, and pounded full force on his head with both his fists.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　それだけでなく、近くに石を見つけると、それで頭を殴りだす￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それだけでなく、近くに石を見つけると、それで頭を殴りだす！",
+		   NULL, "Not only that, he found a rock nearby and beat it against Akasaka's skull!", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_015", 56, 64 );
+	Wait( 250 );
+	PlaySE( 3, "wa_005", 56, 64 );
+
+//!s0　ガシッ！/
+
+	SetSpeedOfMessage( TRUE, 128, );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ガシッ！",
+		   NULL, "THWACK!", Line_ContinueAfterTyping);
+
+	ShakeScreen( 0, 50, 20, 3, 0, );
+	Wait( 100 );
+	PlaySE( 3, "wa_005", 56, 64 );
+
+//　ガシッ！！/
+	OutputLine(NULL, "　ガシッ！！",
+		   NULL, " THWACK!", Line_ContinueAfterTyping);
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 150 );
+	PlaySE( 3, "wa_005", 56, 64 );
+
+//　ガシンッ！！！/
+	OutputLine(NULL, "　ガシンッ！！！",
+		   NULL, " THWACK!!!", Line_ContinueAfterTyping);
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+	OutputLineAll(NULL, "", Line_Normal);
+
+	ClearMessage();
+//!sd
+
+	DisableWindow();
+	PlaySE( 3, "wa_005", 56, 64 );
+	ShakeScreen( 1, 50, 20, 2, 0, );
+
+	SetSpeedOfMessage( FALSE, 0, );
+
+//　拳で殴られるのと石で殴られるのでは、話が違い過ぎる！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　拳で殴られるのと石で殴られるのでは、話が違い過ぎる！！",
+		   NULL, "The difference between being hit with a fist and being hit with a rock was vast!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	DisableWindow();
+	PlaySE( 3, "wa_005", 56, 64 );
+	ShakeScreen( 0, 50, 20, 2, 0, );
+
+//　男の足にしがみ付いた手を放し、頭をかばいたいとすぐに思った￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男の足にしがみ付いた手を放し、頭をかばいたいとすぐに思った。",
+		   NULL, "Akasaka quickly thought of letting go of the man's leg to free his hands to protect his head.", Line_Normal);
+	ClearMessage();
+
+
+//　だけど、…ここでこの手を放したら、男に逃げられてしまう＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だけど、…ここでこの手を放したら、男に逃げられてしまう！",
+		   NULL, "But... if he let go here, the man would get away!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　ここで踏ん張らなければ、全ては水の泡だ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ここで踏ん張らなければ、全ては水の泡だ。",
+		   NULL, "If he didn't dig in here, everything would be for naught.", Line_Normal);
+	ClearMessage();
+
+
+	DisableWindow();
+	PlaySE( 3, "wa_005", 56, 64 );
+	ShakeScreen( 1, 50, 20, 2, 0, );
+
+//　救うべき孫がそこにいる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　救うべき孫がそこにいる。",
+		   NULL, "The boy he was trying to save was right there.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　彼を救って帰京するんだ…！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　彼を救って帰京するんだ…！！",
+		   NULL, "He was going to save him and go back to Tokyo!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　そうすれば、…この薄気味悪い村ともおさらばできるんだ…￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そうすれば、…この薄気味悪い村ともおさらばできるんだ…！",
+		   NULL, "If he could do that, then it was goodbye to this freakish village!", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_005", 56, 64 );
+
+//!s0　ガシ！！/
+
+	SetSpeedOfMessage( TRUE, 128, );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ガシ！！",
+		   NULL, "BAM!!", Line_ContinueAfterTyping);
+
+	ShakeScreen( 0, 50, 20, 3, 0, );
+	Wait( 100 );
+	PlaySE( 3, "wa_005", 56, 64 );
+
+//　メキ！！/
+	OutputLine(NULL, "　メキ！！",
+		   NULL, " CRACK!!", Line_ContinueAfterTyping);
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+	Wait( 150 );
+	PlaySE( 3, "wa_005", 56, 64 );
+
+//　ガスッ！！！/
+	OutputLine(NULL, "　ガスッ！！！",
+		   NULL, " THUD!!!", Line_ContinueAfterTyping);
+
+	ShakeScreen( 1, 50, 20, 3, 0, );
+
+	OutputLineAll(NULL, "", Line_WaitForInput);
+
+
+	ClearMessage();
+	SetSpeedOfMessage( FALSE, 0, );
+
+//!sd
+
+//　額が割られ、血が噴出していることが、見ずともわかる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　額が割られ、血が噴出していることが、見ずともわかる。",
+		   NULL, "Without looking, I could tell my forehead had split open and was gushing blood.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　でも、私は男の足を離そうとはしなかった＠離すもんか、離してたまるもんか…￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、私は男の足を離そうとはしなかった。",
+		   NULL, "But, I didn't let go of the man's leg.", Line_WaitForInput);
+	OutputLine(NULL, "離すもんか、離してたまるもんか…！",
+		   NULL, " How could I? I won't let go!", Line_Normal);
+	ClearMessage();
+
+
+//　男は、頭をいくら殴っても引き離せないと悟ると、私の喉仏を潰すように、両手で首を握りつぶしに来た￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は、頭をいくら殴っても引き離せないと悟ると、私の喉仏を潰すように、両手で首を握りつぶしに来た。",
+		   NULL, "When the man realized that no matter how much he beat my head he wasn't getting away, he used both his hands to grab my throat as if to crush my windpipe.", Line_Normal);
+	ClearMessage();
+
+
+//　顎を思い切り引いて、わずかの抵抗を試みるが、何の意味もなかった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　顎を思い切り引いて、わずかの抵抗を試みるが、何の意味もなかった。",
+		   NULL, "I pulled my head back as a slight form of resistance, but it was of no use.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 4, "wa_043", 56, 64 );
+//　ぐわっと、男の両手が私の喉を包み込み、万力のような力で喉仏を潰しにかかる！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ぐわっと、男の両手が私の喉を包み込み、万力のような力で喉仏を潰しにかかる！！",
+		   NULL, "The man's hands enveloped my neck, and began to crush it like a vise!", Line_Normal);
+	ClearMessage();
+
+
+//　それは窒息する苦しさと言うより、咳き込んで吐きそうになる苦しさだった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それは窒息する苦しさと言うより、咳き込んで吐きそうになる苦しさだった。",
+		   NULL, "It was less about the pain of not being able to breathe, so much as it was choking so hard I felt like I was going to throw up.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　胃袋がでんぐり返りそうになる苦痛！＠　だが、耐える他はない…￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　胃袋がでんぐり返りそうになる苦痛！！",
+		   NULL, "It felt like my stomach was going to turn itself inside-out!!", Line_WaitForInput);
+	OutputLine(NULL, "　だが、耐える他はない…！",
+		   NULL, " But I could only endure it!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("black", "up", 0, 0, 300 );
+	PlaySE( 4, "wa_043", 56, 64 );
+
+//　……畜生畜生畜生！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……畜生畜生畜生！！！",
+		   NULL, "...Dammitdammitdammit!!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　喉が、ぅぐ、ぐ、…………苦しい…！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　喉が、ぅぐ、ぐ、…………苦しい…！！",
+		   NULL, "My throat...h-h-hurts!!", Line_Normal);
+	ClearMessage();
+
+
+//　離してたまるか、離してたまるか…！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　離してたまるか、離してたまるか…！！",
+		   NULL, "I won't let go, I can't let go!!", Line_Normal);
+	ClearMessage();
+
+
+//　私はこんなとこに居たくないんだ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私はこんなとこに居たくないんだ。",
+		   NULL, "I didn't want to be here.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　早く決着して、東京に帰りたいんだ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　早く決着して、東京に帰りたいんだ！",
+		   NULL, "I wanted to resolve this, and go back to Tokyo!", Line_WaitForInput);
+
+//　東京に帰って雪絵と一緒に、!w800生まれてくる赤ん坊のことで、!w800いろいろと話し合って…!w800
+	OutputLine(NULL, "　東京に帰って雪絵と一緒に、",
+		   NULL, " Go back to Tokyo,", Line_ContinueAfterTyping);
+
+	SetValidityOfInput( FALSE );
+	Wait( 800 );
+	SetValidityOfInput( TRUE );
+
+	OutputLine(NULL, "生まれてくる赤ん坊のことで、",
+		   NULL, " and talk to Yukie,", Line_ContinueAfterTyping);
+
+	SetValidityOfInput( FALSE );
+	Wait( 800 );
+	SetValidityOfInput( TRUE );
+
+	OutputLine(NULL, "いろいろと話し合って…",
+		   NULL, " all about our unborn child...", Line_ContinueAfterTyping);
+
+	SetValidityOfInput( FALSE );
+	Wait( 800 );
+	SetValidityOfInput( TRUE );
+
+
+//これからの展望の話に花を咲かせるんだ…！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "これからの展望の話に花を咲かせるんだ…！！",
+		   NULL, " We were going to talk about our bright future!!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("background/mo2_02", 400 );
+
+//　力を緩めたつもりは微塵もなかった＠…だが、わずかの弛みが、男の足を解放してしまう＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　力を緩めたつもりは微塵もなかった。",
+		   NULL, "I had no intention of loosening my grip.", Line_WaitForInput);
+	OutputLine(NULL, "…だが、わずかの弛みが、男の足を解放してしまう。",
+		   NULL, " ...However, it loosened just a bit, and the man's leg came free.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	PlaySE( 3, "wa_015", 56, 64 );
+	Wait( 200 );
+
+//　男が思い切り足を、蹴り出すように突き出すと、私はそのままごろごろと転がされた。/
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男が思い切り足を、蹴り出すように突き出すと、私はそのままごろごろと転がされた。",
+		   NULL, "The man kicked as hard as possible, and I tumbled backwards.", Line_ContinueAfterTyping);
+
+	PlaySE( 3, "wa_004", 56, 64 );
+	ShakeScreen( 1, 50, 20, 5, 0, );
+
+	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　頭がぐるぐる回り、咄嗟に立ち上がれない＠…いや、そもそも、全身に力が入らない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　頭がぐるぐる回り、咄嗟に立ち上がれない。",
+		   NULL, "My head was spinning, and I was unable to get up right away.", Line_WaitForInput);
+	OutputLine(NULL, "…いや、そもそも、全身に力が入らない。",
+		   NULL, " ...No, I couldn't even put any strength into getting up in the first place.", Line_Normal);
+	ClearMessage();
+
+
+//　挫けるな…！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　挫けるな…！！！",
+		   NULL, "Even so, I couldn't back down!!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　今ここで逃がしたら…二度とこんなチャンスは訪れない！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　今ここで逃がしたら…二度とこんなチャンスは訪れない！！",
+		   NULL, "If I let him escape now, this chance would never come again!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　こいつらの尻尾を掴めたのだって、奇跡と幸運で塗り重ねたような偶然の上でだ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こいつらの尻尾を掴めたのだって、奇跡と幸運で塗り重ねたような偶然の上でだ。",
+		   NULL, "Even just catching their scent was nothing short of a miracle.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　ここで孫を取り返せなかったら…、これ以上の奇跡なんて起こるものか！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ここで孫を取り返せなかったら…、これ以上の奇跡なんて起こるものか！！",
+		   NULL, "If we weren't able to get the Minister's grandson back here, there wouldn't be another chance.", Line_Normal);
+	ClearMessage();
+
+
+//　男は少年を担ぎ上げようとしていたが、少年が予想外の抵抗を見せたので、私が起き上がるのに気付けずにいた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男は少年を担ぎ上げようとしていたが、少年が予想外の抵抗を見せたので、私が起き上がるのに気付けずにいた。",
+		   NULL, "The man tried to drag the boy to his feet, but the kid was displaying some unexpected resistance, allowing me to get up unnoticed.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　私はさっき男が自分の頭を叩くのに使った石を握り締める＠…今度はこっちの番だ！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私はさっき男が自分の頭を叩くのに使った石を握り締める。",
+		   NULL, "I grasped the rock the man had just beat me over the head with.", Line_WaitForInput);
+	OutputLine(NULL, "…今度はこっちの番だ！！",
+		   NULL, " ...Now it's my turn!!", Line_Normal);
+	ClearMessage();
+
+
+//「うぉおおおおぉおおぉおおぉおッ！！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300511", 256, TRUE);
+	OutputLine(NULL, "「うぉおおおおぉおおぉおおぉおッ！！！」",
+		   NULL, "\"Yaaaaarrrrrrggghh!!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　非力さを石の力で補えれば…充分な打撃が生めるはず！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　非力さを石の力で補えれば…充分な打撃が生めるはず！！",
+		   NULL, "The rock should be able to supplement what meager strength I had left... adding more than enough power to my attack!!", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_015", 56, 64 );
+	Wait( 350 );
+	PlaySE( 3, "wa_005", 56, 64 );
+	ShakeScreen( 1, 50, 20, 4, 0, );
+
+//　石を握り締めた拳は、男の柔らかなわき腹にねじ込まれる＠それはかなりの痛打のようだった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　石を握り締めた拳は、男の柔らかなわき腹にねじ込まれる。",
+		   NULL, "My fist, still wrapped around the rock, dug into the side of the man's torso.", Line_WaitForInput);
+	OutputLine(NULL, "それはかなりの痛打のようだった。",
+		   NULL, " It seems like it hurt him quite a bit.", Line_Normal);
+	ClearMessage();
+
+//「ぅが、!w800……が…ッ！！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1058", 256, TRUE);
+	OutputLine(NULL, "「ぅが、",
+		   NULL, "\"...Ugh...", Line_Continue);
+
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 800 );
+	// (backup) SetValidityOfInput( TRUE );
+
+	OutputLine(NULL, "……が…ッ！！！」",
+		   NULL, " Gah!!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　男はしばしの間、脇腹を押さえて転げまわる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男はしばしの間、脇腹を押さえて転げまわる。",
+		   NULL, "The man rolled around for a bit, clutching his side.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　男から解放された少年は素早く自分の背中に隠れた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男から解放された少年は素早く自分の背中に隠れた。",
+		   NULL, "Freed from the man's grip, the boy hid behind me.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("background/mo3_02", "right", 0, 0, 200 );
+
+//「犬飼寿樹くんだね？＠　君を助けに来た！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300512", 256, TRUE);
+	OutputLine(NULL, "「犬飼寿樹くんだね？！",
+		   NULL, "\"Toshiki Inukai-kun, right!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300513", 256, TRUE);
+	OutputLine(NULL, "　君を助けに来た！！」",
+		   NULL, " I've come to help you!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　少年にとって、これほど待ち望んだ言葉はなかったに違いない…＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　少年にとって、これほど待ち望んだ言葉はなかったに違いない…！",
+		   NULL, "To the boy, those were the words he was waiting for the most!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　だが、危機はまだ去ってはいなかった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、危機はまだ去ってはいなかった。",
+		   NULL, "But, the crisis was still not over.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　なぜなら、脇腹を押さえつつも、男は再び立ち上がり、再び身構えたからだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　なぜなら、脇腹を押さえつつも、男は再び立ち上がり、再び身構えたからだ。",
+		   NULL, "That was because even though he was still clutching at his side, the man had gotten up again, and had taken a fighting stance.", Line_Normal);
+	ClearMessage();
+
+
+//　男の目には、痛みによる憎悪と、私と戦って勝てる自信が見て取れた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男の目には、痛みによる憎悪と、私と戦って勝てる自信が見て取れた。",
+		   NULL, "I could see in the man's eyes the resentment at the pain I had caused him, and the confidence that he could still beat me.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　もう一度正面からぶつかり合えば、今度は額が割れるくらいでは済まないかもしれない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　もう一度正面からぶつかり合えば、今度は額が割れるくらいでは済まないかもしれない。",
+		   NULL, "If we were to clash head-on again, he might not even stop if my head were split open.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("background/mo2_02", "left", 0, 0, 200 );
+
+//「これ以上、抵抗するな！＠　大人しく降参しろ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300514", 256, TRUE);
+	OutputLine(NULL, "「これ以上、抵抗するな！！",
+		   NULL, "\"Stop resisting!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300515", 256, TRUE);
+	OutputLine(NULL, "　大人しく降参しろ！！」",
+		   NULL, " Surrender quietly!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「てめぇこそ小僧をこっちへ寄越んだ！＠　首の骨をへし折られてぇかッ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1059", 256, TRUE);
+	OutputLine(NULL, "「てめぇこそ小僧をこっちへ寄越んだ！！",
+		   NULL, "\"You should just hand the boy over!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1060", 256, TRUE);
+	OutputLine(NULL, "　首の骨をへし折られてぇかッ！！」",
+		   NULL, " Do you want me to snap your neck!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「誰が貴様の言いなりになどなるものか！＠　もうじき応援が到着する＠　貴様らに逃げ場などない！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300516", 256, TRUE);
+	OutputLine(NULL, "「誰が貴様の言いなりになどなるものか！！",
+		   NULL, "\"Who would listen to you now!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300517", 256, TRUE);
+	OutputLine(NULL, "　もうじき応援が到着する！",
+		   NULL, " Reinforcements are already on their way!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300518", 256, TRUE);
+	OutputLine(NULL, "　貴様らに逃げ場などない！！」",
+		   NULL, " There's nowhere for you to run!!\"", Line_Normal);
+	ClearMessage();
+
+
+//　応援が来るという言葉に男は敏感に反応した＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　応援が来るという言葉に男は敏感に反応した。",
+		   NULL, "The man reacted adversely to the word \"reinforcements.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　ここで言い争っても、時間が無駄なだけでなく、自らにも危険が迫っていることを知ったからだ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ここで言い争っても、時間が無駄なだけでなく、自らにも危険が迫っていることを知ったからだ。",
+		   NULL, "That was because he now knew that arguing like this wasn't just waste of time, but put him closer and closer to danger.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　それに気付いた男の頭の切り替えはあまりに早かった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それに気付いた男の頭の切り替えはあまりに早かった。",
+		   NULL, "Realizing that, the man shifted mental gears almost too quickly.", Line_Normal);
+	ClearMessage();
+
+
+//「なら手っ取り早く済ませるぜ！＠　こいつならどうだよ…！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1061", 256, TRUE);
+	OutputLine(NULL, "「なら手っ取り早く済ませるぜ！！",
+		   NULL, "\"Then let's finish this fast!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1062", 256, TRUE);
+	OutputLine(NULL, "　こいつならどうだよ…！！」",
+		   NULL, " How about this...!!\"", Line_Normal);
+	ClearMessage();
+
+
+//「……ッな？！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300519", 256, TRUE);
+	OutputLine(NULL, "「……ッな？！」",
+		   NULL, "\"...Wha!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　男がズボンの後ポケットから取り出したのは、…なんと、拳銃￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　男がズボンの後ポケットから取り出したのは、…なんと、拳銃！",
+		   NULL, "What the man pulled from his back pocket was of all things, a gun!", Line_Normal);
+	ClearMessage();
+
+
+//　もちろん、自分も警察官だ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　もちろん、自分も警察官だ。",
+		   NULL, "Of course, I'm a police officer.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　銃を知らないわけじゃない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　銃を知らないわけじゃない。",
+		   NULL, "It's not like I don't know what a gun is.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　でも、その銃口を向けられるのは初めての経験だった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、その銃口を向けられるのは初めての経験だった。",
+		   NULL, "But having one pointed at me was something I'd never experienced before.", Line_Normal);
+	ClearMessage();
+
+
+//　本当に…本物＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　本当に…本物？",
+		   NULL, "Was it... real?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　本物に決まってるじゃないか！＠　こんな局面でモデルガンなどが出てくるものか！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　本物に決まってるじゃないか！！",
+		   NULL, "Of course it was!!", Line_WaitForInput);
+	OutputLine(NULL, "　こんな局面でモデルガンなどが出てくるものか！！",
+		   NULL, " There's no way it'd be a replica in a situation like this!!", Line_Normal);
+	ClearMessage();
+
+
+//「大人しく両手を頭の上で組んで、そこにうつ伏せになるんだよ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1063", 256, TRUE);
+	OutputLine(NULL, "「大人しく両手を頭の上で組んで、そこにうつ伏せになるんだよ！！」",
+		   NULL, "\"Put both your hands behind your head and lay down quietly!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「図に乗るな、悪党！＠　誰がお前に従うか！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300520", 256, TRUE);
+	OutputLine(NULL, "「図に乗るな、悪党！！",
+		   NULL, "\"Don't get cocky, you villain!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300521", 256, TRUE);
+	OutputLine(NULL, "　誰がお前に従うか！！」",
+		   NULL, " I won't do anything you say!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「このクソ馬鹿が！＠　撃たれなきゃこいつの恐ろしさがわからねぇかよ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1064", 256, TRUE);
+	OutputLine(NULL, "「このクソ馬鹿が！！",
+		   NULL, "\"You stupid idiot!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1065", 256, TRUE);
+	OutputLine(NULL, "　撃たれなきゃこいつの恐ろしさがわからねぇかよ！！」",
+		   NULL, " Do you not know what this is without me shooting you with it!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「なら撃ってみろ＠　貴様の銃声で応援がここに駆けつけるぞ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300522", 256, TRUE);
+	OutputLine(NULL, "「なら撃ってみろ！",
+		   NULL, "\"Then shoot!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300523", 256, TRUE);
+	OutputLine(NULL, "　貴様の銃声で応援がここに駆けつけるぞ！！」",
+		   NULL, " Reinforcements will hear the gunshot and head right over here!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「馬鹿が＠　森の中で、しかもこの雨だぞ！＠　銃声など掻き消える！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1066", 256, TRUE);
+	OutputLine(NULL, "「馬鹿が！",
+		   NULL, "\"Are you stupid!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1067", 256, TRUE);
+	OutputLine(NULL, "　森の中で、しかもこの雨だぞ！！",
+		   NULL, " We're in the middle of the forest, and on top of that, it's raining!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1068", 256, TRUE);
+	OutputLine(NULL, "　銃声など掻き消える！！」",
+		   NULL, " They'll never hear a thing!!\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 400 );
+
+//　現実に向こうが拳銃を握っている以上、私が何を罵ろうとも、圧倒的不利はかわらない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　現実に向こうが拳銃を握っている以上、私が何を罵ろうとも、圧倒的不利はかわらない。",
+		   NULL, "As long as he still held that gun, no matter how much I yelled at him, I was at a distinct disadvantage.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　でも、私は勝機を感じていた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、私は勝機を感じていた。",
+		   NULL, "But, I still had a fighting chance.", Line_Normal);
+	ClearMessage();
+
+
+//　逆の立場だったなら、私はこんな口喧嘩に時間を割かず、とっとと射殺して少年を奪う＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　逆の立場だったなら、私はこんな口喧嘩に時間を割かず、とっとと射殺して少年を奪う。",
+		   NULL, "If I were in his shoes, instead of wasting time yelling at each other like this, I would just shoot him and take the boy.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　その方が手っ取り早いし、少年を畏縮させ抵抗なく連れて行けるかもしれない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その方が手っ取り早いし、少年を畏縮させ抵抗なく連れて行けるかもしれない。",
+		   NULL, "That way was the fastest, and would suppress any sort of further resistance from him.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　でも男は撃たず、私に屈服を要求している＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも男は撃たず、私に屈服を要求している。",
+		   NULL, "But the man was demanding my surrender, without having fired a shot.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　ということは、撃てないか撃ちたくないかのどちらかなのだ＠…つまり、目の前のこいつは甘い￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　ということは、撃てないか撃ちたくないかのどちらかなのだ。",
+		   NULL, "Meaning that he either didn't want to shoot, or couldn't.", Line_WaitForInput);
+	OutputLine(NULL, "…つまり、目の前のこいつは甘い！",
+		   NULL, " ...In other words, the man in front of me was soft!", Line_Normal);
+	ClearMessage();
+
+
+//　少しでも時間を稼げば、私に有利になる要素が多い＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　少しでも時間を稼げば、私に有利になる要素が多い。",
+		   NULL, "If I could buy even just a little more time, the factors that would lead to my victory were numerous.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　大石氏が駆けつけてくれるだろうし、ここに来る前に要請した応援はもうとっくにここへ向かって出発しているだろう＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏が駆けつけてくれるだろうし、ここに来る前に要請した応援はもうとっくにここへ向かって出発しているだろう。",
+		   NULL, "Ooishi was probably on his way, and the reinforcements we called for before coming here should already be well on their way too.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　それだけじゃない、駐在所にも連絡が行ってるはず＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それだけじゃない、駐在所にも連絡が行ってるはず。",
+		   NULL, "Not only that, they should have contacted the local police box.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　村の駐在員ならもっと早く駆けつけてくれるに違いない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　村の駐在員ならもっと早く駆けつけてくれるに違いない！",
+		   NULL, "Without a doubt, somebody stationed in the village would be here much quicker than that!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("background/mo4_02", 400 );
+
+//「…くそったれがぁ…！＠　弾かれなきゃコイツの怖さがわからねぇかよ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1069", 256, TRUE);
+	OutputLine(NULL, "「…くそったれがぁ…！！",
+		   NULL, "\"...Dammit...!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1070", 256, TRUE);
+	OutputLine(NULL, "　弾かれなきゃコイツの怖さがわからねぇかよ！！」",
+		   NULL, " Do I have to put a bullet in you to understand how dangerous this thing is!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「どうせ逃げられやしない！＠　無駄に罪を重ねるな！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300524", 256, TRUE);
+	OutputLine(NULL, "「どうせ逃げられやしない！！",
+		   NULL, "\"There's no escape!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300525", 256, TRUE);
+	OutputLine(NULL, "　無駄に罪を重ねるな！！」",
+		   NULL, " Don't add to your crimes!!\"", Line_Normal);
+	ClearMessage();
+
+
+//　その時、ドスドスとした足音が草木を掻き分けながら近付いてくるのが聞こえた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その時、ドスドスとした足音が草木を掻き分けながら近付いてくるのが聞こえた。",
+		   NULL, "At that moment, I heard the rustling of foliage and heavy footsteps approaching.", Line_Normal);
+	ClearMessage();
+
+
+//　大石氏が合流してくれれば、状況は一変する＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　大石氏が合流してくれれば、状況は一変する！",
+		   NULL, "If Ooishi was coming here, it was a whole new ball game.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　あの人なら、銃の一丁くらいものともしないだろう…￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あの人なら、銃の一丁くらいものともしないだろう…！",
+		   NULL, "The man couldn't have more than one gun!", Line_Normal);
+	ClearMessage();
+
+
+//「大石さん！＠　ここですここです！！＠　…………えッ？！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300526", 256, TRUE);
+	OutputLine(NULL, "「大石さん！！",
+		   NULL, "\"Ooishi-san!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300527", 256, TRUE);
+	OutputLine(NULL, "　ここですここです！！！",
+		   NULL, " Over here!! Over here!!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300528", 256, TRUE);
+	OutputLine(NULL, "　…………えッ？！」",
+		   NULL, " ...Huh!?\"", Line_Normal);
+	ClearMessage();
+
+
+//　時間が自分に味方するとは思っていた＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　時間が自分に味方するとは思っていた。",
+		   NULL, "I had thought that time was on my side.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　だが、…敵にとっても増援があるとは…失念していた…！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、…敵にとっても増援があるとは…失念していた…！！",
+		   NULL, "But I had failed to even imagine that the enemy could also have reinforcements!!", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("background/mo2_02", "right", 0, 0, 200 );
+
+//　現れた男は、ひと目見て犯人のひとりだとわかる￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　現れた男は、ひと目見て犯人のひとりだとわかる。",
+		   NULL, "You could tell the man who had just appeared was one of the perpetrators just by looking at him.", Line_Normal);
+	ClearMessage();
+
+//「何しよってんね…＠早ぅせんとな、警官来るんで＠　なぁん油売っとんしゃん！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700051", 256, TRUE);
+	OutputLine(NULL, "「何しよってんね…。",
+		   NULL, "\"Whaddya doin'...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700052", 256, TRUE);
+	OutputLine(NULL, "早ぅせんとな、警官来るんで！",
+		   NULL, " If ya don' hurry up, the police'll get 'ere!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700053", 256, TRUE);
+	OutputLine(NULL, "　なぁん油売っとんしゃん！！」",
+		   NULL, " Stop lollygaggin'!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「……くそ…！＠　大石さんはどうしたってんだ…！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300529", 256, TRUE);
+	OutputLine(NULL, "「……くそ…！！",
+		   NULL, "\"...Dammit...!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300530", 256, TRUE);
+	OutputLine(NULL, "　大石さんはどうしたってんだ…！」",
+		   NULL, " What happened to Ooishi-san!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「あぁん、あんの樽男かいね＠落したったら、泡吹いとんよ＠へっへっへっへ…！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700054", 256, TRUE);
+	OutputLine(NULL, "「あぁん、あんの樽男かいね。",
+		   NULL, "\"Aah, tha' chubby fella?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700055", 256, TRUE);
+	OutputLine(NULL, "落したったら、泡吹いとんよ。",
+		   NULL, " E's down fer tha count.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700056", 256, TRUE);
+	OutputLine(NULL, "へっへっへっへ…！」",
+		   NULL, " Eee hee hee!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「大石さんが？＠　……くっそ……！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300531", 256, TRUE);
+	OutputLine(NULL, "「大石さんが？！",
+		   NULL, "\"He is!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300532", 256, TRUE);
+	OutputLine(NULL, "　……くっそ……！！」",
+		   NULL, " ....Dammit...!!\"", Line_Normal);
+	ClearMessage();
+
+
+//　少年が敏感に危機を感じ取り、背中にしがみ付いてくる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　少年が敏感に危機を感じ取り、背中にしがみ付いてくる。",
+		   NULL, "The boy, sensitive to the impending danger, curled up behind my back.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　……なんてこった…、くそ…！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……なんてこった…、くそ…！！",
+		   NULL, "...How could this be...dammit!!", Line_Normal);
+	ClearMessage();
+
+
+//「期待してた相方は来ないってよ！＠　ざまぁねぇぞ！＠　観念するのはてめぇの方だ！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1071", 256, TRUE);
+	OutputLine(NULL, "「期待してた相方は来ないってよ！！",
+		   NULL, "\"Your buddy isn't coming!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1072", 256, TRUE);
+	OutputLine(NULL, "　ざまぁねぇぞ！！",
+		   NULL, " Serves you right!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 49, "ps3/s05/49/vt2_13hibari1073", 256, TRUE);
+	OutputLine(NULL, "　観念するのはてめぇの方だ！！」",
+		   NULL, " Shoe's on the other foot now!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　少年をかばいながら、太い木を背後にしようとした時、後から来た男も拳銃を抜いた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　少年をかばいながら、太い木を背後にしようとした時、後から来た男も拳銃を抜いた。",
+		   NULL, "As I backed up against a large tree while still protecting the boy, the second man also pulled out a gun.", Line_Normal);
+	ClearMessage();
+
+
+//「二回しか言わんね＠頭抱えてそこにうつ伏せになるんよ。＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700057", 256, TRUE);
+	OutputLine(NULL, "「二回しか言わんね。",
+		   NULL, "\"Won' be sayin' this twice.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700058", 256, TRUE);
+	OutputLine(NULL, "頭抱えてそこにうつ伏せになるんよ。」",
+		   NULL, " Put yer 'ands on yer 'ead and lie down.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「断るッ！！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300533", 256, TRUE);
+	OutputLine(NULL, "「断るッ！！！」",
+		   NULL, "\"I refuse!!!\"", Line_Normal);
+	ClearMessage();
+
+
+	PlaySE( 3, "wa_046", 56, 64 );
+//　パカン！/
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　パカン！",
+		   NULL, "BANG!", Line_ContinueAfterTyping);
+
+	DisableWindow();
+	ShakeScreen( 1, 50, 20, 4, 0, );
+	DrawScene("red", 800 );
+	DrawScene("black", 1000 );
+
+	OutputLineAll(NULL, "", Line_Normal);
+
+	ClearMessage();
+
+//　自分の拒絶の発声と同時に、左肩が血を吹き、数瞬遅れて、自分が肩を撃たれたことを悟る￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　自分の拒絶の発声と同時に、左肩が血を吹き、数瞬遅れて、自分が肩を撃たれたことを悟る！",
+		   NULL, "As I shouted in protest, blood erupted from my left shoulder. It took a few moments to register that I had been shot!", Line_Normal);
+	ClearMessage();
+
+
+//　初めて聞く銃声は、自分が聞いてきたドラマや映画の中のどんな銃声よりも、単調でつまらないものだった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　初めて聞く銃声は、自分が聞いてきたドラマや映画の中のどんな銃声よりも、単調でつまらないものだった。",
+		   NULL, "Compared to the ones from in movies and TV dramas, the first actual gunshot I heard was simple and mundane.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　むしろその音は、小さい頃、駄菓子屋で買って遊んだカンシャク玉によく似た感じだった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　むしろその音は、小さい頃、駄菓子屋で買って遊んだカンシャク玉によく似た感じだった。",
+		   NULL, "In fact, the sound was more akin to the small fireworks I used to buy from the corner store as a kid.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　だが、痛みだけは例えようがない…＠撃たれて初めて分かる銃の恐怖だった￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、痛みだけは例えようがない…。",
+		   NULL, "But there was no comparing the pain...", Line_WaitForInput);
+	OutputLine(NULL, "撃たれて初めて分かる銃の恐怖だった。",
+		   NULL, " It was a fear you knew only after you've been shot.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawSceneWithMask("background/mo4_02", "left", 0, 0, 200 );
+
+//「……ッツ……く………ぐ………！！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300534", 256, TRUE);
+	OutputLine(NULL, "「……ッツ……く………ぐ………！！！」",
+		   NULL, "\"..Ah... gh... nghh...!!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「…お、…おじさん？＠　大丈夫？＠　大丈夫ッ？！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>寿樹</color>", NULL, "<color=#f5e6d3>Toshiki</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "ps3/s05/00/toshi00013", 256, TRUE);
+	OutputLine(NULL, "「…お、…おじさん？！",
+		   NULL, "\"...S-Sir!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s05/00/toshi00014", 256, TRUE);
+	OutputLine(NULL, "　大丈夫？！",
+		   NULL, " Are you okay!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "ps3/s05/00/toshi00015", 256, TRUE);
+	OutputLine(NULL, "　大丈夫ッ？！」",
+		   NULL, " Are you okay!!?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　少年が錯乱しかけながら私の服を引っ張るので、傷が引きつって痛む＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　少年が錯乱しかけながら私の服を引っ張るので、傷が引きつって痛む。",
+		   NULL, "The boy, in his confusion, tugged at my clothes, agitating the wound even further.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　少年を安心させようとして、強がりを言いたかったが、声はかすれて、むしろ逆効果だ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　少年を安心させようとして、強がりを言いたかったが、声はかすれて、むしろ逆効果だ。",
+		   NULL, "I wanted to put on a bold face and reassure him, but my voice was hoarse and had the opposite effect.", Line_Normal);
+	ClearMessage();
+
+
+//「だ、…大丈夫！＠　すでに応援は要請してあるんだ＠すぐに警官隊が駆けつけてくれる…＠　………ッ…く……！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300535", 256, TRUE);
+	OutputLine(NULL, "「だ、…大丈夫！！",
+		   NULL, "\"I-I'm all right!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300536", 256, TRUE);
+	OutputLine(NULL, "　すでに応援は要請してあるんだ。",
+		   NULL, " I've already called for backup.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300537", 256, TRUE);
+	OutputLine(NULL, "すぐに警官隊が駆けつけてくれる…！",
+		   NULL, " There'll be a full squad here soon!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300538", 256, TRUE);
+	OutputLine(NULL, "　………ッ…く……！」",
+		   NULL, " ...Gah...!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//「警官が来る前に、お前ン額にもッパツくれちゃる方が早いんね＠無駄な殺生すなっちゅ、本家にゆわれとんかー加減しとんね＠あんまり舐めとんと、容赦せんとよ。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>誘拐犯</color>", NULL, "<color=#f5e6d3>Kidnapper</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700059", 256, TRUE);
+	OutputLine(NULL, "「警官が来る前に、お前ン額にもッパツくれちゃる方が早いんね。",
+		   NULL, "\"It'll be quicker ta put one thru yer 'ead afore the cops get 'ere.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700060", 256, TRUE);
+	OutputLine(NULL, "無駄な殺生すなっちゅ、本家にゆわれとんかー加減しとんね。",
+		   NULL, " But tha family said no needless killin', so I'm taking it easy on ya.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700061", 256, TRUE);
+	OutputLine(NULL, "あんまり舐めとんと、容赦せんとよ。」",
+		   NULL, " Don' mess with me, or I ain't 'oldin' back.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	DrawScene("black", 400 );
+
+//　…まずい＠…まずいなぁ…！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…まずい。",
+		   NULL, "...This was bad.", Line_WaitForInput);
+	OutputLine(NULL, "…まずいなぁ…！！",
+		   NULL, " ...It was very very bad.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　この後から来た男は、最初の男とは訳が違う＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　この後から来た男は、最初の男とは訳が違う！",
+		   NULL, "This second man was a completely different beast than the first!", Line_WaitForInput);
+
+//　躊躇とか容赦がない！＠
+	OutputLine(NULL, "　躊躇とか容赦がない！！",
+		   NULL, " He had no signs of indecisiveness or mercy!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　この男が撃つと言えば、本当に撃つ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　この男が撃つと言えば、本当に撃つ！",
+		   NULL, "If this man said he'd shoot, he'd shoot!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　自分程度ではとても時間が稼げるような相手じゃない！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　自分程度ではとても時間が稼げるような相手じゃない！！",
+		   NULL, "He wasn't somebody that a man like me could buy time from!!", Line_Normal);
+	ClearMessage();
+
+
+//　その時、本当に悔しいが、…脳裏に雪絵の笑顔が過ぎった＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その時、本当に悔しいが、…脳裏に雪絵の笑顔が過ぎった。",
+		   NULL, "I really hated to admit it, but at that moment, the image of Yukie's smiling face crossed the back of my mind.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　それの意味するところはわかってる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それの意味するところはわかってる。",
+		   NULL, "I knew what that meant.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　こんなところで意地を張って命を粗末にするなと、そう自分自身が警告しているのだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こんなところで意地を張って命を粗末にするなと、そう自分自身が警告しているのだ。",
+		   NULL, "I was warning myself to not throw my life away over a matter of pride.", Line_Normal);
+	ClearMessage();
+
+//　そりゃ、こんなところで死にたくない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そりゃ、こんなところで死にたくない！",
+		   NULL, "Of course I didn't want to die here!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　雪絵との新しい生活だって始まったばかりだし、もうじき生まれる子どもの顔だって見たい！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　雪絵との新しい生活だって始まったばかりだし、もうじき生まれる子どもの顔だって見たい！！",
+		   NULL, "I was just starting a new life with Yukie, and I wanted to see the face of our soon-to-be-born child!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　自分の子どもの顔が見られるかという瀬戸際で、大臣の孫なんかに命を賭けてられるかよ！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　自分の子どもの顔が見られるかという瀬戸際で、大臣の孫なんかに命を賭けてられるかよ！！！",
+		   NULL, "Why should I risk my life for some Minister's grandson when I was at such a critical juncture in my own life!!!", Line_Normal);
+	ClearMessage();
+
+
+
+//　…あぁあ、くそくそ！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…あぁあ、くそくそ！！",
+		   NULL, "...Arrghh! Dammit! Dammit!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　まくし立てるな自分＠　ならどうするよ？＠　孫を差し出して生き永らえるのか？＠　そりゃあ名案だ！＠　誰だって命は惜しいしな！＠　命に危険が迫ってるんだ！＠　誰も責められやしないさ！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　まくし立てるな自分！",
+		   NULL, "I need to stop rambling at myself!", Line_WaitForInput);
+	OutputLine(NULL, "　ならどうするよ？！",
+		   NULL, " So what do I do now!?", Line_WaitForInput);
+	OutputLine(NULL, "　孫を差し出して生き永らえるのか？！",
+		   NULL, " Give up the boy and extend my own life!?", Line_WaitForInput);
+	OutputLine(NULL, "　そりゃあ名案だ！！",
+		   NULL, " What a good idea!!", Line_WaitForInput);
+	OutputLine(NULL, "　誰だって命は惜しいしな！！",
+		   NULL, " Everybody's life is precious!!", Line_WaitForInput);
+	OutputLine(NULL, "　命に危険が迫ってるんだ！！",
+		   NULL, " My own life was in danger!!", Line_WaitForInput);
+	OutputLine(NULL, "　誰も責められやしないさ！！！",
+		   NULL, " Nobody would blame me!!!", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	DrawScene("background/aka1", 400 );
+
+
+//　あぁくそ……痛ぇ…痛え…！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　あぁくそ……痛ぇ…痛え…！！！",
+		   NULL, "Arghh, goddammit... it hurts... it hurts...!!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　こんなにも痛いものだと知っていたら、あんな強がり言うんじゃなかったよ…！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こんなにも痛いものだと知っていたら、あんな強がり言うんじゃなかったよ…！！",
+		   NULL, "If I had known it would be this painful, I wouldn't have played the tough guy!!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　それに…何より誤算だったのは、銃声が想像以上に小さい、下らない音だったことだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それに…何より誤算だったのは、銃声が想像以上に小さい、下らない音だったことだ。",
+		   NULL, "My biggest miscalculation though, was that the sound of the gunshot was far quieter than I had imagined.", Line_Normal);
+	ClearMessage();
+
+
+//　こんな程度の音じゃ、雨の森の中では霞んでしまう＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　こんな程度の音じゃ、雨の森の中では霞んでしまう！",
+		   NULL, "If it was only that loud, it would be drowned out by the rain in the forest!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　遠くにいる誰かの耳に入るようなものではない…！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　遠くにいる誰かの耳に入るようなものではない…！！！",
+		   NULL, "It wasn't something that somebody far away could hear!!", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GChoiceMode) > 0) {
+		if (GetGlobalFlag(GChoiceMode) == 2) {
+			DrawBustshot(5, "2choices_1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 15, 300, TRUE );
+		} else {
+			DrawBustshot(5, "2choices", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 15, 300, TRUE );
+		}
+		char Choice1[2];
+
+		if (GetGlobalFlag(GLanguage) == 1) {
+			Choice1[0] = "Plead for my life";
+			Choice1[1] = "Watch for an opportunity";
+		} else {
+			Choice1[0] = "命乞いをする";
+			Choice1[1] = "隙を窺う";
+		}
+
+		Select( 2, Choice1 );
+		FadeBustshot( 5, FALSE, 0, 0, 0, 0, 300, TRUE );
+	}
+}
