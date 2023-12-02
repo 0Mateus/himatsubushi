@@ -4,98 +4,98 @@
             "Id": 64,
             "Script": "hima_tips_01",
             "UnlockChapter": 1,
-            "Title": "Phone Call with Yukie",
+            "Title": "Telefonema com Yukie",
             "TitleJp": "雪絵との電話"
         },
         {
             "Id": 65,
             "Script": "hima_tips_02",
             "UnlockChapter": 1,
-            "Title": "A Record of Opening Remarks",
+            "Title": "Registro de um Discurso de Abertura",
             "TitleJp": "来賓挨拶用原稿"
         },
         {
             "Id": 66,
             "Script": "hima_tips_03",
             "UnlockChapter": 1,
-            "Title": "Gears and Fire and the Taste of Honey",
+            "Title": "Engrenagens e Fogo e o Gosto do Mel",
             "TitleJp": "歯車と火事と蜜の味"
         },
         {
             "Id": 67,
             "Script": "hima_tips_04",
             "UnlockChapter": 1,
-            "Title": "The Chick in the Trunk",
+            "Title": "O Pinto no Porta-Malas",
             "TitleJp": "トランクの雛"
         },
         {
             "Id": 68,
             "Script": "hima_tips_05",
             "UnlockChapter": 3,
-            "Title": "Going Smoothly",
+            "Title": "Correndo Tudo em Ordem",
             "TitleJp": "順調"
         },
         {
             "Id": 69,
             "Script": "hima_tips_06",
             "UnlockChapter": 3,
-            "Title": "Why I Like Rainy Days",
+            "Title": "Porque eu gosto de Dias de Chuva",
             "TitleJp": "雨雲に恋して"
         },
         {
             "Id": 70,
             "Script": "hima_tips_07",
             "UnlockChapter": 3,
-            "Title": "Barley Tea and Black Tea and a Millstone",
+            "Title": "Chá de Cevada e Chá Preto e uma Pedra-de-moinho",
             "TitleJp": "麦茶と紅茶と石臼と"
         },
         {
             "Id": 71,
             "Script": "hima_tips_08",
             "UnlockChapter": 4,
-            "Title": "The Investigation Runs Aground",
+            "Title": "A Investigação segue encalhada",
             "TitleJp": "調査は暗礁"
         },
         {
             "Id": 72,
             "Script": "hima_tips_09",
             "UnlockChapter": 4,
-            "Title": "What's in the Box?",
+            "Title": "O que há na caixa?",
             "TitleJp": "箱選びゲ\u30fcム"
         },
         {
             "Id": 73,
             "Script": "hima_tips_10",
             "UnlockChapter": 4,
-            "Title": "The Glint in the Demon's Eye",
+            "Title": "O Brilho no Olho do Demônio",
             "TitleJp": "鬼の目にも何とか"
         },
         {
             "Id": 74,
             "Script": "hima_tips_11",
             "UnlockChapter": 7,
-            "Title": "A Very Kind Person",
+            "Title": "Uma Pessoa Muito Gentil",
             "TitleJp": "とてもやさしい人なの"
         },
         {
             "Id": 75,
             "Script": "hima_tips_12",
             "UnlockChapter": 9,
-            "Title": "Mother's Diary",
+            "Title": "Diário da Mãe",
             "TitleJp": "母の日記"
         },
         {
             "Id": 76,
             "Script": "hima_tips_13",
             "UnlockChapter": 9,
-            "Title": "Mother's Diary II",
+            "Title": "Diário da Mãe II",
             "TitleJp": "母の日記 II"
         },
         {
             "Id": 77,
             "Script": "hima_tips_14",
             "UnlockChapter": 9,
-            "Title": "Mother's Diary III",
+            "Title": "Diário da Mãe III",
             "TitleJp": "母の日記 III"
         }
     ]
