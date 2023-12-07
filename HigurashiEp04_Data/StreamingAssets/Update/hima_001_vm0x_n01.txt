@@ -6,13 +6,13 @@ void main()
 
 void dialog000()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chief</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200017", 256, TRUE);
 	OutputLine(NULL, "残る各職員は担当団体ごとに本件との関連を調査。",
-		   NULL, "The remaining members, investigate whatever is related to the case as assigned to your units.", Line_WaitForInput);
+		   NULL, "Os membros restantes, investiguem tudo o que está relacionado com o caso e comuniquem às suas unidades.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200018", 256, TRUE);
 	OutputLine(NULL, "最近動きが不穏な特殊ラインは集中的にやれ！",
-		   NULL, " Focus your line of investigation on recently active subversives. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Foquem sua linha de investigação nas atividades subversivas recentes. ", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog001()
@@ -20,19 +20,19 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>嘉納</color>", NULL, "<color=#f5e6d3>Kanou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/vv_kano_10001", 256, TRUE);
 	OutputLine(NULL, "「……では、垣内に行ってくれ。",
-		   NULL, "\"--and cover Kakiuchi.", Line_WaitForInput);
+		   NULL, "\"--e cubram Kakiuchi.", Line_WaitForInput);
 }
 
 void dialog002()
 {
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300010", 256, TRUE);
 	OutputLine(NULL, "危険性は、十分にありますね。」",
-		   NULL, " They're certainly dangerous enough.\"", Line_Normal);
+		   NULL, " Eles certamente são perigosos o suficiente.\"", Line_Normal);
 
 //…主張を通すために、手段を選ばないこともありうるというわけか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…主張を通すために、手段を選ばないこともありうるというわけか。",
-		   NULL, "...So they could be expected to use any means necessary to force their demands.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Então podemos esperar que usem qualquer meio necessário para forçar suas demandas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 	ClearMessage();
 }
@@ -42,7 +42,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300019", 256, TRUE);
 	OutputLine(NULL, "「具体的に、教えていただけますか？」",
-		   NULL, "\"Could you give me any specifics?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Você pode me mostrar alguns exemplos?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -50,14 +50,14 @@ void dialog004()
 {
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300034", 256, TRUE);
 	OutputLine(NULL, "　なにか、政治的なバックボーンが存在するということですか？」",
-		   NULL, " Are you suggesting they have some sort of political core?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você está sugerindo que eles tem algum tipo de núcleo com relevância política?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 void dialog005()
 {
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104200035", 256, TRUE);
 	OutputLine(NULL, "担当地域での情報収集はどうですか。」",
-		   NULL, " How's the information gathering at your assigned region?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Como está a coleta de informações da sua região designada?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -66,7 +66,7 @@ void dialog006()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300085", 256, TRUE);
 	OutputLine(NULL, "「…まるで、どこぞのの内戦の国に迷い込んだような錯覚です。」",
-		   NULL, "\"...It almost feels like we've wandered into some country at civil war.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...É quase como se tivéssemos entrado em um país em guerra civil.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -74,7 +74,7 @@ void dialog007()
 {
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700162", 256, TRUE);
 	OutputLine(NULL, "それに、あなたのお陰でたまってたツケを全部返せるんですからねぇ。",
-		   NULL, " On top of that, thanks to you, I can pay back my debts.", Line_WaitForInput);
+		   NULL, " Além disso, graças a você, eu posso pagar minhas dívidas.", Line_WaitForInput);
 }
 
 void dialog008()
@@ -82,7 +82,7 @@ void dialog008()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700175", 256, TRUE);
 	OutputLine(NULL, "どんなささやかなケチでもひとつ付けば、…野党勢力がどっと票を伸ばす可能性もある、と。」",
-		   NULL, "It wouldn't take much wrongdoing for the opposition parties to suddenly garner more support.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não demoraria muito para os partidos de oposição se aproveitarem e, de repente, conseguirem mais espaço.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -90,9 +90,9 @@ void dialog009()
 {
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700207", 256, TRUE);
 	OutputLine(NULL, "…………今時の若者はこんな迷信、信じませんがね。",
-		   NULL, "...Kids these days might not believe such superstitions,", Line_WaitForInput);
+		   NULL, "...As crianças de hoje em dia não têm essas superstições, têm?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700208", 256, TRUE);
 	OutputLine(NULL, "興宮の明治生まれの年寄り連中には、今でも真面目に信じてるのが多いですよ。」",
-		   NULL, " but amongst the older folk in Okinomiya born in the Meiji Era, many take it very seriously even now.\"", Line_Normal);
+		   NULL, " Mas entre os mais velhos em Okinomiya, nascidos na Era Meiji, muitos levam isso sériamente até hoje.\"", Line_Normal);
 	ClearMessage();
 }
