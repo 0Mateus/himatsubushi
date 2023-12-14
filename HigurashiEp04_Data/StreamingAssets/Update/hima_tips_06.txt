@@ -19,94 +19,94 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　天気予報が、今週一週間、雨がまったく降らないことを予告した。",
-		   NULL, "The weather forecast had predicted that it wouldn't rain at all this entire week.", Line_Normal);
+		   NULL, "A previsão do tempo dizia que não choveria por toda esta semana.", Line_Normal);
 	ClearMessage();
 
 
 //　晴れの日が嫌いなわけじゃない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　晴れの日が嫌いなわけじゃない。",
-		   NULL, "It's not that I hate sunny days or anything.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não é que eu odeie dias de sol.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　だけれども、連日代わり映えのない晴れ続きだったなら、誰だって雨雲が恋しくなるに違いない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だけれども、連日代わり映えのない晴れ続きだったなら、誰だって雨雲が恋しくなるに違いない。",
-		   NULL, "When every day is the same, unchanging, sunny weather, however, anybody would long for a rain cloud or two.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Porém, quando todos os dias são iguais, imutáveis, com o tempo ensolarado, qualquer um desejaria uma ou duas nuvens de chuva.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　一週間一月一年と、いつまでも単調な晴れ空が続いたら、誰だって雨雲が恋しくなるに違いない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一週間一月一年と、いつまでも単調な晴れ空が続いたら、誰だって雨雲が恋しくなるに違いない。",
-		   NULL, "If it's simply clear skies for a week, a month, a year--anybody would long for a rain cloud or two.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se o céu ficasse sempre limpo, por uma semana, um mês, um ano--qualquer um desejaria por uma ou duas nuvens de chuva.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　お天気の専門家が、過去のデータをいくつも並べ、それらを充分に吟味した上でそうだと発表するのだから、その予報は簡単に外れるものじゃない＠そんなのはわかってる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お天気の専門家が、過去のデータをいくつも並べ、それらを充分に吟味した上でそうだと発表するのだから、その予報は簡単に外れるものじゃない。",
-		   NULL, "The weather specialist said that they had carefully scrutinized a large quantity of past data, so it wouldn't be so likely for the forecast to be wrong.", Line_WaitForInput);
+		   NULL, "O especialista em meteorologia disse que eles haviam cuidadosamente analisado uma grande quantidade de dados, por isso não seria muito provável que a previsão estivesse errada.", Line_WaitForInput);
 	OutputLine(NULL, "そんなのはわかってる。",
-		   NULL, " I knew as much.", Line_Normal);
+		   NULL, " Eu sabia desse tanto.", Line_Normal);
 	ClearMessage();
 
 //　……でも、だからこそ、たまの一日くらいその天気予報が外れやしないかと期待して、晴れ空を見上げるのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……でも、だからこそ、たまの一日くらいその天気予報が外れやしないかと期待して、晴れ空を見上げるのだ。",
-		   NULL, "...But even then, there was occasionally a day where I was hoping that it would be wrong, as I stared up into the clear blue sky.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Mas, mesmo assim, eu esperava que ocasionalmente eles errassem, enquanto eu olhava para o céu azul claro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　そんな私は天邪鬼だろうか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな私は天邪鬼だろうか？",
-		   NULL, "Was I being mischievous in hoping so?", Line_Normal);
+		   NULL, "Será que eu era uma pessoa ruim por pensar assim?", Line_Normal);
 	ClearMessage();
 
 
 //　待てども待てども、雨雲の訪れぬ晴天の空の退屈さに、時に窒息しそうにもなる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　待てども待てども、雨雲の訪れぬ晴天の空の退屈さに、時に窒息しそうにもなる。",
-		   NULL, "I waited and waited, feeling almost suffocated by the boring blue sky undisturbed by a single cloud.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu esperei e esperei, sentindo-me quase sufocada pelo céu azul chato, sem uma única nuvem para perturbá-lo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　もしもそれで窒息して死ねたなら＠…きっと地球の人間はこんなには増えないだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もしもそれで窒息して死ねたなら。",
-		   NULL, "If you could die from that suffocating feeling...", Line_WaitForInput);
+		   NULL, "Se você pudesse morrer por causa dessa sensação sufocante...", Line_WaitForInput);
 	OutputLine(NULL, "…きっと地球の人間はこんなには増えないだろう。",
-		   NULL, " then the population of Earth probably wouldn't have increased to this point.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Então a população da Terra provavelmente não teria aumentado até este ponto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　それはつまり、…こういうことで窒息できるのは、私だけなのだということなのだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはつまり、…こういうことで窒息できるのは、私だけなのだということなのだ。",
-		   NULL, "In other words... the only person who was being suffocated by this was me.", Line_Normal);
+		   NULL, "Em outras palavras... a única pessoa que estava sendo sufocada por isso era eu mesma.", Line_Normal);
 	ClearMessage();
 
 
 //　だからこそ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからこそ。",
-		   NULL, "And so...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E assim...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　……天気予報にすらも予見できない夏の夕暮れの突然の夕立に、私は歓喜する＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……天気予報にすらも予見できない夏の夕暮れの突然の夕立に、私は歓喜する。",
-		   NULL, "I welcomed the summer evenings where not even the weather forecast could predict a sudden shower.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu dava as boas-vindas às noites de verão, quando nem mesmo a previsão do tempo conseguia prever uma chuva repentina.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　こういう風に説明すれば、あなたたちにも私の気持ちが少しは伝わるのだろうか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こういう風に説明すれば、あなたたちにも私の気持ちが少しは伝わるのだろうか？",
-		   NULL, "If I were to explain it like this, would you understand a bit more about how I feel?", Line_Normal);
+		   NULL, "Se eu fosse explicar isso, você entenderia um pouco mais sobre como eu me sinto?", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -116,81 +116,81 @@ void main()
 //　例えば、今夜の晩御飯がカレーライスだと決まってるとする＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例えば、今夜の晩御飯がカレーライスだと決まってるとする。",
-		   NULL, "Let's say that tonight's dinner was going to be curry rice.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Vamos dizer que o jantar desa noite seria curry com arroz.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　でも、実際に食卓に呼ばれてみたら、実はナスとピーマンの炒め物になっていたとする＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、実際に食卓に呼ばれてみたら、実はナスとピーマンの炒め物になっていたとする。",
-		   NULL, "But, when you're called down to the dinner table, what was waiting for you was instead an eggplant and bell pepper stirfry.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas, quando você foi chamado para a mesa, ao invés disso, o que havia era berinjelas e pimentões fritos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　これは母の気まぐれなわけだけど＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これは母の気まぐれなわけだけど。",
-		   NULL, "This is just on your mother's whim, by the way.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Isto é apenas um capricho de sua mãe.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　私にはその気まぐれがとても嬉しい＠ナスとピーマンは確かに好きじゃないけれど、それでも嬉しい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私にはその気まぐれがとても嬉しい。",
-		   NULL, "I would be delighted by such whimsy.", Line_WaitForInput);
+		   NULL, "Eu ficaria feliz com esses caprichos.", Line_WaitForInput);
 	OutputLine(NULL, "ナスとピーマンは確かに好きじゃないけれど、それでも嬉しい。",
-		   NULL, " I don't really like eggplants or bell peppers, but still, I would be delighted.", Line_Normal);
+		   NULL, " Eu realmente não gosto de berinjelas ou pimentões, mas ainda assim, eu ficaria feliz.", Line_Normal);
 	ClearMessage();
 
 
 //　今夜はカレーライスということになっていた、予定調和が崩れたのが楽しいのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今夜はカレーライスということになっていた、予定調和が崩れたのが楽しいのだ。",
-		   NULL, "The fact that that the pre-established routine of curry rice had been broken would be amusing.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O fato de que a rotina pré-estabelecida de curry com arroz tinha sido quebrada seria divertido.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　今夜という日が仮に百回繰り返されたとして、百回食べなければならないと決まっていたカレーライス＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今夜という日が仮に百回繰り返されたとして、百回食べなければならないと決まっていたカレーライス。",
-		   NULL, "If tonight was repeated a hundred times, and a hundred times you had to eat curry rice...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se esta noite fosse repetida cem vezes, e cem vezes você tivesse de comer curry com arroz...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…それが、今夜はナスとピーマンの炒め物に変わったのだ＠この偶然を楽しめないわけがない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それが、今夜はナスとピーマンの炒め物に変わったのだ。",
-		   NULL, "Yet for just this one night, that was changed to an eggplant and bell pepper stirfry,", Line_WaitForInput);
+		   NULL, "No entanto, se por apenas uma noite, isso fosse alterado para berinjelas e pimentão frito,", Line_WaitForInput);
 	OutputLine(NULL, "この偶然を楽しめないわけがない。",
-		   NULL, " there's no way you couldn't enjoy that chance happening.", Line_Normal);
+		   NULL, " de nenhuma maneira você não apreciaria essa mudança acontecendo.", Line_Normal);
 	ClearMessage();
 
 
 //　私は予定調和が嫌い＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は予定調和が嫌い。",
-		   NULL, "I hate pre-established routines.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu odeio rotinas pré-estabelecidas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　決められた予定が大嫌い＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　決められた予定が大嫌い。",
-		   NULL, "I really hate when things are all decided beforehand.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu realmente odeio quando as coisas são todas decididas de antemão.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　私は退屈を愛さない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は退屈を愛さない。",
-		   NULL, "I have no love for boredom.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não tenho nenhum amor pelo tédio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　どんな些細なことであれ、昨日までと違う何かが起こることに期待を寄せてしまうのだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どんな些細なことであれ、昨日までと違う何かが起こることに期待を寄せてしまうのだ。",
-		   NULL, "I always get my hopes up that something today will be different from yesterday, no matter how trivial.", Line_Normal);
+		   NULL, "Eu sempre mantenho as minhas esperanças de que alguma coisa hoje vai ser diferente de ontem, não importa o quão trivial.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -199,42 +199,42 @@ void main()
 //　今日から一週間、ずっと晴れであることは決まっている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今日から一週間、ずっと晴れであることは決まっている。",
-		   NULL, "It's been decided that this entire week starting today was going to be clear skies.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Foi decidido que esta semana inteira, começando hoje, seria de um céu claro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　天気予報がそうだと決めているし、お天気の神さまもきっとそのつもりだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　天気予報がそうだと決めているし、お天気の神さまもきっとそのつもりだ。",
-		   NULL, "The weather forecast decided upon it, so the God of Weather must also feel obliged to do so.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A previsão do tempo decidiu isso, então o Deus do Tempo também deve se sentir obrigado a fazê-lo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　でも、…何かの気まぐれで、…その内の一日くらいは雨雲がやって来ないなんて、誰にも言い切れない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、…何かの気まぐれで、…その内の一日くらいは雨雲がやって来ないなんて、誰にも言い切れない。",
-		   NULL, "But who's to say that a rain cloud might not just show up one day on a whim?", Line_Normal);
+		   NULL, "Mas, quem pode dizer que uma nuvem de chuva não pode aparecer num destes dias, simplesmente por um capricho?", Line_Normal);
 	ClearMessage();
 
 
 //　……誰にも言いきれない要素が、常にこの世界には残されているからこそ、私のような生き物は窒息しないでいられるのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……誰にも言いきれない要素が、常にこの世界には残されているからこそ、私のような生き物は窒息しないでいられるのだ。",
-		   NULL, "...It's something that nobody can say for sure, but because that thought remains in this world, a creature such as myself can continue living without being suffocated.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...É algo que ninguém pode dizer com certeza, mas porque esse pensamento permanece neste mundo, uma criatura como eu pode continuar vivendo sem ficar sufocada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　明日も多分、快晴でかなり暑い日になるだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　明日も多分、快晴でかなり暑い日になるだろう。",
-		   NULL, "Tomorrow will probably be a hot and clear day.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Amanhã provavelmente vai ser um dia quente e claro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　でも、私だけはそんな予定調和が、１％を切るくらいの微細な確率で…たまには変わってしまうことを知っている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、私だけはそんな予定調和が、１％を切るくらいの微細な確率で…たまには変わってしまうことを知っている。",
-		   NULL, "However, I'm the only one that knows that predetermined fate, even with but a slim 1% chance... sometimes changes.", Line_Normal);
+		   NULL, "No entanto, eu sou a única que sabe que um destino predeterminado, mesmo com uma magra chance de 1%... algumas vezes é alterado.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -243,80 +243,80 @@ void main()
 //　その１％の何かを期待して、晴れの軒先に逆さにしたてるてる坊主を吊るすのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その１％の何かを期待して、晴れの軒先に逆さにしたてるてる坊主を吊るすのだ。",
-		   NULL, "Hoping for that 1%, I hung up upside-down weather charms on my sunlit eavestroughs.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Confiando nesses 1%, eu coloco os teru-teru-bouzu de cabeça para baixo nas calhas iluminadas pelo sol.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　私は結局、森羅万象にそういう意外性を期待して生きている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は結局、森羅万象にそういう意外性を期待して生きている。",
-		   NULL, "In the end, I spend my days waiting for those unexpected things in life to happen.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No final, eu passo meus dias esperando por essas coisas inesperadas na vida acontecerem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　どうして期待しているのか、…ふと考えた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうして期待しているのか、…ふと考えた。",
-		   NULL, "I pondered why I was hoping for it...", Line_Normal);
+		   NULL, "Eu refleti por que eu estava esperando por isso...", Line_Normal);
 	ClearMessage();
 
 
 //　どうして私は雨雲を待っているのか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうして私は雨雲を待っているのか？",
-		   NULL, "Why was I hoping for a rain cloud?", Line_Normal);
+		   NULL, "Por que eu estava esperando por uma nuvem de chuva?", Line_Normal);
 	ClearMessage();
 
 
 //　…それは簡単＠晴れの空に飽食しているから￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それは簡単。",
-		   NULL, "...The answer was simple.", Line_WaitForInput);
+		   NULL, "...A resposta era simples.", Line_WaitForInput);
 	OutputLine(NULL, "晴れの空に飽食しているから。",
-		   NULL, " I've had my fill of clear skies.", Line_Normal);
+		   NULL, " Eu já estava satisfeita com céus claros.", Line_Normal);
 	ClearMessage();
 
 
 //　じゃあ、私はどうして雨雲を待っているのか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　じゃあ、私はどうして雨雲を待っているのか？",
-		   NULL, "Then why was I hoping for a rain cloud?", Line_Normal);
+		   NULL, "Mas então, por que eu estava esperando por uma nuvem de chuva?", Line_Normal);
 	ClearMessage();
 
 
 //　…それは簡単＠晴れと決まった明日が退屈だから￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それは簡単。",
-		   NULL, "...The answer was simple.", Line_WaitForInput);
+		   NULL, "...A resposta era simples.", Line_WaitForInput);
 	OutputLine(NULL, "晴れと決まった明日が退屈だから。",
-		   NULL, " The fact that it was going to be sunny tomorrow was boring.", Line_Normal);
+		   NULL, " O fato de que amanhã ia ser ensolarado era tedioso.", Line_Normal);
 	ClearMessage();
 
 //　だから、私はどうして雨雲を待っているのか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、私はどうして雨雲を待っているのか？",
-		   NULL, "So why was I hoping for a rain cloud?", Line_Normal);
+		   NULL, "Qual era o motivo pelo qual eu estava esperando por uma nuvem de chuva?", Line_Normal);
 	ClearMessage();
 
 
 //　結局、明日が晴れたって雨になったって、どうでもいい＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　結局、明日が晴れたって雨になったって、どうでもいい。",
-		   NULL, "In the end, it doesn't really matter whether it rains or shines tomorrow.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No final, não importava se iria chover ou fazer sol amanhã.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　結局は、そんな雨だって、私の心を荒涼とさせる退屈をしばらくの間、濡らして潤してくれるだけなのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　結局は、そんな雨だって、私の心を荒涼とさせる退屈をしばらくの間、濡らして潤してくれるだけなのだ。",
-		   NULL, "Basically, it was just that the rain would water my heart, which was withered from boredom.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Basicamente, era apenas que a chuva iria lavar o meu coração, que estava seco pelo tédio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　だから、私はあらすじの決まったテレビドラマを見るよりも＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、私はあらすじの決まったテレビドラマを見るよりも。",
-		   NULL, "That's why rather than a TV drama where the plot's already been decided...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "É por isso que em vez de ver um drama na televisão, onde o enredo já foi decidido...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -324,7 +324,7 @@ void main()
 //　…空を見上げている方が好き￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…空を見上げている方が好き。",
-		   NULL, "...I prefer to look up at the sky.", Line_Normal);
+		   NULL, "...Eu prefiro olhar para o céu.", Line_Normal);
 	ClearMessage();
 
 
