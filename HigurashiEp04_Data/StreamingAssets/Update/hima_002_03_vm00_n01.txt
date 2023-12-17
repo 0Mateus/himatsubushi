@@ -8,7 +8,7 @@ void dialog000()
 {
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700215", 256, TRUE);
 	OutputLine(NULL, "テレクラにだいぶ通い慣れてるんじゃないですか？」",
-		   NULL, " Are you a regular user of dating chatlines or something?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você é um usuário regular de linhas de bate-papo para encontros?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -16,7 +16,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300271", 256, TRUE);
 	OutputLine(NULL, "「そんないかがわしいところに通った試しなどありません…！」",
-		   NULL, "\"I would never even try something seedy like that...!\"", Line_Normal);
+		   NULL, "\"Eu nunca sequer tentei algo tão sórdido como isso...!\"", Line_Normal);
 	ClearMessage();
 
 
@@ -24,13 +24,13 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700216", 256, TRUE);
 	OutputLine(NULL, "「そこまで過剰に反応されると、…面白いなぁ。",
-		   NULL, "\"The way you overreact is rather... interesting.", Line_WaitForInput);
+		   NULL, "\"A sua reação exagerada é particularmente... interessante.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700217", 256, TRUE);
 	OutputLine(NULL, "なっはっはっは！",
 		   NULL, " Na ha ha ha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700218", 256, TRUE);
 	OutputLine(NULL, "　ちょっとＨな遊びができる店にでも遊びに行きます？",
-		   NULL, " Wanna go to a place where you can have a little bit of lewd fun?", Line_WaitForInput);
+		   NULL, " Que tal irmos a um lugar onde você pode ter um pouco de diversão erótica?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700219", 256, TRUE);
 	OutputLine(NULL, "　んっふっふっふ！」",
 		   NULL, " Nfu fu fu!\"", GetGlobalFlag(GLinemodeSp));
@@ -41,7 +41,7 @@ void dialog003()
 {
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700221", 256, TRUE);
 	OutputLine(NULL, "　それは残念です、次の機会にしましょうかね。",
-		   NULL, " Too bad, we'll leave that for next time, then.", Line_WaitForInput);
+		   NULL, " Que pena, vamos deixar isso para a próxima vez, né.", Line_WaitForInput);
 }
 
 void dialog004()
@@ -50,7 +50,7 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300284", 256, TRUE);
 	OutputLine(NULL, "「…………今さら野暮なことを聞きますが、…お金、賭けるんですよね…？」",
-		   NULL, "\"...I know asking this now might be stupid... but we're betting money on this, aren't we...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Eu sei que perguntar isso agora pode parecer estúpido, mas... nós estamos apostando dinheiro nisso, não estamos...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
@@ -60,13 +60,13 @@ void dialog005()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700257", 256, TRUE);
 	OutputLine(NULL, "「まぁ〜そりゃあ、ちょびっとね。",
-		   NULL, "\"Well~ you see, just a little.", Line_WaitForInput);
+		   NULL, "\"Bem~ sabe, só um pouquinho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700258", 256, TRUE);
 	OutputLine(NULL, "なぁに、お遊び程度の額ですよ。",
-		   NULL, " It's just a little for funsies.", Line_WaitForInput);
+		   NULL, " É apenas um pouco, só para diversão.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700259", 256, TRUE);
 	OutputLine(NULL, "誰が払ったにせよ、そのお金でこの後はい〜いお店に遊びに行くのに使いますよ〜〜！",
-		   NULL, " But it doesn't matter who loses, because after this, we're using that money to go play at a very ni~ce place~~!", Line_WaitForInput);
+		   NULL, " Mas não importa quem vai perder, porque depois disso, vamos usar esse dinheiro para ir brincar num lugar muito agradável~~!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700260", 256, TRUE);
 	OutputLine(NULL, "　むっふっふっふっふ〜〜！！！」",
 		   NULL, " Mfu fu fu fu fu~~!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -79,7 +79,7 @@ void dialog006()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300287", 256, TRUE);
 	OutputLine(NULL, "「……私のお金は先日、大石さんに根こそぎ取られましたし、…私も仕事の都合があるので長居はできないのですが…。」",
-		   NULL, "\"...Ooishi-san took all my money the other day, and I also have work to do, so I can't stay for long...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Ooishi-san tomou todo o meu dinheiro no outro dia, e eu também tenho trabalho a fazer, então eu não posso ficar por muito tempo...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -87,7 +87,7 @@ void dialog007()
 {
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800005", 256, TRUE);
 	OutputLine(NULL, "　お前が買ったらその金でこの雀荘の支払いをして、蔵人に仕事の話でも何でもすればいい。」",
-		   NULL, " If you win, then you can use that money to pay for this table, and you can talk to Kuraudo about work or whatever.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se você ganhar, então você pode usar o dinheiro para pagar por esta mesa, e você pode falar com Kuraudo sobre o trabalho, ou o que seja.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -97,13 +97,13 @@ void dialog008()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300288", 256, TRUE);
 	OutputLine(NULL, "「……わかりました。",
-		   NULL, "\"...I understand.", Line_WaitForInput);
+		   NULL, "\"...Entendo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300289", 256, TRUE);
 	OutputLine(NULL, "では、少しだけお付き合いします。",
-		   NULL, " Then, I'll play with you guys for just a bit.", Line_WaitForInput);
+		   NULL, " Então, eu vou jogar um pouco com vocês.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300290", 256, TRUE);
 	OutputLine(NULL, "私が勝ったら、お金もＨなお店も一切なしで、すぐに仕事の話に入ってもらいますからね。」",
-		   NULL, " If I win, you guys don't get any of the money or get to go to any of those dirty places, and we talk about work right away.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se eu ganhar, vocês não vão receber o dinheiro, nem vão a qualquer desses lugares sujos, e falaremos de trabalho imediatamente.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -111,7 +111,7 @@ void dialog009()
 {
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700266", 256, TRUE);
 	OutputLine(NULL, "　私はもちろん花びら大回転なお店をハシゴしまくりですよ？",
-		   NULL, " Of course, we're going to hop between all the places where they keep the girls coming! ", Line_WaitForInput);
+		   NULL, " Claro, vamos pular entre todos os lugares onde eles têm garotas chegando! ", Line_WaitForInput);
 }
 
 void dialog010()
@@ -120,7 +120,7 @@ void dialog010()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700270", 256, TRUE);
 	OutputLine(NULL, "「静かにバニーさんと、足掛けクロスとかできるお店でしょー？",
-		   NULL, "\"Like a nice quiet place where you can play footsies with a bunny girl?", Line_WaitForInput);
+		   NULL, "\"Como um lugar quieto, onde você pode brincar com uma coelhinha?", Line_WaitForInput);
 }
 
 void dialog011()
@@ -129,7 +129,7 @@ void dialog011()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400010", 256, TRUE);
 	OutputLine(NULL, "「マスターに縫製代とか言われて、一本持ってかれたなぁ。」",
-		   NULL, "\"The owner ended up charging what he called a 'tailoring fee.'\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"O proprietário acabou cobrando, pelo que ele chamou de 'taxa de costura'.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -139,10 +139,10 @@ void dialog012()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300356", 256, TRUE);
 	OutputLine(NULL, "「……早稲田、高田馬場辺りでだいぶ遊ばせてもらいました。",
-		   NULL, "\"I played quite a bit around Waseda and Takadanobaba.", Line_WaitForInput);
+		   NULL, "\"Eu jogava bastante em volta de Waseda e Takadanobaba.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300357", 256, TRUE);
 	OutputLine(NULL, "ちょっとレートを上げすぎて、馴染みの店に出禁を食らいまして。",
-		   NULL, " I raised the stakes a little too much at the place I frequented and they banned me. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu aumentei um pouco demais as apostas do lugar que costumava frequentar, então eles me baniram. ", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog013()
@@ -151,10 +151,10 @@ void dialog013()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300359", 256, TRUE);
 	OutputLine(NULL, "「面子にもよりましたが、歌舞伎町辺りで打つときは高目でした。",
-		   NULL, "\"It depends on who I was playing with, but there were pretty high stakes when I played in Kabukicho.", Line_WaitForInput);
+		   NULL, "\"Depende de contra quem eu estava jogando, mas era mais caro quando eu jogava em Kabukicho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300360", 256, TRUE);
 	OutputLine(NULL, "一番大きいので、デカリャンピンで打ったこともありましたっけ。」",
-		   NULL, " The largest I played with were about 20 times the standard rate.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " As apostas mais altas com as quais eu joguei foram de 20 vezes o valor padrão.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -165,8 +165,8 @@ void dialog014()
 		   NULL, " Kuraudo!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800054", 256, TRUE);
 	OutputLine(NULL, "　このタコ！！",
-		   NULL, " You buffoon!!", Line_WaitForInput);
+		   NULL, " Seu pateta!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104800055", 256, TRUE);
 	OutputLine(NULL, "　お前、どこからこんなヤクザの代打ちみたいの引っ張ってきたんだ！！",
-		   NULL, " Where did you pull this guy from? He's strong enough to play for the Yakuza!!", Line_WaitForInput);
+		   NULL, " De onde você tirou este cara? Ele é bom o bastante para jogar pela Yakuza!!", Line_WaitForInput);
 }
