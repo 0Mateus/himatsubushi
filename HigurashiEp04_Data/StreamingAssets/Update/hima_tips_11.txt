@@ -18,102 +18,102 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入院患者に電話が取り次がれる時間は決まっている。",
-		   NULL, "Patients admitted to the hospital can only accept calls at fixed times.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os pacientes do hospital só podem aceitar chamadas em horários fixos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　…だから、今日はもうあの人からの電話は来ない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だから、今日はもうあの人からの電話は来ない。",
-		   NULL, "...That's why she wouldn't be receiving a call from him today.", Line_Normal);
+		   NULL, "...É por isso que ela não poderia receber um telefonema dele hoje.", Line_Normal);
 	ClearMessage();
 
 
 //　昨日、寂しがり屋だとからかったから、ひょっとすると電話をかけるかかけまいか、さんざん迷った末に我慢したのかもしれない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昨日、寂しがり屋だとからかったから、ひょっとすると電話をかけるかかけまいか、さんざん迷った末に我慢したのかもしれない。",
-		   NULL, "Yesterday, she had teased him that he got lonely easily, so he might have struggled with the idea of calling her sooner.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ontem, ela tinha provocado que ele se sentia solitário facilmente, então ele talvez tivesse resistido à ideia de chamá-la mais cedo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　忙しくて電話できなかったと言うより、そっちの方がはるかに説得力のある想像だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　忙しくて電話できなかったと言うより、そっちの方がはるかに説得力のある想像だった。",
-		   NULL, "That was much easier to imagine, rather than that he might just be too busy to call.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Era muito mais fácil de imaginar disso, ao invés de que ele poderia estar muito ocupado para ligar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…あの人はそういう人だから＠雪絵はそう呟き、ひとり笑った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あの人はそういう人だから。",
-		   NULL, "...Because he's just that type of person.", Line_WaitForInput);
+		   NULL, "...Porque ele é simplesmente esse tipo de pessoa.", Line_WaitForInput);
 	OutputLine(NULL, "雪絵はそう呟き、ひとり笑った。",
-		   NULL, " Yukie, whispering that, smiled to herself.", Line_Normal);
+		   NULL, " Yukie, sussurrando isso, sorriu para si mesma.", Line_Normal);
 	ClearMessage();
 
 
 //　面会時間の終わりを告げる院内放送と音楽が流れ始める＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　面会時間の終わりを告げる院内放送と音楽が流れ始める。",
-		   NULL, "The announcement that visiting hours were over played over the hospital intercom along with some music.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O anúncio de que as horas de visita estavam terminadas veio pelo sistema de som do hospital, acompanhado de um pouco de música.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　見知った顔の、同室の患者を見舞う家族たちとの挨拶＠母の退院を心待ちにしているのだろう、小さな子の笑顔が眩しい＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　見知った顔の、同室の患者を見舞う家族たちとの挨拶。",
-		   NULL, "She exchanged pleasantries with the family of the patient that was staying in the same room as her.", Line_WaitForInput);
+		   NULL, "Ela trocou palavras afáveis com a família da paciente que estava internada no mesmo quarto que ela.", Line_WaitForInput);
 	OutputLine(NULL, "母の退院を心待ちにしているのだろう、小さな子の笑顔が眩しい。",
-		   NULL, " Probably eager for his mother to be discharged, their small child was wearing a beaming smile.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Provavelmente ansiosa por sua mãe receber alta, sua criança pequena estava com um sorriso radiante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　その子の母親は、私の隣のベッドで、その子の弟、もしくは妹になる子を身篭っていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その子の母親は、私の隣のベッドで、その子の弟、もしくは妹になる子を身篭っていた。",
-		   NULL, "That child's mother was pregnant in the bed next to mine with what may be their new brother or sister.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A mãe da criança estava grávida, na cama ao lado da minha, com o que podia ser o novo irmão ou irmã da criança.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　新しい兄弟に寄せる期待や不安、夢に、その子の想像ははちきれんばかりになっているのだろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　新しい兄弟に寄せる期待や不安、夢に、その子の想像ははちきれんばかりになっているのだろう。",
-		   NULL, "They were probably ready to burst with the expectations, dreams, and worries of having a new sibling.", Line_Normal);
+		   NULL, "Eles provavelmente estavam prontos para explodir com as expectativas, sonhos e preocupações de ter uma nova criança.", Line_Normal);
 	ClearMessage();
 
 
 //　家族が増えていく喜び＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　家族が増えていく喜び。",
-		   NULL, "The joys of a growing family.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "As alegrias de uma família crescendo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　………そんな温かな気持ちに満たされながら、私はだいぶ大きくなった自分のお腹を撫でた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………そんな温かな気持ちに満たされながら、私はだいぶ大きくなった自分のお腹を撫でた。",
-		   NULL, "...Bathing in those warm feelings, I stroked my own belly, which had grown quite large.", Line_Normal);
+		   NULL, "...Banhando-me nesses sentimentos calorosos, eu acariciei meu próprio ventre, que tinha crescido bastante.", Line_Normal);
 	ClearMessage();
 
 
 //　子どもを何人もうけるか、あの人と話したことはある＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　子どもを何人もうけるか、あの人と話したことはある。",
-		   NULL, "I had talked with him about how many children we wanted to have.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu tinha conversado com ele sobre quantas crianças queríamos ter.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　３人もいたら、きっと賑やかだろうねと、話したことはある＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　３人もいたら、きっと賑やかだろうねと、話したことはある。",
-		   NULL, "We talked about how if we had three, it would certainly be lively.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Falamos sobre como seria se tivéssemos três, certamente seria bem animado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　…でも、目を背けられない現実として、私がそれだけの出産に耐えられるかの不安はある￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…でも、目を背けられない現実として、私がそれだけの出産に耐えられるかの不安はある。",
-		   NULL, "...However, there was the inescapable worry of whether I would be able to handle giving birth that many times.", Line_Normal);
+		   NULL, "...No entanto, havia a preocupação inevitável de saber se eu seria capaz de lidar com o parto tantas vezes.", Line_Normal);
 	ClearMessage();
 
 
@@ -121,7 +121,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44021", 256, TRUE);
 	OutputLine(NULL, "「でも、そんなことを不安に思って出産を嫌う母なんて、いないですものねぇ…。」",
-		   NULL, "\"There isn't a mother out there who would hate to give birth because of that worry, though...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Mas, não existe uma única mãe que odiaria dar à luz por conta dessa preocupação...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -129,48 +129,48 @@ void main()
 //　雪絵はそう独り言を言って笑いながら、自分のお腹をやさしくさするのだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雪絵はそう独り言を言って笑いながら、自分のお腹をやさしくさするのだった。",
-		   NULL, "Yukie, smiling as she said that to herself, gently stroked her stomach.", Line_Normal);
+		   NULL, "Yukie, sorrindo enquanto dizia isso para si mesma, acariciava gentilmente sua barriga.", Line_Normal);
 	ClearMessage();
 
 
 //　警視庁公安部＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　警視庁公安部。",
-		   NULL, "The Metropolitan Public Safety Division.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A Divisão de Segurança Pública Metropolitana.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　あの人の正義心がたどり着いた先＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの人の正義心がたどり着いた先。",
-		   NULL, "The place where that man's sense of justice had lead him.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O lugar onde o senso de justiça desse homem o tinha levado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　……あの人は本当はとてもやさしくて、傷つきやすい人￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あの人は本当はとてもやさしくて、傷つきやすい人。",
-		   NULL, "...That person was actually a very gentle, very fragile person.", Line_Normal);
+		   NULL, "...Essa pessoa era realmente uma pessoa muito gentil, muito frágil.", Line_Normal);
 	ClearMessage();
 
 //　あまり詳しくは聞かせてくれないけれど、…今の仕事はあまりあの人には向いていないと思っている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あまり詳しくは聞かせてくれないけれど、…今の仕事はあまりあの人には向いていないと思っている。",
-		   NULL, "He didn't talk much about the specifics, but I didn't think he was suited for the assignment he was on right now.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele não tinha falado muito sobre os detalhes, mas eu acho que devia ser necessário para a missão que ele estava executando agora.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　でも、…あの人が頑張ると言い続けている内は、私も温かく見守るつもりだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、…あの人が頑張ると言い続けている内は、私も温かく見守るつもりだ。",
-		   NULL, "But... as long as he said he was going to try his best, I would watch over him warmly.", Line_Normal);
+		   NULL, "Mas... contanto que ele dissesse que tentaria fazer o seu melhor, eu iria cuidar dele calorosamente.", Line_Normal);
 	ClearMessage();
 
 //「あなたのお父さんはね、…とっても頑張り屋さんなのよ＠　こちょこちょこちょこちょ……☆＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雪絵</color>", NULL, "<color=#f5e6d3>Yukie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/yukie44022", 256, TRUE);
 	OutputLine(NULL, "「あなたのお父さんはね、…とっても頑張り屋さんなのよ？",
-		   NULL, "\"Your father, you see... is a very hard worker, you know?", Line_Continue);
+		   NULL, "\"Seu pai, sabe... é um trabalhador muito esforçado, sabe?", Line_Continue);
 	Wait( 3000 );
 	OutputLine(NULL, "　こちょこちょこちょこちょ……☆」",
 		   NULL, " Coochie coochie coo...☆.\"", GetGlobalFlag(GLinemodeSp));
@@ -180,14 +180,14 @@ void main()
 //　雪絵は自分のお腹に話しかけながら、とても楽しそうだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雪絵は自分のお腹に話しかけながら、とても楽しそうだった。",
-		   NULL, "Yukie seemed to be enjoying herself as she talked to her own belly.", Line_Normal);
+		   NULL, "Yukie parecia estar se divertindo enquanto conversava com sua própria barriga.", Line_Normal);
 	ClearMessage();
 
 
 //　…その時、雪絵はなぜかふと気になり、窓を見た￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その時、雪絵はなぜかふと気になり、窓を見た。",
-		   NULL, "...At that moment, Yukie suddenly became concerned about something, and looked out the window.", Line_Normal);
+		   NULL, "...Nesse momento, Yukie de repente ficou preocupada com alguma coisa, e olhou pela janela.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/sora2", 400 );
@@ -196,37 +196,37 @@ void main()
 //　刻限は夕方＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　刻限は夕方。",
-		   NULL, "It used to be this time...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Costumava ser por volta desta hora...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　……昔＠小さかった頃、祖母の田舎ではこんな時間には、ひぐらしの合唱でいっぱいに満たされていたのを思い出す￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……昔。",
-		   NULL, "Long ago.", Line_WaitForInput);
+		   NULL, "Há muito tempo atrás.", Line_WaitForInput);
 	OutputLine(NULL, "小さかった頃、祖母の田舎ではこんな時間には、ひぐらしの合唱でいっぱいに満たされていたのを思い出す。",
-		   NULL, " She remembered that when she was little, around this time in the countryside where her grandmother lived, the higurashi would fill the air with their chorus.", Line_Normal);
+		   NULL, " Ela lembrou de que quando era uma criança, por volta desta hora, na região do interior onde sua avó vivia, as higurashi preenchiam o ar com seu coro.", Line_Normal);
 	ClearMessage();
 
 
 //　ここは東京のど真ん中＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここは東京のど真ん中。",
-		   NULL, "This was the middle of Tokyo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Agora, ela estava bem no meio de Tóquio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　田舎と違い、ひぐらしの合唱は聞くことができない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　田舎と違い、ひぐらしの合唱は聞くことができない。",
-		   NULL, "Unlike in the countryside, you couldn't hear the song of the higurashi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Diferente do interior, não tinha como você ouvir o canto das higurashi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　……なのになぜか、…その時の行雪絵は、ひぐらしの声が聞きたい…と思った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……なのになぜか、…その時の雪絵は、ひぐらしの声が聞きたい…と思った。",
-		   NULL, "...But for some reason... at that moment Yukie felt that she wanted to hear that song.", Line_Normal);
+		   NULL, "...Mas, por alguma razão... nesse momento, Yukie sentiu que ela queria ouvir esse canto.", Line_Normal);
 	ClearMessage();
 
 
