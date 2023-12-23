@@ -1993,10 +1993,10 @@ void main()
 //　…その後のドミノ連鎖は割愛するが、最終的に内閣支持率低下＠解散総選挙＠共産勢力の拡大を許す結果となりかねない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その後のドミノ連鎖は割愛するが、最終的に内閣支持率低下、",
-		   NULL, "...Eu vou poupá-los da explicação de como o resto dos dominós cairiam, mas, no final, seu apoio no Congresso diminuiria,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu vou poupá-los da explicação de como o resto dos dominós cairiam, mas, no final, seu apoio no Congresso diminuiria, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解散総選挙、",
-		   NULL, " seguido por um voto de desconfiança e eleições antecipadas,", Line_WaitForInput);
+		   NULL, "seguido por um voto de desconfiança e eleições antecipadas,", Line_WaitForInput);
 	OutputLine(NULL, "共産勢力の拡大を許す結果となりかねない。",
 		   NULL, " e isso poderia mesmo se expandir para influências comunistas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
