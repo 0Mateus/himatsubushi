@@ -48,7 +48,7 @@ void main()
 //rそれなら今飛び込めば、…もしかしたら！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それなら今飛び込めば、…もしかしたら！！",
-			NULL, "Se for assim, talvez se eu pular nele agora, ...Eu poderia—!!", Line_Normal);
+			NULL, "Se for assim, talvez se eu pular nele agora, ...eu poderia—!!", Line_Normal);
 	ClearMessage();
 
 //赤坂rvS05/13/VT2_akasaka1001.「うおぉぉおぉっっ！！！」
