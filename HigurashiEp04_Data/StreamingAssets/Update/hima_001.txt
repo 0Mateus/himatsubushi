@@ -623,7 +623,7 @@ void main()
 //　そんな下らないことを頭に満たしながら、彼は三度目の呼び出し音が鳴り終わった余韻を噛み締めながら受話器を取った…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな下らないことを頭に満たしながら、彼は三度目の呼び出し音が鳴り終わった余韻を噛み締めながら受話器を取った…。",
-		   NULL, "Com sua mente cheia de tais pensamentos triviais, ele pegou o telefone depois do terceiro toque, a vibração do aparelho amortecida por sua vibração...", Line_Normal);
+		   NULL, "Com sua mente cheia de tais pensamentos triviais, ele pegou o telefone depois do terceiro toque, a vibração do aparelho foi amortecida por sua ação...", Line_Normal);
 	ClearMessage();
 
 //「…………はい＠…………もしもし……？＠
