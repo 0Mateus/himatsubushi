@@ -715,7 +715,7 @@ void main()
 	ModDrawCharacter(3, 18, "sprite/ki_warai_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「牧野さん、その人＠　電話をくれた観光の人は。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300001", 256, TRUE);
 	OutputLine(NULL, "「牧野さん、その人？",
 		   NULL, "\"Makino-san, quem é esse?", Line_WaitForInput);
@@ -747,7 +747,7 @@ void main()
 
 
 //「ようこそ雛見沢へ＠いかがでしたか＠…静かでゆっくりしたところでしょ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300003", 256, TRUE);
 	OutputLine(NULL, "「ようこそ雛見沢へ。",
 		   NULL, "\"Bem-vindo à Hinamizawa.", Line_WaitForInput);
@@ -775,7 +775,7 @@ void main()
 
 
 //「……へぇぇ…＠今時の若い方なのに、また…紳士な方だねぇ…＠うんうん。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300006", 256, TRUE);
 	OutputLine(NULL, "「……へぇぇ…。",
 		   NULL, "\"...Hmmm...", Line_WaitForInput);

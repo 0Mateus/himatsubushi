@@ -4058,7 +4058,7 @@ void main()
 //gosub *Ch_Ri_Si
 
 //「…マスコミ関係に支払ってる謝礼金の額が、大きいんじゃあないかい。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300009", 256, TRUE);
 	OutputLine(NULL, "「…マスコミ関係に支払ってる謝礼金の額が、大きいんじゃあないかい。」",
 		   NULL, "\"...Nosso presente em dinheiro, de apreciação para a mídia não foi um pouco demasiado?\"", Line_Normal);
@@ -4224,7 +4224,7 @@ void main()
 
 
 //「……どう思う、お魎さん。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300010", 256, TRUE);
 	OutputLine(NULL, "「……どう思う、お魎さん。」",
 		   NULL, "\"...O que você acha, Oryou-san?\"", GetGlobalFlag(GLinemodeSp));
@@ -4253,11 +4253,11 @@ void main()
 
 
 //「去年、機関紙の値上げの理解を得るのにもずいぶん苦労したじゃない＠……一度だけってことで理解を得て、…また今年もって訳には行かないよ…＠…ねぇ、古手さん。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300011", 256, TRUE);
 	OutputLine(NULL, "「去年、機関紙の値上げの理解を得るのにもずいぶん苦労したじゃない。",
 		   NULL, "\"No ano passado, passamos por muitos problemas fazendo as pessoas aceitarem os preços que estávamos colocando nos boletins que nós editamos. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300012", 256, TRUE);
 	OutputLine(NULL, "……一度だけってことで理解を得て、…また今年もって訳には行かないよ…。",
 		   NULL, "...Nós os convencemos que seria só uma vez... e que não se repetiria este ano...", Line_WaitForInput);
@@ -4440,7 +4440,7 @@ void main()
 
 
 //「だ、…だけど魅音ちゃん＠…君だってわかってると思うけど、機関紙の負担は決して軽いものじゃない＠雛見沢の全ての人間にかかる重みなんだ＠あまり負荷をかけ過ぎれば、内部から崩れることだって…、￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300014", 256, TRUE);
 	OutputLine(NULL, "「だ、…だけど魅音ちゃん。",
 		   NULL, "\"M-Mas, Mion-chan.", Line_WaitForInput);
@@ -4450,7 +4450,7 @@ void main()
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300016", 256, TRUE);
 	OutputLine(NULL, "雛見沢の全ての人間にかかる重みなんだ。",
 		   NULL, " É um fardo carregado por todos em Hinamizawa. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300017", 256, TRUE);
 	OutputLine(NULL, "あまり負荷をかけ過ぎれば、内部から崩れることだって…、」",
 		   NULL, "Se fizermos com que as pessoas carreguem tanto desse fardo, é possível que colapsemos internamente...\"", Line_Normal);
@@ -4468,7 +4468,7 @@ void main()
 
 
 //「誰って、…別にそういう意味じゃ、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300018", 256, TRUE);
 	OutputLine(NULL, "「誰って、…別にそういう意味じゃ、」",
 		   NULL, "\"Quem? ...Eu não quis dizer algo assim--\"", GetGlobalFlag(GLinemodeSp));
@@ -4575,7 +4575,7 @@ void main()
 
 
 //「………………………ん、!w800…………んん…。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300019", 256, TRUE);
 	OutputLine(NULL, "「………………………ん、",
 		   NULL, "\"....Hmm...", Line_Continue);
@@ -4909,7 +4909,7 @@ void main()
 
 
 //「…どうしたんだいお魎さん。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300020", 256, TRUE);
 	OutputLine(NULL, "「…どうしたんだいお魎さん。」",
 		   NULL, "\"...O que foi, Oryou-san?\"", GetGlobalFlag(GLinemodeSp));
@@ -5065,7 +5065,7 @@ void main()
 	StopSE( 3 );
 
 //「犬飼建設大臣のお孫さんが、……さらわれた＠　…お魎さん、そりゃ本当かい？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300021", 256, TRUE);
 	OutputLine(NULL, "「犬飼建設大臣のお孫さんが、……さらわれた？",
 		   NULL, "\"O neto do Ministro da Construção... foi sequestrado?", Line_WaitForInput);
@@ -5548,7 +5548,7 @@ void main()
 
 
 //「…公安の捜査官？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s05/18/103300023", 256, TRUE);
 	OutputLine(NULL, "「…公安の捜査官？」",
 		   NULL, "\"...Um investigador da Segurança Pública?\"", GetGlobalFlag(GLinemodeSp));
