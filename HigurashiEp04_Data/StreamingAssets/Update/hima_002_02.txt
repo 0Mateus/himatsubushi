@@ -120,7 +120,8 @@ void main()
 //　…国の政策に反対して、学生活動家がテロ紛いな手段で世間に主張を訴えようとするのが一時期、流行った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…国の政策に反対して、学生活動家がテロ紛いな手段で世間に主張を訴えようとするのが一時期、流行った。",
-		   NULL, "...Movimentos estudantis contra políticas governamentais, movimentos que beiravam a atividade terrorista, eram um lugar comum naquela época, apenas para atrair a atenção mundial.", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "...Movimentos estudantis contra políticas governamentais, movimentos que beiravam a atividade terrorista, eram um lugar comum naquela época, apenas para atrair a atenção mundial.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Movimentos estudantis contra políticas governamentais, movimentos que beiravam a atividade terrorista, eram uma coisa comum naquela época, apenas para atrair a atenção mundial.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
