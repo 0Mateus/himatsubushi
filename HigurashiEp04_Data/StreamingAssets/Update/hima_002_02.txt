@@ -549,7 +549,7 @@ void main()
 //　しばらく、うまく立ち回る内に、牧野氏はすっかり気を良くし、私が彼らの主張に共感してくれたと信じ込んでくれたようだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しばらく、うまく立ち回る内に、牧野氏はすっかり気を良くし、私が彼らの主張に共感してくれたと信じ込んでくれたようだった。",
-		   NULL, "Lodo em seguida, Makino retornou ao seu bom humor usual. Ele pareceu acreditar que eu simpatizava completamente com seu ponto de vista.", Line_Normal);
+		   NULL, "Logo em seguida, Makino retornou ao seu bom humor usual. Ele pareceu acreditar que eu simpatizava completamente com seu ponto de vista.", Line_Normal);
 	ClearMessage();
 
 
