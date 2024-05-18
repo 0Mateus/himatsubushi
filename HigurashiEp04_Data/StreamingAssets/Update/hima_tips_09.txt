@@ -186,7 +186,7 @@ void main()
 //　だから、選ばなかった方の箱の中身は知ることができない＠そういうルールがあることを、最後に付け加えておくね￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、選ばなかった方の箱の中身は知ることができない。",
-		   NULL, "Por causa isso, você nunca vai saber o conteúdo da caixa que você não abriu.", Line_WaitForInput);
+		   NULL, "Por causa disso, você nunca vai saber o conteúdo da caixa que você não abriu.", Line_WaitForInput);
 	OutputLine(NULL, "そういうルールがあることを、最後に付け加えておくね？",
 		   NULL, " Eu estou colocando essa regra no final, para você.", Line_Normal);
 	ClearMessage();
