@@ -126,7 +126,7 @@ void dialog010()
 void dialog011()
 {
 //「マスターに縫製代とか言われて、一本持ってかれたなぁ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400010", 256, TRUE);
 	OutputLine(NULL, "「マスターに縫製代とか言われて、一本持ってかれたなぁ。」",
 		   NULL, "\"O proprietário acabou cobrando, pelo que ele chamou de 'taxa de costura'.\"", GetGlobalFlag(GLinemodeSp));

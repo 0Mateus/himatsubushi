@@ -672,7 +672,7 @@ void main()
 
 
 //「おい坊主＠お前、旦那にいくら渡した＠　だいぶ途中でつまみ食いされてんぞぉ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400001", 256, TRUE);
 	OutputLine(NULL, "「おい坊主。",
 		   NULL, "\"Ei, garoto.", Line_WaitForInput);
@@ -744,7 +744,7 @@ void main()
 
 
 //「わっはははっはっはっは！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400004", 256, TRUE);
 	OutputLine(NULL, "「わっはははっはっはっは！！」",
 		   NULL, "\"Waa hahaha haaa ha ha!!\"", GetGlobalFlag(GLinemodeSp));
@@ -996,7 +996,7 @@ void main()
 
 
 //「……坊主＠お前、麻雀はできんのか？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400005", 256, TRUE);
 	OutputLine(NULL, "「……坊主。",
 		   NULL, "\"...Garoto.", Line_WaitForInput);
@@ -1046,7 +1046,7 @@ void main()
 
 
 //「「「がっはっはっはっはっはっは！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>＆<color=#f5e6d3>佐藤</color>＆<color=#f5e6d3>おやっさん</color>", NULL, "<color=#a59da9>Ooishi</color> & <color=#f5e6d3>Sato</color> & <color=#f5e6d3>Homem Velho</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>＆<color=#f5e6d3>佐藤</color>＆<color=#f5e6d3>おやっさん</color>", NULL, "<color=#a59da9>Ooishi</color> & <color=#f5e6d3>Satou</color> & <color=#f5e6d3>Homem Velho</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700256", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s05/00/104400007", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s05/00/104800003", 256, TRUE);
@@ -1131,7 +1131,7 @@ void main()
 
 
 //「「「がっはっはっはっはっは！！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>＆<color=#f5e6d3>佐藤</color>＆<color=#f5e6d3>おやっさん</color>", NULL, "<color=#a59da9>Ooishi</color> & <color=#f5e6d3>Sato</color> & <color=#f5e6d3>Homem Velho</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>＆<color=#f5e6d3>佐藤</color>＆<color=#f5e6d3>おやっさん</color>", NULL, "<color=#a59da9>Ooishi</color> & <color=#f5e6d3>Satou</color> & <color=#f5e6d3>Homem Velho</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700261", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s05/00/104400008", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s05/00/104800006", 256, TRUE);
@@ -1185,7 +1185,7 @@ void main()
 
 
 //「…私は静か～に飲めるお店でいいですよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400009", 256, TRUE);
 	OutputLine(NULL, "「…私は静か〜に飲めるお店でいいですよ。」",
 		   NULL, "\"Eu prefiro um lugar onde eu possa beber de modo 'sossegado'.\"", GetGlobalFlag(GLinemodeSp));
@@ -1216,7 +1216,7 @@ void main()
 
 
 //「「わっはっはっはっはっは！！」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>＆<color=#f5e6d3>佐藤</color>", NULL, "<color=#a59da9>Ooishi</color> & <color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>＆<color=#f5e6d3>佐藤</color>", NULL, "<color=#a59da9>Ooishi</color> & <color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700274", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s05/00/104400011", 256, TRUE);
 	OutputLine(NULL, "「「わっはっはっはっはっは！！」」",
@@ -1525,7 +1525,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //「ノー聴」/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400012", 256, TRUE);
 	OutputLine(NULL, "「ノー聴」",
 		   NULL, " \"Noten.\"", Line_Continue);
@@ -1581,7 +1581,7 @@ void main()
 
 
 //「どうだった坊主＠ちょっと見せてみぃ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400013", 256, TRUE);
 	OutputLine(NULL, "「どうだった坊主。",
 		   NULL, "\"E você, garoto?", Line_WaitForInput);
@@ -1601,7 +1601,7 @@ void main()
 	DrawSceneWithMask("black", "up", 0, 0, 300 );
 
 //「んん～～～…？？＠　なんじゃあこりゃあ…？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400015", 256, TRUE);
 	OutputLine(NULL, "「んん〜〜〜…？？？",
 		   NULL, "\"Hmmm~~...??", Line_WaitForInput);
@@ -1807,7 +1807,7 @@ void main()
 
 
 //「くそ…＠　食いタンで引き摺り下ろすか＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400017", 256, TRUE);
 	OutputLine(NULL, "「くそ…！",
 		   NULL, "\"Droga...!", Line_WaitForInput);
@@ -2016,7 +2016,7 @@ void main()
 	PlaySE( 3, "wa_008", 56, 64 );
 
 //「ち、畜生！＠　坊主、てめぇ…！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400020", 256, TRUE);
 	OutputLine(NULL, "「ち、畜生！！",
 		   NULL, "\"D-Droga!!", Line_WaitForInput);
@@ -2057,7 +2057,7 @@ void main()
 
 
 //「出た！＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400022", 256, TRUE);
 	OutputLine(NULL, "「出た！！",
 		   NULL, "\"Aqui está!", Line_WaitForInput);
@@ -2108,7 +2108,7 @@ void main()
 
 
 //「………頭ッパネだぁ？＠　小僧のくせに…！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400025", 256, TRUE);
 	OutputLine(NULL, "「………頭ッパネだぁ？！",
 		   NULL, "\"...Um cabeça-a-cabeça!?", Line_WaitForInput);
@@ -2182,7 +2182,7 @@ void main()
 
 
 //「……うおぉ！＠　張ってやがったかぁあぁああ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400027", 256, TRUE);
 	OutputLine(NULL, "「……うおぉ！！",
 		   NULL, "\"...Uau!!", Line_WaitForInput);
@@ -2246,7 +2246,7 @@ void main()
 
 
 //「………大石さん、まずいよ＠このままじゃ負けるよマジで！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400029", 256, TRUE);
 	OutputLine(NULL, "「………大石さん、まずいよ。",
 		   NULL, "\"...Ooishi-san, isto é ruim.", Line_WaitForInput);
@@ -2326,7 +2326,7 @@ void main()
 	PlaySE( 3, "wa_008", 56, 64 );
 
 //「…坊主、………正気か…＠　４つも晒したら…おめぇ、牌が１つだけじゃねぇかよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400031", 256, TRUE);
 	OutputLine(NULL, "「…坊主、………正気か…？",
 		   NULL, "\"...Garoto... você está bem da cabeça...?", Line_WaitForInput);
@@ -2354,7 +2354,7 @@ void main()
 
 
 //「バ、バカかてめぇ！＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400033", 256, TRUE);
 	OutputLine(NULL, "「バ、バカかてめぇ！！",
 		   NULL, "\"V-você é um idiota!?", Line_WaitForInput);
@@ -2587,7 +2587,7 @@ void main()
 	DrawScene("background/jansou", 400 );
 
 //「…ほれ、坊主の番だぜ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400035", 256, TRUE);
 	OutputLine(NULL, "「…ほれ、坊主の番だぜ。」",
 		   NULL, "\"...Vamos, sua vez, garoto.\"", GetGlobalFlag(GLinemodeSp));
@@ -2963,7 +2963,7 @@ void main()
 
 
 //「レートを上げすぎて＠　あんた、当時はどのくらいのレートで打ってたの？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400036", 256, TRUE);
 	OutputLine(NULL, "「レートを上げすぎて？",
 		   NULL, "\"Aumentou muito as apostas?", Line_WaitForInput);
@@ -3072,7 +3072,7 @@ void main()
 
 
 //「…ツキなんて、その時の運不運だろ＠あんたほどの腕があれば充分にいけると思うがなぁ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400038", 256, TRUE);
 	OutputLine(NULL, "「…ツキなんて、その時の運不運だろ。",
 		   NULL, "\"...Sorte é sorte.", Line_WaitForInput);
@@ -3170,7 +3170,7 @@ void main()
 
 
 //「しっかし…打ってる時の坊主、気合入ってたなぁ＠結構怖かったぜ…。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400040", 256, TRUE);
 	OutputLine(NULL, "「しっかし…打ってる時の坊主、気合入ってたなぁ。",
 		   NULL, "\"Ainda assim, quando você estava jogando, garoto, você estava completamente absorvido.", Line_WaitForInput);
@@ -3195,7 +3195,7 @@ void main()
 
 
 //「「「うんうん。」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>＆<color=#f5e6d3>佐藤</color>＆<color=#f5e6d3>おやっさん</color>", NULL, "<color=#a59da9>Ooishi</color> & <color=#f5e6d3>Sato</color> & <color=#f5e6d3>Homem Velho</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>＆<color=#f5e6d3>佐藤</color>＆<color=#f5e6d3>おやっさん</color>", NULL, "<color=#a59da9>Ooishi</color> & <color=#f5e6d3>Satou</color> & <color=#f5e6d3>Homem Velho</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700314", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s05/00/104400042", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s05/00/104800062", 256, TRUE);
@@ -3449,7 +3449,7 @@ void main()
 
 
 //「じゃあ、坊主＠……いやぁ、雀士さまにもう坊主なんて言えないな＠赤坂くんでよかったっけ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400043", 256, TRUE);
 	OutputLine(NULL, "「じゃあ、坊主。",
 		   NULL, "\"Então, garoto.", Line_WaitForInput);
@@ -3472,7 +3472,7 @@ void main()
 
 
 //「じゃ赤坂くん＠行こうか。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400046", 256, TRUE);
 	OutputLine(NULL, "「じゃ赤坂くん。",
 		   NULL, "\"Então, Akasaka-kun.", Line_WaitForInput);
@@ -3581,7 +3581,7 @@ void main()
 
 
 //「ん、…くわしいな。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400048", 256, TRUE);
 	OutputLine(NULL, "「ん、…くわしいな。」",
 		   NULL, "\"Sim... você sabe bem a respeito disso.\"", GetGlobalFlag(GLinemodeSp));
@@ -3607,14 +3607,14 @@ void main()
 
 
 //「……赤坂くんが何者かは旦那から何も聞いてないんだが＠…やっぱり警察関係かい＠　尾行確認に詳しいなんて、あとは探偵社くらいしか思いつかねぇね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400049", 256, TRUE);
 	OutputLine(NULL, "「……赤坂くんが何者かは旦那から何も聞いてないんだが。",
 		   NULL, "\"...Eu não ouvi nada do chefe sobre o que você faz, Akasaka-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400050", 256, TRUE);
 	OutputLine(NULL, "…やっぱり警察関係かい？",
 		   NULL, " ...Relacionado à polícia? ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400051", 256, TRUE);
 	OutputLine(NULL, "　尾行確認に詳しいなんて、あとは探偵社くらいしか思いつかねぇね。」",
 		   NULL, "Se você está familiarizado com o fato de eu estar checando se há alguém na nossa cola, a única outra possibilidade que eu posso pensar é algo como um detetive particular.\"", GetGlobalFlag(GLinemodeSp));
@@ -3630,7 +3630,7 @@ void main()
 
 
 //「やれやれ…＠麻雀やってからすっかり雰囲気が大人びちまったな＠　会った時のあのオドオドしたあんたはどこ行っちゃったんだよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400052", 256, TRUE);
 	OutputLine(NULL, "「やれやれ…。",
 		   NULL, "\"Ora, ora...", Line_WaitForInput);
@@ -3690,7 +3690,7 @@ void main()
 	DrawSceneWithMask("background/kuruma5", "left", 0, 0, 300 );
 
 //「……旦那から、雛見沢村については多少のことは聞いてるんだろ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400055", 256, TRUE);
 	OutputLine(NULL, "「……旦那から、雛見沢村については多少のことは聞いてるんだろ？」",
 		   NULL, "\"...Eu soube pelo chefe que você já ouviu algumas coisas sobre a Vila de Hinamizawa, certo?\"", GetGlobalFlag(GLinemodeSp));
@@ -3706,7 +3706,7 @@ void main()
 
 
 //「……そこまで知ってるなら、下らない前置きは省略していいな。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400056", 256, TRUE);
 	OutputLine(NULL, "「……そこまで知ってるなら、下らない前置きは省略していいな。」",
 		   NULL, "\"...Já que você sabe tanto, vou pular a introdução.\"", Line_Normal);
@@ -3735,7 +3735,7 @@ void main()
 	PlayBGM( 1, "msys07", 56, 0 );
 
 //「……昨夜、園崎本家で親族会議が開かれたそうだ＠親族会議ってのは…旦那から聞いてるか？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400057", 256, TRUE);
 	OutputLine(NULL, "「……昨夜、園崎本家で親族会議が開かれたそうだ。",
 		   NULL, "\"...Noite passada, a casa principal dos Sonozaki teve um conselho de família.", Line_WaitForInput);
@@ -3754,7 +3754,7 @@ void main()
 
 
 //「普通に親族会議って言ったら、まぁ親戚が集まってお茶でも飲むようなもんだよな＠だが、園崎本家の親族会議ってのは、そんなのんびりしたものたぁ訳が違う。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400059", 256, TRUE);
 	OutputLine(NULL, "「普通に親族会議って言ったら、まぁ親戚が集まってお茶でも飲むようなもんだよな。",
 		   NULL, "\"Caso fosse um encontro normal, então seria apenas uma reunião de parentes para tomarem chá ou algo assim.", Line_WaitForInput);
@@ -4702,7 +4702,7 @@ void main()
 
 
 //「あんたみたいな若い者にゃ、ちょっと信じられないだろうけどね＠…こういう古い土地には、こんなのが未だ根強く残ってるもんさ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400061", 256, TRUE);
 	OutputLine(NULL, "「あんたみたいな若い者にゃ、ちょっと信じられないだろうけどね。",
 		   NULL, "\"Um jovem como você provavelmente acharia difícil de acreditar.", Line_WaitForInput);
@@ -4742,7 +4742,7 @@ void main()
 
 
 //「いや、まだ続く＠…先を続けるよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400063", 256, TRUE);
 	OutputLine(NULL, "「いや、まだ続く。",
 		   NULL, "\"Não, tem mais ainda.", Line_WaitForInput);
@@ -5047,7 +5047,7 @@ void main()
 
 
 //「……あぁ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400065", 256, TRUE);
 	OutputLine(NULL, "「……あぁ。」",
 		   NULL, "\"...Sim.\"", Line_Normal);
@@ -5153,7 +5153,7 @@ void main()
 
 //＜赤坂くんね☆
 //「…ん、……必ずしもそうとは言えねぇな。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400066", 256, TRUE);
 	OutputLine(NULL, "「…ん、……必ずしもそうとは言えねぇな。」",
 		   NULL, "\"..Hmm... Eu não diria isso com certeza.\"", Line_Normal);
@@ -5172,7 +5172,7 @@ void main()
 
 
 //「兄さん、こりゃね＠園崎家のいつものことなんだよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400067", 256, TRUE);
 	OutputLine(NULL, "「兄さん、こりゃね。",
 		   NULL, "\"Nii-san, veja só.", Line_WaitForInput);
@@ -5254,7 +5254,7 @@ void main()
 
 
 //「あるいは、そもそも犯人なんかいない可能性だってあるよな＠…お魎自身、その満座の一同の中に、誘拐犯がいるって確信を持ってるわけじゃない＠ただ、自分の「意見」を述べただけさ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400069", 256, TRUE);
 	OutputLine(NULL, "「あるいは、そもそも犯人なんかいない可能性だってあるよな。",
 		   NULL, "\"Ou, há a possibilidade de que nunca houve um culpado em primeiro lugar.", Line_WaitForInput);
@@ -5351,7 +5351,7 @@ void main()
 	DrawScene("background/kuruma4", 400 );
 
 //「…孫の誘拐についてお魎が述べたのはここまでだ＠……あんたの知りたかったことが含まれてりゃいいんだがな。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400072", 256, TRUE);
 	OutputLine(NULL, "「…孫の誘拐についてお魎が述べたのはここまでだ。",
 		   NULL, "\"...Isso é tudo o que Oryou disse em relação ao sequestro.", Line_WaitForInput);
@@ -5370,14 +5370,14 @@ void main()
 
 
 //「…………あとは兄ちゃんの仕事だな＠…何のお仕事やってるか知らんけど、園崎家を相手にするなら、相当の覚悟でやっとけよ＠…大石の旦那は怖いもの知らずだけどな、あれでも２～３回は襲われてる＠最近は着てないけど、一時は、オフの時も防刃ベストを着込んでたんだよな。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400074", 256, TRUE);
 	OutputLine(NULL, "「…………あとは兄ちゃんの仕事だな。",
 		   NULL, "\"...Depois disso, cabe a você decidir.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400075", 256, TRUE);
 	OutputLine(NULL, "…何のお仕事やってるか知らんけど、園崎家を相手にするなら、相当の覚悟でやっとけよ。",
 		   NULL, " ...Eu não sei que tipo de trabalho você está fazendo, mas se você está indo para cima da família Sonozaki, é melhor você se preparar. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400076", 256, TRUE);
 	OutputLine(NULL, "…大石の旦那は怖いもの知らずだけどな、あれでも２〜３回は襲われてる。",
 		   NULL, "...Ooishi pode ser destemido, mas mesmo ele foi atacado duas ou três vezes.", Line_WaitForInput);
@@ -5401,7 +5401,7 @@ void main()
 	PlayBGM( 1, "msys13", 56, 0 );
 
 //「…標準語が流暢だよなぁ＠兄さんは東京とかの人？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400078", 256, TRUE);
 	OutputLine(NULL, "「…標準語が流暢だよなぁ。",
 		   NULL, "\"...Você fala muito bem.", Line_WaitForInput);
@@ -5432,7 +5432,7 @@ void main()
 
 
 //「兄さんのお仕事だけどさ＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400080", 256, TRUE);
 	OutputLine(NULL, "「兄さんのお仕事だけどさ。",
 		   NULL, "\"Seu trabalho, Nii-san.", Line_Continue);
@@ -5489,7 +5489,7 @@ void main()
 
 
 //「……こっから、旦那からもらった金の範囲には入らないんだが…＠兄さんとは今日、卓を囲んだ仲間だからな＠サービスってことで話してやるよ＠…お魎から誘拐の話が出た後、もうひとつ話題が出たんだ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400082", 256, TRUE);
 	OutputLine(NULL, "「……こっから、旦那からもらった金の範囲には入らないんだが…。",
 		   NULL, "\"...Isto não é um pagamento pela grana que eu ganhei do chefe...", Line_WaitForInput);
@@ -5499,7 +5499,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400084", 256, TRUE);
 	OutputLine(NULL, "サービスってことで話してやるよ。",
 		   NULL, " eu vou te dar isto como um brinde. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400085", 256, TRUE);
 	OutputLine(NULL, "…お魎から誘拐の話が出た後、もうひとつ話題が出たんだ。」",
 		   NULL, "Depois de Oryou falar sobre o sequestro, ela levantou outro tópico.\"", Line_Normal);
@@ -5824,7 +5824,7 @@ void main()
 	DrawSceneWithMask("background/kuruma4", "left", 0, 0, 300 );
 
 //「……………………………なんて話があったそうだ＠…まさかあんた、その警視庁の新米じゃないよな？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400086", 256, TRUE);
 	OutputLine(NULL, "「……………………………なんて話があったそうだ。",
 		   NULL, "\"...Bem, foi isso o que eles falaram.", Line_WaitForInput);
@@ -6122,7 +6122,7 @@ void main()
 	PlayBGM( 2, "lsys13", 56, 0 );
 
 //「……もういいかい＠　よければ好きなところまで送るよ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Sato</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>佐藤</color>", NULL, "<color=#f5e6d3>Satou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104400088", 256, TRUE);
 	OutputLine(NULL, "「……もういいかい？",
 		   NULL, "\"...Isso é tudo?", Line_WaitForInput);
