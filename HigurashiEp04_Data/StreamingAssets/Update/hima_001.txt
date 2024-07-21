@@ -2722,7 +2722,7 @@ void main()
 //　……窓ガラスを割るなどというイタズラ紛いに比べると、…極めて暴力的で攻撃的だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……窓ガラスを割るなどというイタズラ紛いに比べると、…極めて暴力的で攻撃的だ。",
-		   NULL, "...Comparado às coisas menores, como quebrar janelas, isso foi extramente violento e agressivo.", Line_Normal);
+		   NULL, "...Comparado às coisas menores, como quebrar janelas, isso foi extremamente violento e agressivo.", Line_Normal);
 	ClearMessage();
 
 //「…そこまでやられたら、地元警察の面目は丸つぶれですね。＠
