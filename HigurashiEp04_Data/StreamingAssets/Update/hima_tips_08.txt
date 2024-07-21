@@ -55,7 +55,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kataoka44003", 256, TRUE);
 	OutputLine(NULL, "「犬飼大臣は公安の動きに不快感を顕わにしているらしい。",
-		   NULL, "\"Parece que o ministro Inugai está abertamente desconfortável sobre a forma como a Segurança Pública está conduzindo as coisas.", Line_Continue);
+		   NULL, "\"Parece que o ministro Inukai está abertamente desconfortável sobre a forma como a Segurança Pública está conduzindo as coisas.", Line_Continue);
 	Wait( 4000 );
 	OutputLine(NULL, "多分、月曜の庁議で次官からその旨の話が出るんじゃないかと思う。",
 		   NULL, " O Vice-Ministro provavelmente vai dizer algo a respeito disso, durante a sessão de debate de segunda-feira. ", GetGlobalFlag(GLinemodeSp));

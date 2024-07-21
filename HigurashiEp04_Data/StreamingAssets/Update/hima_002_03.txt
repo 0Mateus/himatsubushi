@@ -3720,7 +3720,7 @@ void main()
 		   NULL, "\"Então, por favor.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300383", 256, TRUE);
 	OutputLine(NULL, "………犬飼大臣の孫の誘拐に、鬼ヶ淵死守同盟が関与しているか、否かを。」",
-		   NULL, " ...Você pode confirmar ou negar se a Aliança de Defesa Onigafuchi está envolvida com o sequestro do neto do Ministro Inugai?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Você pode confirmar ou negar se a Aliança de Defesa Onigafuchi está envolvida com o sequestro do neto do Ministro Inukai?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4976,7 +4976,7 @@ void main()
 //　犬飼大臣の孫が誘拐された話は、…どこにも漏れていないはずだ＠…それをどうして知っている？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼大臣の孫が誘拐された話は、…どこにも漏れていないはずだ。",
-		   NULL, "As informações sobre o sequestro do neto do ministro Inugai... não poderiam ter vazado de qualquer lugar.", Line_WaitForInput);
+		   NULL, "As informações sobre o sequestro do neto do ministro Inukai... não poderiam ter vazado de qualquer lugar.", Line_WaitForInput);
 	OutputLine(NULL, "…それをどうして知っている？！",
 		   NULL, " ...Como eles sabiam!?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

@@ -1449,7 +1449,7 @@ void main()
 //　犬飼寿樹は、きっとあの医者が警察に通報してくれたんだろうと思った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼寿樹は、きっとあの医者が警察に通報してくれたんだろうと思った。",
-		   NULL, "Inugai Toshiki tinha certeza de que o médico tinha relatado o que estava acontecendo para a polícia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Inukai Toshiki tinha certeza de que o médico tinha relatado o que estava acontecendo para a polícia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1492,7 +1492,7 @@ void main()
 //　もちろん犬飼寿樹は、仮病のふりを一層強めて抵抗するのだが、犯人たちは意に介さないようだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん犬飼寿樹は、仮病のふりを一層強めて抵抗するのだが、犯人たちは意に介さないようだった。",
-		   NULL, "Naturalmente, Inugai Toshiki tentou resistir fingindo que sua doença tinha piorado por causa do tratamento rude deles, mas seus captores não deram atenção.", Line_Normal);
+		   NULL, "Naturalmente, Inukai Toshiki tentou resistir fingindo que sua doença tinha piorado por causa do tratamento rude deles, mas seus captores não deram atenção.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 4, "wa_002", 56, 64 );
@@ -1550,7 +1550,7 @@ void main()
 //　犬飼寿樹は、その声に応えて大声を出そうか一瞬迷った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼寿樹は、その声に応えて大声を出そうか一瞬迷った。",
-		   NULL, "Inugai Toshiki hesitou por um momento em responder com um grito àquela voz.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Inukai Toshiki hesitou por um momento em responder com um grito àquela voz.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2264,7 +2264,7 @@ void main()
 //　犬飼寿樹の顔を充分に写真で知っていた彼も、目の前のガムテープで口を塞がれた少年が本当にその本人なのか、一瞬では識別できなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼寿樹の顔を充分に写真で知っていた彼も、目の前のガムテープで口を塞がれた少年が本当にその本人なのか、一瞬では識別できなかった。",
-		   NULL, "Ele tinha visto muitas vezes a foto de Inugai Toshiki, mas não foi capaz de verificar imediatamente se o garoto na frente dele era o mesmo, já que estava com a boca coberta por fita adesiva.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele tinha visto muitas vezes a foto de Inukai Toshiki, mas não foi capaz de verificar imediatamente se o garoto na frente dele era o mesmo, já que estava com a boca coberta por fita adesiva.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2499,7 +2499,7 @@ void main()
 //　犬飼寿樹の安全さえ確保できればいい＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼寿樹の安全さえ確保できればいい。",
-		   NULL, "Seu objetivo era garantir a segurança de Inugai Toshiki.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Seu objetivo era garantir a segurança de Inukai Toshiki.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2513,7 +2513,7 @@ void main()
 //　…だが、男にとっても犬飼寿樹はやはり重要なものだったらしく、そのまま逃げ去るという選択肢は選ばれなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、男にとっても犬飼寿樹はやはり重要なものだったらしく、そのまま逃げ去るという選択肢は選ばれなかった。",
-		   NULL, "...Mas parecia que Inugai Toshiki também era importante para o homem, o qual escolheu não fugir de mãos vazias.", Line_Normal);
+		   NULL, "...Mas parecia que Inukai Toshiki também era importante para o homem, o qual escolheu não fugir de mãos vazias.", Line_Normal);
 	ClearMessage();
 
 
@@ -3049,7 +3049,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300512", 256, TRUE);
 	OutputLine(NULL, "「犬飼寿樹くんだね？！",
-		   NULL, "\"Inugai Toshiki, certo!?", Line_WaitForInput);
+		   NULL, "\"Inukai Toshiki, certo!?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300513", 256, TRUE);
 	OutputLine(NULL, "　君を助けに来た！！」",
 		   NULL, " Eu vim te salvar!!\"", GetGlobalFlag(GLinemodeSp));

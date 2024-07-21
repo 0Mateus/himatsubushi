@@ -457,7 +457,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ラジオ</color>", NULL, "<color=#f5e6d3>Rádio</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/radio00004", 256, TRUE);
 	OutputLine(NULL, "先週も、建設省庁舎前での犬飼建設大臣への直訴事件があったばかりで…、」",
-		   NULL, "Semana passada, também houve um confronto direto com o Ministro Inugai, nas escadarias do Ministério da Construção...\"", Line_Normal);
+		   NULL, "Semana passada, também houve um confronto direto com o Ministro Inukai, nas escadarias do Ministério da Construção...\"", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys12", 56, 0 );
@@ -540,7 +540,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…犬飼寿樹くん？」",
-		   NULL, " ...Você é Inugai Toshiki-kun?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Você é Inukai Toshiki-kun?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -554,7 +554,7 @@ void main()
 //　…『いぬかいとしき』、!w1000名札には平仮名でそう書かれていた…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…『いぬかいとしき』、",
-		   NULL, "...\"Inugai Toshiki\"...", Line_ContinueAfterTyping);
+		   NULL, "...\"Inukai Toshiki\"...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -787,7 +787,7 @@ void main()
 		   NULL, "\"...Você não se identificou, então eu fiquei em dúvida.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700002", 256, TRUE);
 	OutputLine(NULL, "アンタガ犬飼大臣ジャナイナラ、サッサト電話ヲ切ッテ下サイ。」",
-		   NULL, " Se você não é o Ministro Inugai, desligue, por favor.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se você não é o Ministro Inukai, desligue, por favor.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -841,14 +841,14 @@ void main()
 		   NULL, "\"....Como eu já disse, isso é o que eu quero saber.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s05/14/104700004", 256, TRUE);
 	OutputLine(NULL, "アンタ、犬飼大臣ジャナイノ？」",
-		   NULL, " Você é o Ministro Inugai?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você é o Ministro Inukai?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　彼は、……犬飼は返事に躊躇した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼は、……犬飼は返事に躊躇した。",
-		   NULL, "Ele --Inugai-- hesitou em responder.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele --Inukai-- hesitou em responder.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -880,7 +880,7 @@ void main()
 		   NULL, "\"...Isso mesmo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/inuk00012", 256, TRUE);
 	OutputLine(NULL, "犬飼です。",
-		   NULL, " Aqui é Inugai.", Line_WaitForInput);
+		   NULL, " Aqui é Inukai.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/inuk00013", 256, TRUE);
 	OutputLine(NULL, "………名乗りましたよ、だからあんたも名乗ってくださいよ。」",
 		   NULL, " ...Eu disse meu nome, por isso diga o seu, por favor.\"", GetGlobalFlag(GLinemodeSp));
@@ -922,7 +922,7 @@ void main()
 //　だから犬飼は、その引き出しの中にある何かの重要な情報を欲しがっているんだろうな、と思った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから犬飼は、その引き出しの中にある何かの重要な情報を欲しがっているんだろうな、と思った。",
-		   NULL, "Foi por isso que Inugai pensou que talvez a pessoa quisesse alguma informação importante dentro da gaveta.", Line_Normal);
+		   NULL, "Foi por isso que Inukai pensou que talvez a pessoa quisesse alguma informação importante dentro da gaveta.", Line_Normal);
 	ClearMessage();
 
 
@@ -954,7 +954,7 @@ void main()
 //　犬飼はこの不審な相手の言いなりになるのは、とにかく不快だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犬飼はこの不審な相手の言いなりになるのは、とにかく不快だった。",
-		   NULL, "Inugai não gostava nem um pouco de seguir ordens de alguém suspeito.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Inukai não gostava nem um pouco de seguir ordens de alguém suspeito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1093,7 +1093,7 @@ void main()
 //　……にも関わらず、犬飼はしばらくの間、それを思いだせず、受話器に怒鳴り続けていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……にも関わらず、犬飼はしばらくの間、それを思いだせず、受話器に怒鳴り続けていた。",
-		   NULL, "...Ainda assim, Inugai, sem se dar conta, continuou a gritar para o receptor por algum tempo.", Line_Normal);
+		   NULL, "...Ainda assim, Inukai, sem se dar conta, continuou a gritar para o receptor por algum tempo.", Line_Normal);
 	ClearMessage();
 
 
@@ -1114,7 +1114,7 @@ void main()
 //『いぬがいとしき＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "『いぬかいとしき』",
-		   NULL, "\"Inugai Toshiki\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Inukai Toshiki\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2564,7 +2564,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>室長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/104300009", 256, TRUE);
 	OutputLine(NULL, "「ご存知の通り、先週あった犬飼建設大臣への直訴事件では逮捕者も出ています。",
-		   NULL, "\"Como você sabe, houve detenções após o confronto da semana passada com o Ministro Inugai.", Line_WaitForInput);
+		   NULL, "\"Como você sabe, houve detenções após o confronto da semana passada com o Ministro Inukai.", Line_WaitForInput);
 	//VoiceMatching
 	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_001_vm0x_n01","dialog002");}
 	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_001_vm00_n01","dialog002");}
@@ -5460,7 +5460,7 @@ void main()
 		   NULL, "\"Ah, então...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700118", 256, TRUE);
 	OutputLine(NULL, "あの犬飼大臣への直訴事件の絡みですかな？",
-		   NULL, " Está relacionado com o incidente do apelo direto ao Ministro Inugai?", Line_WaitForInput);
+		   NULL, " Está relacionado com o incidente do apelo direto ao Ministro Inukai?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s05/11/100700119", 256, TRUE);
 	OutputLine(NULL, "　ようするに、アレで要注意団体ってことで公安がマークすることになったと。",
 		   NULL, " Se for esse o caso, então a Segurança Pública marcou eles em uma lista?", Line_WaitForInput);
@@ -6099,7 +6099,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300115", 256, TRUE);
 	OutputLine(NULL, "「犬飼建設大臣が、何者かに脅迫を受けている可能性があります。」",
-		   NULL, "\"Há uma possibilidade de que o Ministro da Construção, Inugai, está sendo coagido por alguém.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Há uma possibilidade de que o Ministro da Construção, Inukai, está sendo coagido por alguém.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
