@@ -494,10 +494,10 @@ void main()
 	FadeOutBGM( 1, 400, FALSE );
 
 //「……鶯、ＯＫ＠雲雀、ＯＫ＠前後２ブロック確保した＠……いいぞ…！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯</color>", NULL, "<color=#f5e6d3>Rouxinal</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯</color>", NULL, "<color=#f5e6d3>Rouxinol</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/ugu00001", 256, TRUE);
 	OutputLine(NULL, "「……鶯、ＯＫ。」",
-		   NULL, "\"...Rouxinal, ok.\"", Line_Normal);
+		   NULL, "\"...Rouxinol, ok.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雲雀</color>", NULL, "<color=#f5e6d3>Cotovia</color>", NULL, Line_ContinueAfterTyping); }
@@ -530,7 +530,7 @@ void main()
 	DrawScene("black", 400 );
 
 //「………キミ、!w1000…犬飼寿樹くん？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯</color>", NULL, "<color=#f5e6d3>Rouxinal</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯</color>", NULL, "<color=#f5e6d3>Rouxinol</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s05/00/ugu00002", 256, TRUE);
 	OutputLine(NULL, "「………キミ、",
 		   NULL, "\"...Você.", Line_Continue);
