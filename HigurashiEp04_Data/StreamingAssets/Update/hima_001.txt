@@ -2596,7 +2596,7 @@ void main()
 //　室長は黄土色のフォルダを開くと、不ぞろいな資料を何枚か漁り、机の上に広げてくれた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　室長は黄土色のフォルダを開くと、不ぞろいな資料を何枚か漁り、机の上に広げてくれた。",
-		   NULL, "O chefe abriu um envelope amarelo-ocre, pescou alguma folhas desorganizadas e as espalhou sobre a mesa.", Line_Normal);
+		   NULL, "O chefe abriu um envelope amarelo-ocre, pescou algumas folhas desorganizadas e as espalhou sobre a mesa.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
