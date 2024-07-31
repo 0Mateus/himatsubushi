@@ -2210,7 +2210,7 @@ void main()
 	OutputLine(NULL, "　あぁ、こいつは俺を殺す気はないんだな、と。",
 		   NULL, "Ooishi estava pensando:", Line_WaitForInput);
 	OutputLine(NULL, "そう思ったからだ。",
-		   NULL, " \"Ahh, este cara não tem nenhuma 60intenção de me matar.\"", Line_Normal);
+		   NULL, " \"Ahh, este cara não tem nenhuma intenção de me matar.\"", Line_Normal);
 	ClearMessage();
 
 
