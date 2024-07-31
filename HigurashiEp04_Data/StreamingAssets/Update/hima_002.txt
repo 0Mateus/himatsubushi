@@ -388,7 +388,7 @@ void main()
 //　村中が反ダムで盛り上がっているのだから、…住民に率直なことを聞く機会にも恵まれるかもしれない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村中が反ダムで盛り上がっているのだから、…住民に率直なことを聞く機会にも恵まれるかもしれない。",
-		   NULL, "A vila inteira estava em polvorosa com os protestos da represa, assim eu poderia ter a sorte de ouvir algumas opiniões particularmente espontâneas dos moradores.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A vila inteira estava polvorosa com os protestos da represa, assim eu poderia ter a sorte de ouvir algumas opiniões particularmente espontâneas dos moradores.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
