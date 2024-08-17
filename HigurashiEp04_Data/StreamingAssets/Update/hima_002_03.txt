@@ -2952,8 +2952,8 @@ void main()
 
 
 	//VoiceMatching
-	if(GetGlobalFlag(GCensor) >= 2){ModCallScriptSection("hima_002_03_vm0x_n01","dialog012");}
-	if(GetGlobalFlag(GCensor) <= 1){ModCallScriptSection("hima_002_03_vm00_n01","dialog012");}
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_002_03_vm0x_n01","dialog012");} // >=2
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_002_03_vm00_n01","dialog012");} // <= 1
 	//VoiceMatchingEnd
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s05/13/101300358", 256, TRUE);
@@ -2974,8 +2974,8 @@ void main()
 
 
 	//VoiceMatching
-	if(GetGlobalFlag(GCensor) >= 2){ModCallScriptSection("hima_002_03_vm0x_n01","dialog013");}
-	if(GetGlobalFlag(GCensor) <= 1){ModCallScriptSection("hima_002_03_vm00_n01","dialog013");}
+	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("hima_002_03_vm0x_n01","dialog013");} //; >= 2
+	if(GetGlobalFlag(GCensor) <= 2){ModCallScriptSection("hima_002_03_vm00_n01","dialog013");} //; <= 1
 	//VoiceMatchingEnd
 
 
